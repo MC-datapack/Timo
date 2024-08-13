@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"cbc",
+		"bab",
+		"cbc"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:totem_of_undying"
+		},
+		"b": {
+			"item": "minecraft:emerald"
+		},
+		"c": {
+			"item": "minecraft:emerald_block"
+		}
+	},
+	"result": {
+		"id": "minecraft:evoker_spawn_egg"
+	}
+}

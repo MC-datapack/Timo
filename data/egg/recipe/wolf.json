@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"tag": "minecraft:wolf_food"
+		},
+		"b": {
+			"item": "minecraft:bone"
+		}
+	},
+	"result": {
+		"id": "minecraft:wolf_spawn_egg"
+	}
+}
