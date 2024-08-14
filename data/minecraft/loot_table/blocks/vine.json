@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:vine"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"levels": {
+										"min": 1
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:vine"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": "minecraft:shears"
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/vine"
+}
