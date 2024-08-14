@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:honey_block"
+		},
+		{
+			"item": "minecraft:potion"
+		}
+	],
+	"result": {
+		"id": "minecraft:slime_block"
+	}
+}

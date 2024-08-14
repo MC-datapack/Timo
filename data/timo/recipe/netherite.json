@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "minecraft:gold_ingot"
+			},
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		],
+		{
+			"item": "minecraft:coal_block"
+		},
+		{
+			"item": "minecraft:diamond"
+		},
+		[
+			{
+				"item": "minecraft:obsidian"
+			},
+			{
+				"item": "minecraft:crying_obsidian"
+			}
+		]
+	],
+	"result": {
+		"id": "minecraft:netherite_block"
+	}
+}

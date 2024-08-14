@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"tag": "c:dyes"
+	},
+	"result": {
+		"id": "minecraft:black_dye"
+	},
+	"experience": 24770,
+	"cookingtime": 20
+}
