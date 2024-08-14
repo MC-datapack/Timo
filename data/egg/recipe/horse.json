@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:leather"
+		},
+		"b": {
+			"item": "minecraft:saddle"
+		}
+	},
+	"result": {
+		"id": "minecraft:horse_spawn_egg"
+	}
+}

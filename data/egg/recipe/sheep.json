@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"bbb"
+	],
+	"key": {
+		"a": {
+			"tag": "minecraft:wool"
+		},
+		"b": {
+			"item": "minecraft:mutton"
+		}
+	},
+	"result": {
+		"id": "minecraft:sheep_spawn_egg"
+	}
+}

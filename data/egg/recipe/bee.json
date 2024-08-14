@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"tag": "minecraft:flowers"
+		},
+		"b": [
+			{
+				"item": "minecraft:honey_bottle"
+			},
+			{
+				"item": "minecraft:honeycomb"
+			}
+		]
+	},
+	"result": {
+		"id": "minecraft:bee_spawn_egg"
+	}
+}

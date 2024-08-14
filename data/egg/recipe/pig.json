@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bbb",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:cooked_porkchop"
+		},
+		"b": {
+			"item": "minecraft:porkchop"
+		}
+	},
+	"result": {
+		"id": "minecraft:pig_spawn_egg"
+	}
+}
