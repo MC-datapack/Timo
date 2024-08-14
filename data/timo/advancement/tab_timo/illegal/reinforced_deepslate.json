@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:reinforced_deepslate"
+		},
+		"title": "Why does this take so long?",
+		"description": {
+			"text": "Obtain Reinforced Deepslate ",
+			"extra": [
+				{
+					"text": "You can do this with silk touch"
+				}
+			]
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/illegal",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:reinforced_deepslate"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
