@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_ore"
+		},
+		"title": "More Blocks (C0.0.14a)",
+		"description": "Obtain iron ore, gold ore, coal ore, gravel, oak leaves, sand and a oak log ",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/c0.0.12a",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_ore"
+					},
+					{
+						"items": "minecraft:gold_ore"
+					},
+					{
+						"items": "minecraft:coal_ore"
+					},
+					{
+						"items": "minecraft:gravel"
+					},
+					{
+						"items": "minecraft:sand"
+					},
+					{
+						"items": "minecraft:oak_leaves"
+					},
+					{
+						"items": "minecraft:oak_log"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

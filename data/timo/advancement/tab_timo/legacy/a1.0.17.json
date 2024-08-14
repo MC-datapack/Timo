@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_fence"
+		},
+		"title": "a 1.0.17",
+		"description": "Obtain an oak fence",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/a1.0.14",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:oak_fence"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

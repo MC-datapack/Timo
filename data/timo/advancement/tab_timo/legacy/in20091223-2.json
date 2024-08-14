@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:torch"
+		},
+		"title": "IN 20091223-2",
+		"description": "Obtain a torch",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:torch"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

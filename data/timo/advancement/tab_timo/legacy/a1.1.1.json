@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fishing_rod"
+		},
+		"title": "a 1.1.1",
+		"description": "Obtain a fishing rod",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/a1.1.0",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:fishing_rod"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

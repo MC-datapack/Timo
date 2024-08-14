@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:slime_spawn_egg"
+		},
+		"title": "a 1.0.13",
+		"description": "Punch a slime",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/a1.0.11",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:slime"
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

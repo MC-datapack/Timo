@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:note_block"
+		},
+		"title": "b1.2_02",
+		"description": "Obtain a note block",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.2_01",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:note_block"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

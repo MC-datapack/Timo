@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherrack"
+		},
+		"title": "a 1.2.0_01",
+		"description": "Obtain netherrack, soulsand, glowstone, a clock glowstone dust, raw cod and cooked cod",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/a1.2.0",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherrack"
+					},
+					{
+						"items": "minecraft:soul_sand"
+					},
+					{
+						"items": "minecraft:glowstone"
+					},
+					{
+						"items": "minecraft:glowstone_dust"
+					},
+					{
+						"items": "minecraft:clock"
+					},
+					{
+						"items": "minecraft:cod"
+					},
+					{
+						"items": "minecraft:cooked_cod"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

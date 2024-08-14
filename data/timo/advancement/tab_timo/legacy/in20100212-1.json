@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_chestplate"
+		},
+		"title": "In 20100212-1",
+		"description": "Obtain a diamond chestplate",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/in20100206",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_chestplate"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

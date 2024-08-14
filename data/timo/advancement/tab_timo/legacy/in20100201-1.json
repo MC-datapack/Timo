@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:glass"
+		},
+		"title": "IN 20100201-1",
+		"description": "Obtain glass and white wool",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/in20100130",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glass"
+					},
+					{
+						"items": "minecraft:white_wool"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

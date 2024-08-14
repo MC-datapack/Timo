@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_stairs"
+		},
+		"title": "INF 20100629",
+		"description": "Obtain oak staris and cobblestone stairs",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/inf20100625-2",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:oak_stairs"
+					},
+					{
+						"items": "minecraft:cobblestone_stairs"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
