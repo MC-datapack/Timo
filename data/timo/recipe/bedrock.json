@@ -1,11 +1,19 @@
 {
-	"type": "minecraft:smelting",
-	"ingredient": {
-		"item": "minecraft:crying_obsidian"
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bbb",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:obsidian"
+		},
+		"b": {
+			"item": "minecraft:netherite_block"
+		}
 	},
 	"result": {
 		"id": "minecraft:bedrock"
-	},
-	"experience": 2477,
-	"cookingtime": 72000
+	}
 }
