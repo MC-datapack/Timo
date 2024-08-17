@@ -4,8 +4,8 @@
 		"tag": "c:dyes"
 	},
 	"result": {
-		"id": "minecraft:black_dye"
+		"id": "minecraft:gunpowder"
 	},
-	"experience": 24770,
+	"experience": 17,
 	"cookingtime": 20
 }
