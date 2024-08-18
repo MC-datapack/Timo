@@ -180,7 +180,15 @@
 								"max": 64
 							}
 						}
-					]
+					],
+					"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biomes": "#minecraft:is_jungle"
+									}
+								}
+							]
 				},
 				{
 					"type": "minecraft:item",
@@ -260,7 +268,15 @@
 								"max": 64
 							}
 						}
-					]
+					],
+					"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biomes": "minecraft:cherry_grove"
+									}
+								}
+							]
 				}
 			]
 		}
