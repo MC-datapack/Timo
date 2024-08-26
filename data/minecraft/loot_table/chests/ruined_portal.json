@@ -414,31 +414,6 @@
           "name": "minecraft:golden_hoe",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
@@ -459,31 +434,6 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_shovel",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
@@ -506,31 +456,6 @@
           "name": "minecraft:golden_axe",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
@@ -551,31 +476,6 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_pickaxe",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
@@ -598,31 +498,6 @@
           "name": "minecraft:golden_sword",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
@@ -643,31 +518,6 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
@@ -690,31 +540,6 @@
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
@@ -736,31 +561,6 @@
           "name": "minecraft:golden_leggings",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
@@ -781,31 +581,6 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
