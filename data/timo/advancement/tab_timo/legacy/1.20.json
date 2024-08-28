@@ -1,0 +1,66 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sniffer_egg"
+		},
+		"title": "1.20",
+		"description": "Obtain a Sniffer Egg, Torchflower Seeds, a Torchflower, a Pitcher Pod and a Pitcher Plant",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/1.19",
+	"criteria": {
+		"sniffer_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sniffer_egg"
+					}
+				]
+			}
+		},
+		"torchflower_seeds": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:torchflower_seeds"
+					}
+				]
+			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:torchflower"
+					}
+				]
+			}
+		},
+		"pitcher_pod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:pitcher_pod"
+					}
+				]
+			}
+		},
+		"pitcher_plant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:pitcher_plant"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
