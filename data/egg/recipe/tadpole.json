@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:frog_spawn_egg",
+		"minecraft:slime_ball",
+		"minecraft:slime_ball"
+	],
+	"result": {
+		"id": "minecraft:tadpole_spawn_egg"
+	}
+}

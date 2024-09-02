@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bbb",
+		" b "
+	],
+	"key": {
+		"a": "minecraft:wither_skeleton_skull",
+		"b": [
+			"minecraft:soul_sand",
+			"minecraft:soul_soil"
+		]
+	},
+	"result": {
+		"id": "minecraft:wither_spawn_egg"
+	}
+}

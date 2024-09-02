@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aca"
+	],
+	"key": {
+		"a": "minecraft:sculk",
+		"b": "minecraft:sculk_shrieker",
+		"c": "minecraft:sculk_catalyst"
+	},
+	"result": {
+		"id": "minecraft:warden_spawn_egg"
+	}
+}

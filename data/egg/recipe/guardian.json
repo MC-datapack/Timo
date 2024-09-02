@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aba",
+		"bcb",
+		"aba"
+	],
+	"key": {
+		"a": "minecraft:prismarine_crystals",
+		"b": "minecraft:prismarine_shard",
+		"c": "minecraft:water_bucket"
+	},
+	"result": {
+		"id": "minecraft:guardian_spawn_egg"
+	}
+}
