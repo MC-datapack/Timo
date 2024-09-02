@@ -1,0 +1,17 @@
+{
+	"result": {
+		"id": "minecraft:green_candle",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#O#",
+		"###"
+	],
+	"key": {
+		"#": "#minecraft:candles",
+		"O": "minecraft:green_dye"
+	},
+	"group": "universal_dyeing_candle"
+}
