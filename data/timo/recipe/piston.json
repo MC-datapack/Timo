@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": "minecraft:sticky_piston",
+		"b": [
+			"minecraft:water_bucket",
+			"minecraft:ice",
+			"#minecraft:saplings"
+		]
+	},
+	"result": {
+		"id": "minecraft:piston",
+		"count": 8
+	}
+}

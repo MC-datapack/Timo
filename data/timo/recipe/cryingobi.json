@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": "minecraft:obsidian",
+	"result": {
+		"id": "minecraft:crying_obsidian"
+	},
+	"experience": 2,
+	"cookingtime": 100
+}

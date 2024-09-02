@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"g"
+	],
+	"key": {
+		"g": [
+			"minecraft:chorus_fruit",
+			"minecraft:chorus_flower",
+			"minecraft:purpur_block",
+			"minecraft:purpur_pillar",
+			"minecraft:purpur_slab",
+			"minecraft:purpur_stairs",
+			"minecraft:end_stone",
+			"minecraft:end_stone_brick_slab",
+			"minecraft:end_stone_brick_stairs",
+			"minecraft:end_stone_brick_wall",
+			"minecraft:end_stone_bricks"
+		]
+	},
+	"result": {
+		"id": "minecraft:shulker_shell"
+	}
+}
