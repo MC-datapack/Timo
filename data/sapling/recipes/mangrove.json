@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"tag": "minecraft:saplings"
+	},
+	"result": {
+		"item": "minecraft:mangrove_propagule"
+	}
+}
