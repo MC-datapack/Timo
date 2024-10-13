@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"tag": "minecraft:planks"
+	},
+	"result": {
+		"item": "minecraft:beehive",
+		"components": {
+			"minecraft:bees": [
+				{
+					"entity_data": {},
+					"ticks_in_hive": 30,
+					"min_ticks_in_hive": 90
+				},
+				{
+					"entity_data": {},
+					"ticks_in_hive": 25,
+					"min_ticks_in_hive": 90
+				}
+			]
+		}
+	}
+}

@@ -1,10 +1,10 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:acacia_planks"
+        "item": "minecraft:mangrove_planks"
     },
     "result": {
-        "item": "minecraft:acacia_sign",
+        "item": "minecraft:mangrove_sign",
         "count": 3
     }
 }

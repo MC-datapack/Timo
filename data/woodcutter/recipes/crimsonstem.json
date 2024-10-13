@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"tag": "minecraft:logs"
+	},
+	"result": {
+		"item": "minecraft:crimson_stem"
+	}
+}
