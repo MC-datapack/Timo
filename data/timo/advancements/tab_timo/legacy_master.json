@@ -1,0 +1,1123 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cobblestone"
+		},
+		"title": "Legacy Master",
+		"description": "Complete all Legacy Advancements",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/root",
+	"criteria": {
+		"rd132211": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/rd132211": true
+						}
+					}
+				}
+			}
+		},
+		"rd161348": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/rd161348": true
+						}
+					}
+				}
+			}
+		},
+		"c0.0.12a": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/c0.0.12a": true
+						}
+					}
+				}
+			}
+		},
+		"c0.0.14a": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/c0.0.14a": true
+						}
+					}
+				}
+			}
+		},
+		"c0.0.24st": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/c0.0.24st": true
+						}
+					}
+				}
+			}
+		},
+		"c0.0.26st": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/c0.0.26st": true
+						}
+					}
+				}
+			}
+		},
+		"c0.0.27st": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/c0.0.27st": true
+						}
+					}
+				}
+			}
+		},
+		"in20091223-2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20091223-2": true
+						}
+					}
+				}
+			}
+		},
+		"in20091231-2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20091231-2": true
+						}
+					}
+				}
+			}
+		},
+		"in20100122": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100122": true
+						}
+					}
+				}
+			}
+		},
+		"in20100124-1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100124-1": true
+						}
+					}
+				}
+			}
+		},
+		"in20100129": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100129": true
+						}
+					}
+				}
+			}
+		},
+		"in20100129emerald": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100129emerald": true
+						}
+					}
+				}
+			}
+		},
+		"in20100129emeraldblock": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100129emeraldblock": true 
+						}
+					}
+				}
+			}
+		},
+		"in20100130": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100130": true
+						}
+					}
+				}
+			}
+		},
+		"in20100201-1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100201-1": true
+						}
+					}
+				}
+			}
+		},
+		"in20100206": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100206": true
+						}
+					}
+				}
+			}
+		},
+		"in20100212-1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100212-1": true
+						}
+					}
+				}
+			}
+		},
+		"in20100219": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100219": true
+						}
+					}
+				}
+			}
+		},
+		"in20100223": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/in20100223": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100227-1433": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100227-1433": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100313": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100313": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100607": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100607": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100611": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100611": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100615": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100615": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100618": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100618": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100625-2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100625-2": true
+						}
+					}
+				}
+			}
+		},
+		"inf20100629": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/inf20100629": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.1": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.3": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.4": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.5": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.6": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.8": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.8": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.11": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.11": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.13": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.13": true
+						}
+					}
+				}
+			}
+		},
+		"a1.0.14": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.14": true
+						},
+						"stats": []
+					}
+				}
+			}
+		},
+		"a1.0.17": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.0.17": true
+						}
+					}
+				}
+			}
+		},
+		"a1.1.0": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.1.0": true
+						}
+					}
+				}
+			}
+		},
+		"a1.1.1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.1.1": true
+						}
+					}
+				}
+			}
+		},
+		"a1.2.0": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.2.0": true
+						}
+					}
+				}
+			}
+		},
+		"a1.2.0_01": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/a1.2.0_01": true
+						}
+					}
+				}
+			}
+		},
+		"b1.0": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.0": true
+						}
+					}
+				}
+			}
+		},
+		"b1.2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.2": true
+						}
+					}
+				}
+			}
+		},
+		"b1.2_01": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.2_01": true
+						}
+					}
+				}
+			}
+		},
+		"b1.2_02": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.2_02": true
+						}
+					}
+				}
+			}
+		},
+		"b1.3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.3": true
+						}
+					}
+				}
+			}
+		},
+		"b1.3_01": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.3_01": true
+						}
+					}
+				}
+			}
+		},
+		"b1.4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.4": true
+						}
+					}
+				}
+			}
+		},
+		"b1.4_01": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.4_01": true
+						}
+					}
+				}
+			}
+		},
+		"b1.5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.5": true
+						}
+					}
+				}
+			}
+		},
+		"b1.6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.6": true
+						}
+					}
+				}
+			}
+		},
+		"b1.7": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.7": true
+						}
+					}
+				}
+			}
+		},
+		"b1.7_01": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.7_01": true
+						}
+					}
+				}
+			}
+		},
+		"b1.8pre": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.8pre": true
+						}
+					}
+				}
+			}
+		},
+		"b1.8pre2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.8pre2": true
+						}
+					}
+				}
+			}
+		},
+		"b1.8": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.8": true
+						}
+					}
+				}
+			}
+		},
+		"b1.8.1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.8.1": true
+						}
+					}
+				}
+			}
+		},
+		"b1.9pre": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.9pre": true
+						}
+					}
+				}
+			}
+		},
+		"b1.9pre2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.9pre2": true
+						}
+					}
+				}
+			}
+		},
+		"b1.9pre3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.9pre3": true
+						}
+					}
+				}
+			}
+		},
+		"b1.9pre4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.9pre4": true
+						}
+					}
+				}
+			}
+		},
+		"b1.9pre5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.9pre5": true
+						}
+					}
+				}
+			}
+		},
+		"b1.9pre6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/b1.9pre6": true
+						}
+					}
+				}
+			}
+		},
+		"1.0": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.0": true
+						}
+					}
+				}
+			}
+		},
+		"1.1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.1": true
+						}
+					}
+				}
+			}
+		},
+		"1.2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.2": true
+						}
+					}
+				}
+			}
+		},
+		"1.3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.3": true
+						}
+					}
+				}
+			}
+		},
+		"1.4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.4": true
+						}
+					}
+				}
+			}
+		},
+		"1.5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.5": true
+						}
+					}
+				}
+			}
+		},
+		"1.6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.6": true
+						}
+					}
+				}
+			}
+		},
+		"1.7": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.7": true
+						}
+					}
+				}
+			}
+		},
+		"1.8": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.8": true
+						}
+					}
+				}
+			}
+		},
+		"1.9": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.9": true
+						}
+					}
+				}
+			}
+		},
+		"1.10": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.10": true
+						}
+					}
+				}
+			}
+		},
+		"1.11": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.11": true
+						}
+					}
+				}
+			}
+		},
+		"1.12": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.12": true
+						}
+					}
+				}
+			}
+		},
+		"1.13": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.13": true
+						}
+					}
+				}
+			}
+		},
+		"1.14": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.14": true
+						}
+					}
+				}
+			}
+		},
+		"1.15": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.15": true
+						}
+					}
+				}
+			}
+		},
+		"1.16": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.16": true
+						}
+					}
+				}
+			}
+		},
+		"1.17": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.17": true
+						}
+					}
+				}
+			}
+		},
+		"1.18": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.18": true
+						}
+					}
+				}
+			}
+		},
+		"1.19": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.19": true
+						}
+					}
+				}
+			}
+		},
+		"1.20": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/legacy/1.20": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
