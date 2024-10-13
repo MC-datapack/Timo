@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:red_bed"
+		},
+		"title": "b1.3",
+		"description": "Obtain a bed",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.2_02",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_bed",
+							"minecraft:blue_bed",
+							"minecraft:brown_bed",
+							"minecraft:cyan_bed",
+							"minecraft:gray_bed",
+							"minecraft:green_bed",
+							"minecraft:light_blue_bed",
+							"minecraft:light_gray_bed",
+							"minecraft:lime_bed",
+							"minecraft:magenta_bed",
+							"minecraft:orange_bed",
+							"minecraft:pink_bed",
+							"minecraft:purple_bed",
+							"minecraft:red_bed",
+							"minecraft:white_bed",
+							"minecraft:yellow_bed"
+						]
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

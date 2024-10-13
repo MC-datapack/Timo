@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chest"
+		},
+		"title": "IN 20100124-1",
+		"description": "Obtain a chest",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/in20100122",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:chest"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

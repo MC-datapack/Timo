@@ -1,0 +1,97 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:deepslate_emerald_ore"
+		},
+		"title": "1.17",
+		"description": "Obtain all Deepslate Ores",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/1.16",
+	"criteria": {
+		"coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_coal_ore"
+					}
+				]
+			}
+		},
+		"copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_copper_ore"
+					}
+				]
+			}
+		},
+		"iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_iron_ore"
+					}
+				]
+			}
+		},
+		"gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_gold_ore"
+					}
+				]
+			}
+		},
+		"lapis": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_lapis_ore"
+					}
+				]
+			}
+		},
+		"emrald": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_emerald_ore"
+					}
+				]
+			}
+		},
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_redstone_ore"
+					}
+				]
+			}
+		},
+		"diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_diamond_ore"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
