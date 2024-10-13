@@ -4,7 +4,6 @@
         "item": "minecraft:acacia_planks"
     },
     "result": {
-        "id": "minecraft:acacia_sign",
-        "count": 3
+        "id": "minecraft:acacia_hanging_sign"
     }
 }
