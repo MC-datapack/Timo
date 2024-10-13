@@ -1,6 +1,42 @@
 {
 	"pack": {
-		"pack_format": 48,
+		"pack_format": 16,
+		"supported_formats": {
+			"min_inclusive": 16,
+			"max_inclusive": 60
+		},
 		"description": "Patrick_Farm"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [
+					34,
+					42
+				],
+				"directory": "overlay_34"
+			},
+			{
+				"formats": [
+					43,
+					44
+				],
+				"directory": "overlay_43"
+			},
+			{
+				"formats": [
+					45,
+					48
+				],
+				"directory": "overlay_45"
+			},
+			{
+				"formats": [
+					49,
+					60
+				],
+				"directory": "overlay_49"
+			}
+		]
 	}
 }
