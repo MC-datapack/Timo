@@ -1,0 +1,17 @@
+{
+	"structures": [
+		{
+			"structure": "patrick:village_ship",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 568693662,
+		"frequency_reduction_method": "default",
+		"frequency": 1,
+		"spread_type": "linear",
+		"spacing": 16,
+		"separation": 12
+	} 
+}

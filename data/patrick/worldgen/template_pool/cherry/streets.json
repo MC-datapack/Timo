@@ -1,0 +1,42 @@
+{
+    "name": "patrick:cherry/streets",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 55,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:cherry/steet",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 30,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:cherry/curve",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:cherry/3_crossing",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:cherry/4_crossing",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching"
+            }
+        }
+    ]
+}
