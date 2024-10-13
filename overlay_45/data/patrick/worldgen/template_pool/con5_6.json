@@ -1,0 +1,16 @@
+{
+    "name": "patrick:con5_6",
+    "fallback": "patrick:con2_3",
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:redstone_chamber/redstone_chamber_6",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+
+    ]
+}

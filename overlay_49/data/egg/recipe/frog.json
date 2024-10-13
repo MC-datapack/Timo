@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"bbb",
+		"aaa",
+		"bbb"
+	],
+	"key": {
+		"a": [
+			"minecraft:ochre_froglight",
+			"minecraft:pearlescent_froglight",
+			"minecraft:verdant_froglight"
+		],
+		"b": "minecraft:slime_ball"
+	},
+	"result": {
+		"id": "minecraft:frog_spawn_egg"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:golden_boots",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "WHY DOES THIS ALSO EXIST?",
+		"description": "Fall 3000 Blocks and don't die",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/fall2000blocks",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 3000
+					}
+				}
+			}
+		}
+	}
+}

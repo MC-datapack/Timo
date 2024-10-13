@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bcb",
+		"aaa"
+	],
+	"key": {
+		"a": "minecraft:blaze_rod",
+		"b": "minecraft:nether_bricks",
+		"c": "minecraft:fire_charge"
+	},
+	"result": {
+		"id": "minecraft:blaze_spawn_egg"
+	}
+}

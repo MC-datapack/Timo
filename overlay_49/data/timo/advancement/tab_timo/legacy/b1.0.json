@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:egg"
+		},
+		"title": "Finally Beta (b1.0)",
+		"description": "Obtain an egg",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:egg"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

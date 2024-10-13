@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bcb",
+		"ddd"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:moss_block"
+		},
+		"b": {
+			"item": "minecraft:tropical_fish_bucket"
+		},
+		"c": {
+			"item": "minecraft:tropical_fish"
+		},
+		"d": {
+			"item": "minecraft:clay"
+		}
+	},
+	"result": {
+		"id": "minecraft:axolotl_spawn_egg"
+	}
+}

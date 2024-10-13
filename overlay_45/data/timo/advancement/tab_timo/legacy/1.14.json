@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle"
+		},
+		"title": "1.14",
+		"description": "Complete a Raid",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/1.13",
+	"criteria": {
+		"raid": {
+			"trigger": "minecraft:hero_of_the_village"
+		}
+	},
+	"sends_telemetry_event": true
+}

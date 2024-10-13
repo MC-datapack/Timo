@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chest",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "1.1",
+		"description": "Loot a Weaponsmith",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/1.0",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/village/village_weaponsmith"
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

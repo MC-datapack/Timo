@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_star"
+		},
+		"title": "1.4",
+		"description": "Kill a Wither and craft a beacon",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/1.3",
+	"criteria": {
+		"beacon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:beacon"
+					}
+				]
+			}
+		},
+		"wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

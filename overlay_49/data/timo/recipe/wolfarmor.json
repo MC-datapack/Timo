@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"X  ",
+		"XXX",
+		"X X"
+	],
+	"key": {
+		"X": "minecraft:turtle_scute"
+	},
+	"result": {
+		"id": "minecraft:wolf_armor",
+		"count": 1
+	}
+}

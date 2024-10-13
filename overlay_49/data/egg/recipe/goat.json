@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aca",
+		"aba",
+		"aca"
+	],
+	"key": {
+		"a": "minecraft:goat_horn",
+		"b": "minecraft:milk_bucket",
+		"c": "minecraft:wheat"
+	},
+	"result": {
+		"id": "minecraft:goat_spawn_egg"
+	}
+}

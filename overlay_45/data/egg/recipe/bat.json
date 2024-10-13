@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ab",
+		"ba"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:black_concrete"
+		},
+		"b": {
+			"item": "minecraft:deepslate"
+		}
+	},
+	"result": {
+		"id": "minecraft:bat_spawn_egg"
+	}
+}

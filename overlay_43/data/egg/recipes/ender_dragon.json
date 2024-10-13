@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"bbb",
+		"bcb",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:bedrock"
+		},
+		"b": {
+			"item": "minecraft:obsidian"
+		},
+		"c": {
+			"item": "minecraft:end_stone"
+		}
+	},
+	"result": {
+		"id": "minecraft:ender_dragon_spawn_egg"
+	}
+}

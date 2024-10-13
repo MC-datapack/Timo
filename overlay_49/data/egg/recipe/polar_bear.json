@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aba",
+		"aba",
+		"aba"
+	],
+	"key": {
+		"a": "minecraft:snowball",
+		"b": "minecraft:cooked_cod"
+	},
+	"result": {
+		"id": "minecraft:polar_bear_spawn_egg"
+	}
+}

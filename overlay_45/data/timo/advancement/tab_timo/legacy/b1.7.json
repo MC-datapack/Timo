@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:piston",
+			"components": {
+				"minecraft:enchantments": {}
+			}
+		},
+		"title": "b1.7",
+		"description": "Obtain a piston and a sticky piston",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.6",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:piston"
+					},
+					{
+						"items": "minecraft:sticky_piston"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

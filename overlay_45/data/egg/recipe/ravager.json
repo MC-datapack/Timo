@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bbb",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:saddle"
+		},
+		"b": {
+			"item": "minecraft:emerald"
+		}
+	},
+	"result": {
+		"id": "minecraft:ravager_spawn_egg"
+	}
+}

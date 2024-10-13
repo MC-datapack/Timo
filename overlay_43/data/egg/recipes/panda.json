@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:bamboo"
+		},
+		"b": {
+			"item": "minecraft:slime_ball"
+		}
+	},
+	"result": {
+		"id": "minecraft:panda_spawn_egg"
+	}
+}

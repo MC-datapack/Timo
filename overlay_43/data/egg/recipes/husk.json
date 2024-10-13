@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bbb",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:rotten_flesh"
+		},
+		"b": {
+			"item": "minecraft:sand"
+		}
+	},
+	"result": {
+		"id": "minecraft:husk_spawn_egg"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_block"
+		},
+		"title": "IN 20100129",
+		"description": "Obtain an \"Emerald Block\"",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/in20100129emerald",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_block"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

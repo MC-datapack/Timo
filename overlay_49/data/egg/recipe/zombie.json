@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": "minecraft:rotten_flesh",
+		"b": [
+			"minecraft:carrot",
+			"minecraft:potato",
+			"minecraft:iron_ingot"
+		]
+	},
+	"result": {
+		"id": "minecraft:zombie_spawn_egg"
+	}
+}

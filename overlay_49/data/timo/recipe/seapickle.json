@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:sea_pickle"
+	],
+	"result": {
+		"id": "minecraft:lime_dye"
+	}
+}

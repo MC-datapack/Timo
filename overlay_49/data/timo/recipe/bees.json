@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			"minecraft:bee_nest",
+			"minecraft:beehive"
+		],
+		"#minecraft:flowers"
+	],
+	"result": {
+		"id": "minecraft:bee_nest",
+		"components": {
+			"minecraft:bees": [
+				{
+					"entity_data": {},
+					"ticks_in_hive": 0,
+					"min_ticks_in_hive": 0
+				},
+				{
+					"entity_data": {},
+					"ticks_in_hive": 0,
+					"min_ticks_in_hive": 0
+				},
+				{
+					"entity_data": {},
+					"ticks_in_hive": 0,
+					"min_ticks_in_hive": 0
+				}
+			]
+		}
+	}
+}

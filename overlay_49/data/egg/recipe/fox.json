@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"cbc",
+		"aaa"
+	],
+	"key": {
+		"a": [
+			"minecraft:sweet_berries",
+			"minecraft:glow_berries"
+	],
+		"b": "minecraft:emerald",
+		"c": "minecraft:feather"
+	},
+	"result": {
+		"id": "minecraft:fox_spawn_egg"
+	}
+}

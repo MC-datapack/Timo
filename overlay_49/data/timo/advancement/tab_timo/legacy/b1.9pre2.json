@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"custom_color": 25343
+				}
+			}
+		},
+		"title": "b1.9pre2",
+		"description": "Obtain a glass blottle, magma cream, blaze powder, a spider eye and a fermented spider eye",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.9pre",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glass_bottle"
+					},
+					{
+						"items": "minecraft:magma_cream"
+					},
+					{
+						"items": "minecraft:blaze_powder"
+					},
+					{
+						"items": "minecraft:spider_eye"
+					},
+					{
+						"items": "minecraft:fermented_spider_eye"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

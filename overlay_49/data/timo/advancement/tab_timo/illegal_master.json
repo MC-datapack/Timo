@@ -1,0 +1,108 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bedrock"
+		},
+		"title": "Illegal Master",
+		"description": "Complete all Illegal Advancements",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy_master",
+	"criteria": {
+		"budding_amethyst": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/budding_amethyst": true
+						}
+					}
+				}
+			}
+		},
+		"bedrock": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/bedrock": true
+						}
+					}
+				}
+			}
+		},
+		"reinforced_deepslate": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/reinforced_deepslate": true
+						}
+					}
+				}
+			}
+		},
+		"vault": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/vault": true
+						}
+					}
+				}
+			}
+		},
+		"spawner": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/spawner": true
+						}
+					}
+				}
+			}
+		},
+		"trial_spawner": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/trial_spawner": true
+						}
+					}
+				}
+			}
+		},
+		"spawn_egg": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/spawn_egg": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

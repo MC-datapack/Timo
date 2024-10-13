@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:feather"
+		},
+		"b": {
+			"item": "minecraft:red_dye"
+		}
+	},
+	"result": {
+		"id": "minecraft:parrot_spawn_egg"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "#minecraft:planks",
+	"result": {
+		"id": "minecraft:bowl",
+		"count": 2
+	}
+}

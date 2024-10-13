@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bedrock"
+		},
+		"title": "Illegal!",
+		"description": "Obtain an illegal item",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#timo:illegal"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

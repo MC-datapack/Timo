@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			"minecraft:golden_sword",
+			"minecraft:golden_hoe"
+		]
+	],
+	"result": {
+		"id": "minecraft:gold_ingot",
+		"count": 2
+	}
+}

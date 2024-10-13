@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:skull_pottery_sherd",
+	"base": "#minecraft:skulls",
+	"addition": "minecraft:cocoa_beans",
+	"result": {
+		"id": "minecraft:player_head"
+	}
+}

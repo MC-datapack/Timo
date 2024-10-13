@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:repeater"
+		},
+		"title": "b1.3_01",
+		"description": "Obtain a repeater",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.3",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:repeater"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

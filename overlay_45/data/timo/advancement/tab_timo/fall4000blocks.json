@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_boots",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "WHY DOES THIS EXIST TOO?",
+		"description": "Fall 4000 Blocks and don't die",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/fall3000blocks",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 4000
+					}
+				}
+			}
+		}
+	}
+}

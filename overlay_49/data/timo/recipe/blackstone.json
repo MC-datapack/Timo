@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			"minecraft:coal",
+			"minecraft:charcoal"
+		],
+		[
+			"minecraft:cobblestone",
+			"minecraft:cobbled_deepslate",
+			"minecraft:basalt",
+			"minecraft:netherrack",
+			"minecraft:tuff"
+		]
+	],
+	"result": {
+		"id": "minecraft:blackstone",
+		"count": 2
+	}
+}

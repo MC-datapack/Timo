@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:moss_block"
+		},
+		"b": {
+			"item": "minecraft:sniffer_egg"
+		}
+	},
+	"result": {
+		"id": "minecraft:sniffer_spawn_egg"
+	}
+}

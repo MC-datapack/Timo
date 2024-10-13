@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lapis_lazuli"
+		},
+		"title": "b1.2_01",
+		"description": "Obtain lapis lazuli and a lapis lazuli ore",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.2",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:lapis_lazuli"
+					},
+					{
+						"items": [
+							"minecraft:lapis_ore",
+							"minecraft:deepslate_lapis_ore"
+						]
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

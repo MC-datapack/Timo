@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "c": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:budding_amethyst"
+  }
+}

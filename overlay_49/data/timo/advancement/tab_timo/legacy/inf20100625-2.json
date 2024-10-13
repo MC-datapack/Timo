@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spawner"
+		},
+		"title": "INF 20100625-2",
+		"description": "Obtain mossy cobblestone and a spawner",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/inf20100618",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:mossy_cobblestone"
+					},
+					{
+						"items": "minecraft:spawner"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
