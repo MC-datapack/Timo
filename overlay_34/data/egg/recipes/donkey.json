@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:leather"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:chest"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:donkey_spawn_egg"
 	}
 }

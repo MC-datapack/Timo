@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:leather"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:beef"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:cow_spawn_egg"
 	}
 }

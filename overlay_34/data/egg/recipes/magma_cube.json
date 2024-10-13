@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:magma_cream"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:magma_block"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:magma_cube_spawn_egg"
 	}
 }

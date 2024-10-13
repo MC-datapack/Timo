@@ -2,18 +2,18 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"aaa",
-		"aba",
+		"bab",
 		"aaa"
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:string"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:spider_eye"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:spider_spawn_egg"
 	}
 }

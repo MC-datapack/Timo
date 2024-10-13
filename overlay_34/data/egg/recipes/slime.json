@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:slime_ball"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:slime_block"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:slime_spawn_egg"
 	}
 }

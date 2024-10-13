@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:cobweb"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:potion"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:cave_spider_spawn_egg"
 	}
 }

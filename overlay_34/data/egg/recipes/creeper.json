@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:gunpowder"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:tnt"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:creeper_spawn_egg"
 	}
 }

@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:emerald"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:iron_axe"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:vindicator_spawn_egg"
 	}
 }

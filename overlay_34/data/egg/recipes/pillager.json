@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:arrow"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:crossbow"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:pillager_spawn_egg"
 	}
 }

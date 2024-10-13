@@ -2,18 +2,18 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"aaa",
-		"aba",
+		"bbb",
 		"aaa"
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:mushroom_stew"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:beef"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:mooshroom_spawn_egg"
 	}
 }

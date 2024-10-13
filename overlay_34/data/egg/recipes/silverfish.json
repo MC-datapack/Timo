@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:cracked_stone_bricks"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:spawner"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:silverfish_spawn_egg"
 	}
 }

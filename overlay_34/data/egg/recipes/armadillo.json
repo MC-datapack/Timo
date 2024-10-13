@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:armadillo_scute"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:brush"
 		}
 	},
 	"result": {
-		"id": "minecraft:allay_spawn_egg"
+		"id": "minecraft:armadillo_spawn_egg"
 	}
 }
