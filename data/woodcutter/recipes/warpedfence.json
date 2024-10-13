@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "minecraft:warped_planks"
+	},
+	"result": {
+		"item": "minecraft:warped_fence",
+		"count": 6
+	}
+}
