@@ -2,18 +2,18 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"aaa",
-		"aba",
+		"bbb",
 		"aaa"
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:cooked_porkchop"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:porkchop"
 		}
 	},
 	"result": {
-		"item": "minecraft:allay_spawn_egg"
+		"item": "minecraft:pig_spawn_egg"
 	}
 }

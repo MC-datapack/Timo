@@ -3,17 +3,17 @@
 	"pattern": [
 		"aaa",
 		"aba",
-		"aaa"
+		"bbb"
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"tag": "minecraft:wool"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:mutton"
 		}
 	},
 	"result": {
-		"item": "minecraft:allay_spawn_egg"
+		"item": "minecraft:sheep_spawn_egg"
 	}
 }

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:gold_ingot"
+		},
+		"b": [{
+			"item": "minecraft:golden_sword"
+		},{
+			"item": "minecraft:crossbow"
+		}]
+	},
+	"result": {
+		"item": "minecraft:piglin_spawn_egg"
+	}
+}

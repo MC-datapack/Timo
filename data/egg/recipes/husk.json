@@ -2,18 +2,18 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"aaa",
-		"aba",
+		"bbb",
 		"aaa"
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:rotten_flesh"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:sand"
 		}
 	},
 	"result": {
-		"item": "minecraft:allay_spawn_egg"
+		"item": "minecraft:husk_spawn_egg"
 	}
 }

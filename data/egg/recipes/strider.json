@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"ccc"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:string"
+		},
+		"b": {
+			"item": "minecraft:saddle"
+		},
+		"c": {"item": "minecraft:lava_bucket"}
+	},
+	"result": {
+		"item": "minecraft:strider_spawn_egg"
+	}
+}

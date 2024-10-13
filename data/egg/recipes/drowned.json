@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bcb",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:copper_ingot"
+		},
+		"b": {
+			"item": "minecraft:nautilus_shell"
+		},
+		"c": [
+			{"item": "minecraft:fishing_rod"},
+			{"item": "minecraft:trident"}
+		]
+	},
+	"result": {
+		"item": "minecraft:drowned_spawn_egg"
+	}
+}

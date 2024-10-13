@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:ender_pearl"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:chorus_fruit"
 		}
 	},
 	"result": {
-		"item": "minecraft:allay_spawn_egg"
+		"item": "minecraft:enderman_spawn_egg"
 	}
 }

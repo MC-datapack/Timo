@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aba",
+		"aca",
+		"aba"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:sponge"
+		},
+		"b": {
+			"tag": "minecraft:fishes"
+		},
+		"c": [
+			{"item": "minecraft:prismarine_shard"},
+			{"item": "minecraft:prismarine_crystals"}
+		]
+	},
+	"result": {
+		"item": "minecraft:elder_guardian_spawn_egg"
+	}
+}

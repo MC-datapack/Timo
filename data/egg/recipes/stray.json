@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:skeleton_spawn_egg"
+		},
+		{
+			"item": "minecraft:powder_snow_bucket"
+		}
+	],
+	"result": {
+		"item": "minecraft:stray_spawn_egg"
+	}
+}

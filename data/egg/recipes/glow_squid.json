@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"a": {
-			"item": "minecraft:amethyst_shard"
+			"item": "minecraft:glow_ink_sac"
 		},
 		"b": {
-			"item": "minecraft:budding_amethyst"
+			"item": "minecraft:water_bucket"
 		}
 	},
 	"result": {
-		"item": "minecraft:allay_spawn_egg"
+		"item": "minecraft:glow_squid_spawn_egg"
 	}
 }

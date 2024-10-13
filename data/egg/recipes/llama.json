@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"bbb",
+		"cac",
+		"bbb"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:chest"
+		},
+		"b": {
+			"item": "minecraft:leather"
+		},
+		"c": {"tag": "minecraft:wool_carpets"}
+	},
+	"result": {
+		"item": "minecraft:llama_spawn_egg"
+	}
+}

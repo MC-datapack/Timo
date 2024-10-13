@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:piglin_spawn_egg"
+		},
+		{
+			"item": "minecraft:golden_axe"
+		}
+	],
+	"result": {
+		"item": "minecraft:piglin_brute_spawn_egg"
+	}
+}

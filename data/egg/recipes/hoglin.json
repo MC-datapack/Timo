@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aba",
+		"bab",
+		"aba"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:leather"
+		},
+		"b": {
+			"item": "minecraft:porkchop"
+		}
+	},
+	"result": {
+		"item": "minecraft:hoglin_spawn_egg"
+	}
+}

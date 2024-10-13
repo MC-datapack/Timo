@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aba",
+		"bcb",
+		"aba"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:ghast_tear"
+		},
+		"b": {
+			"item": "minecraft:gunpowder"
+		},
+		"c": {"item": "minecraft:fire_charge"}
+	},
+	"result": {
+		"item": "minecraft:ghast_spawn_egg"
+	}
+}

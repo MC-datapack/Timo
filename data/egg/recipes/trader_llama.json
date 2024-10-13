@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:llama_spawn_egg"
+		},
+		{
+			"tag": "minecraft:wool_carpets"
+		}
+	],
+	"result": {
+		"item": "minecraft:trader_llama_spawn_egg"
+	}
+}
