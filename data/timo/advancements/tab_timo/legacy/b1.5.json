@@ -4,19 +4,29 @@
 			"id": "minecraft:spruce_sapling"
 		},
 		"title": "b1.5",
-		"description": "Obtain a spruce sapling",
+		"description": "Obtain a spruce sapling and a birch sapling",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/b1.4_01",
+	"parent": "timo:tab_timo/legacy/b1.4",
 	"criteria": {
-		"requirement": {
+		"spruce_sapling": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:spruce_sapling"
+					}
+				]
+			}
+		},
+		"birch_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:birch_sapling"
 					}
 				]
 			}

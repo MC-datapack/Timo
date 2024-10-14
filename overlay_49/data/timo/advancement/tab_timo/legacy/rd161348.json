@@ -12,22 +12,50 @@
 	},
 	"parent": "timo:tab_timo/legacy/rd132211",
 	"criteria": {
-		"requirement": {
+		"cobble": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:cobblestone"
-					},
+					}
+				]
+			}
+		},
+		"stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:stone"
-					},
+					}
+				]
+			}
+		},
+		"dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:dirt"
-					},
+					}
+				]
+			}
+		},
+		"planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_planks"
-					},
+					}
+				]
+			}
+		},
+		"sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_sapling"
 					}

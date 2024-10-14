@@ -10,7 +10,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/b1.8.1",
+	"parent": "timo:tab_timo/legacy/b1.8",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",

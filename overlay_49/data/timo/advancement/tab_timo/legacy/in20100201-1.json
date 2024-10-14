@@ -11,13 +11,20 @@
 	},
 	"parent": "timo:tab_timo/legacy/in20100130",
 	"criteria": {
-		"requirement": {
+		"glass": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:glass"
-					},
+					}
+				]
+			}
+		},
+		"wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:white_wool"
 					}

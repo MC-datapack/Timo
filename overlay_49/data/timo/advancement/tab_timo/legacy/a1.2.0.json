@@ -4,7 +4,7 @@
 			"id": "minecraft:netherrack"
 		},
 		"title": "a 1.2.0",
-		"description": "Go into the nether",
+		"description": "Go into the nether and obtain netherrack, soulsand, glowstone, a clock glowstone dust, raw cod and cooked cod",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -20,6 +20,76 @@
 						"dimension": "minecraft:the_nether"
 					}
 				}
+			}
+		},
+		"netherrack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherrack"
+					}
+				]
+			}
+		},
+		"soul_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:soul_sand"
+					}
+				]
+			}
+		},
+		"glowstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glowstone"
+					}
+				]
+			}
+		},
+		"glowstone_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glowstone_dust"
+					}
+				]
+			}
+		},
+		"clock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:clock"
+					}
+				]
+			}
+		},
+		"cod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cod"
+					}
+				]
+			}
+		},
+		"cooked_cod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cooked_cod"
+					}
+				]
 			}
 		}
 	},

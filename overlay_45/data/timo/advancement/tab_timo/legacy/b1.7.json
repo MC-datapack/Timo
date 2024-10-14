@@ -7,22 +7,39 @@
 			}
 		},
 		"title": "b1.7",
-		"description": "Obtain a piston and a sticky piston",
+		"description": "Obtain a piston, a sticky piston and shears",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"parent": "timo:tab_timo/legacy/b1.6",
 	"criteria": {
-		"requirement": {
+		"piston": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:piston"
-					},
+					}
+				]
+			}
+		},
+		"sticky_piston": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:sticky_piston"
+					}
+				]
+			}
+		},
+		"shears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:shears"
 					}
 				]
 			}

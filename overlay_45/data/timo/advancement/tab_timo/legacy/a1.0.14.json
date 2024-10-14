@@ -12,22 +12,50 @@
 	},
 	"parent": "timo:tab_timo/legacy/a1.0.13",
 	"criteria": {
-		"requirement": {
+		"jukebox": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:jukebox"
-					},
+					}
+				]
+			}
+		},
+		"music_disc_13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:music_disc_13"
-					},
+					}
+				]
+			}
+		},
+		"music_disc_cat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:music_disc_cat"
-					},
+					}
+				]
+			}
+		},
+		"furnace_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:furnace_minecart"
-					},
+					}
+				]
+			}
+		},
+		"chest_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:chest_minecart"
 					}

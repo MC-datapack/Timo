@@ -12,31 +12,80 @@
 	},
 	"parent": "timo:tab_timo/legacy/a1.0.8",
 	"criteria": {
-		"requirement": {
+		"paper": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:paper"
-					},
+					}
+				]
+			}
+		},
+		"book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:book"
-					},
+					}
+				]
+			}
+		},
+		"bookshelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:bookshelf"
-					},
+					}
+				]
+			}
+		},
+		"sugar_cane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:sugar_cane"
-					},
+					}
+				]
+			}
+		},
+		"clay": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:clay"
-					},
+					}
+				]
+			}
+		},
+		"clay_ball": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:clay_ball"
-					},
+					}
+				]
+			}
+		},
+		"brick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:brick"
-					},
+					}
+				]
+			}
+		},
+		"bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:bricks"
 					}

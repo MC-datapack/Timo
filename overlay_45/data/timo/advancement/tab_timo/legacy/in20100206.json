@@ -11,19 +11,40 @@
 	},
 	"parent": "timo:tab_timo/legacy/in20100201-1",
 	"criteria": {
-		"requirement": {
+		"iron_hoe": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:iron_hoe"
-					},
+					}
+				]
+			}
+		},
+		"bread": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:bread"
-					},
+					}
+				]
+			}
+		},
+		"wheat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:wheat"
-					},
+					}
+				]
+			}
+		},
+		"wheat_seeds": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:wheat_seeds"
 					}

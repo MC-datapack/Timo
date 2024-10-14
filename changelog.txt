@@ -1,0 +1,49 @@
+7.0pre1:
+-Improved Advancements: 
+
+      1.14
+      a1.0.1
+      a1.0.5
+      a1.0.6
+      a1.0.11
+      a1.0.14
+      a1.2.0
+      b1.2
+      b1.3
+      b1.4
+      b1.5
+      b1.7
+      b1.8
+      b1.9pre2
+      c0.0.14a
+      in20100122
+      in20100129
+      in20100130
+      in20100201-1
+      in20100206
+      inf20100313
+      inf20100607
+      inf20100615
+      inf20100618
+      inf20100625-2
+      inf20100629
+      rd161348
+      legacy_master
+
+-Removed Advancements (because they were integrated into other): 
+
+      a1.2.0_01
+      b1.2_01
+      b1.2_02
+      b1.3_01
+      b1.4_01
+      b1.7_01
+      b.8pre
+      b1.8pre2
+      b1.8.1
+      in20100129 Emerald
+      in20100129 Emerald Block
+
+-Improved Cherry Village House Loot Table
+
+-Improved Description

@@ -12,31 +12,70 @@
 	},
 	"parent": "timo:tab_timo/legacy",
 	"criteria": {
-		"requirement": {
+		"iron_door": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:iron_door"
-					},
+					}
+				]
+			}
+		},
+		"lever": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:lever"
-					},
+					}
+				]
+			}
+		},
+		"oak_pressure_plate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_pressure_plate"
-					},
-					{
-						"items": "minecraft:stone_pressure_plate"
-					},
+					}
+				]
+			}
+		},
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:redstone"
-					},
+					}
+				]
+			}
+		},
+		"redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:redstone_ore"
-					},
+					}
+				]
+			}
+		},
+		"redstone_torch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:redstone_torch"
-					},
+					}
+				]
+			}
+		},
+		"stone_button": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:stone_button"
 					}

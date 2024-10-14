@@ -13,6 +13,22 @@
 	"criteria": {
 		"raid": {
 			"trigger": "minecraft:hero_of_the_village"
+		},
+		"pillager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:pillager"
+				}
+			}
+		},
+		"ravager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ravager"
+				}
+			}
 		}
 	},
 	"sends_telemetry_event": true

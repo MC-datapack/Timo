@@ -11,16 +11,30 @@
 	},
 	"parent": "timo:tab_timo/legacy/inf20100611",
 	"criteria": {
-		"requirement": {
+		"empty": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:bucket"
-					},
+					}
+				]
+			}
+		},
+		"water": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:water_bucket"
-					},
+					}
+				]
+			}
+		},
+		"lava": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:lava_bucket"
 					}

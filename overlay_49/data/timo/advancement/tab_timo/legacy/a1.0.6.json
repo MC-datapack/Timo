@@ -12,13 +12,20 @@
 	},
 	"parent": "timo:tab_timo/legacy/a1.0.5",
 	"criteria": {
-		"requirement": {
+		"cactus": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:cactus"
-					},
+					}
+				]
+			}
+		},
+		"oak_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_boat"
 					}

@@ -12,13 +12,20 @@
 	},
 	"parent": "timo:tab_timo/legacy/a1.0.4",
 	"criteria": {
-		"requirement": {
+		"snow_block": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:snow_block"
-					},
+					}
+				]
+			}
+		},
+		"snowball": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:snowball"
 					}

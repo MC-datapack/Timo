@@ -17,22 +17,50 @@
 	},
 	"parent": "timo:tab_timo/legacy/b1.9pre",
 	"criteria": {
-		"requirement": {
+		"glass_bottle": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:glass_bottle"
-					},
+					}
+				]
+			}
+		},
+		"magma_cream": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:magma_cream"
-					},
+					}
+				]
+			}
+		},
+		"blaze_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:blaze_powder"
-					},
+					}
+				]
+			}
+		},
+		"spider_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:spider_eye"
-					},
+					}
+				]
+			}
+		},
+		"fermented_spider_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:fermented_spider_eye"
 					}

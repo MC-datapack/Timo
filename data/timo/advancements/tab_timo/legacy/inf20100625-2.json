@@ -4,7 +4,7 @@
 			"id": "minecraft:spawner"
 		},
 		"title": "INF 20100625-2",
-		"description": "Obtain mossy cobblestone and a spawner",
+		"description": "Obtain a spawner",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -15,9 +15,6 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-					{
-						"items": "minecraft:mossy_cobblestone"
-					},
 					{
 						"items": "minecraft:spawner"
 					}

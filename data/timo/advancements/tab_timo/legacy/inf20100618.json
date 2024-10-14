@@ -11,13 +11,20 @@
 	},
 	"parent": "timo:tab_timo/legacy/inf20100615",
 	"criteria": {
-		"requirement": {
+		"minecart": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:minecart"
-					},
+					}
+				]
+			}
+		},
+		"rail": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:rail"
 					}

@@ -11,18 +11,32 @@
 	},
 	"parent": "timo:tab_timo/legacy/in20100212-1",
 	"criteria": {
-		"requirement": {
+		"porkchop": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:porkchop"
-					},
-					{
-						"items": "minecraft:furnace"
-					},
+					}
+				]
+			}
+		},
+		"cooked_porkchop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:cooked_porkchop"
+					}
+				]
+			}
+		},
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:furnace"
 					}
 				]
 			}

@@ -11,16 +11,30 @@
 	},
 	"parent": "timo:tab_timo/legacy/inf20100313",
 	"criteria": {
-		"requirement": {
+		"sign": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:oak_sign"
-					},
+					}
+				]
+			}
+		},
+		"door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_door"
-					},
+					}
+				]
+			}
+		},
+		"ladder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:ladder"
 					}

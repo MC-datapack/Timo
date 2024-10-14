@@ -4,19 +4,39 @@
 			"id": "minecraft:crafting_table"
 		},
 		"title": "IN 20100129",
-		"description": "Obtain a crafting table",
+		"description": "Obtain a crafting table, an \"Emerald\" and an \"Emerald Block\"",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"parent": "timo:tab_timo/legacy/in20100124-1",
 	"criteria": {
-		"requirement": {
+		"crafting_table": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:crafting_table"
+					}
+				]
+			}
+		},
+		"diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond"
+					}
+				]
+			}
+		},
+		"diamond_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_block"
 					}
 				]
 			}

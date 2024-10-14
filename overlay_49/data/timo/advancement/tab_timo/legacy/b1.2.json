@@ -4,19 +4,49 @@
 			"id": "minecraft:cake"
 		},
 		"title": "b1.2",
-		"description": "Obtain a cake",
+		"description": "Obtain a cake, lapis lazuli, lapis_lazuli_ore, note block",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"parent": "timo:tab_timo/legacy/b1.0",
 	"criteria": {
-		"requirement": {
+		"cake": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:cake"
+					}
+				]
+			}
+		},
+		"lapis_lazuli": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:lapis_lazuli"
+					}
+				]
+			}
+		},
+		"lapis_lazuli_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:lapis_ores"
+					}
+				]
+			}
+		},
+		"note_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:note_block"
 					}
 				]
 			}

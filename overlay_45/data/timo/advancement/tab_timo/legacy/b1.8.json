@@ -4,15 +4,31 @@
 			"id": "minecraft:oak_stairs"
 		},
 		"title": "b1.8",
-		"description": "Go into a plains village",
+		"description": "Kill a silverfish and an enderman; go into a plains village; obtain a mossy stone brick, a iron bar, a glass pane, a red or brown mushroom block and an oak fence gate.",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/b1.8pre2",
+	"parent": "timo:tab_timo/legacy/b1.7",
 	"criteria": {
-		"requirement": {
+		"silverfish": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				}
+			}
+		},
+		"enderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman"
+				}
+			}
+		},
+		"village": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
@@ -20,6 +36,59 @@
 						"structures": "minecraft:village_plains"
 					}
 				}
+			}
+		},
+		"mossy_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:mossy_stone_bricks"
+					}
+				]
+			}
+		},
+		"iron_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_bars"
+					}
+				]
+			}
+		},
+		"glass_pane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glass_pane"
+					}
+				]
+			}
+		},
+		"mushroom_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_mushroom_block",
+							"minecraft:red_mushroom_block"
+						]
+					}
+				]
+			}
+		},
+		"oak_fence_gate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:oak_fence_gate"
+					}
+				]
 			}
 		}
 	},

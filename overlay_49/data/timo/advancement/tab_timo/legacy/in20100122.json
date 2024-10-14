@@ -11,13 +11,20 @@
 	},
 	"parent": "timo:tab_timo/legacy/in20091231-2",
 	"criteria": {
-		"requirement": {
+		"bow": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:bow"
-					},
+					}
+				]
+			}
+		},
+		"arrow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:arrow"
 					}

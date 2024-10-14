@@ -13,22 +13,50 @@
 	},
 	"parent": "timo:tab_timo/legacy/inf20100227-1433",
 	"criteria": {
-		"requirement": {
+		"hoe": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:diamond_hoe"
-					},
+					}
+				]
+			}
+		},
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:diamond_shovel"
-					},
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:diamond_pickaxe"
-					},
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:diamond_axe"
-					},
+					}
+				]
+			}
+		},
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:diamond_sword"
 					}

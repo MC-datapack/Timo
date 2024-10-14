@@ -12,28 +12,70 @@
 	},
 	"parent": "timo:tab_timo/legacy/c0.0.12a",
 	"criteria": {
-		"requirement": {
+		"iron": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:iron_ore"
-					},
+					}
+				]
+			}
+		},
+		"gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:gold_ore"
-					},
+					}
+				]
+			}
+		},
+		"coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
-						"items": "minecraft:coal_ore"
-					},
+						"items": "minecraft:coal"
+					}
+				]
+			}
+		},
+		"gravel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:gravel"
-					},
+					}
+				]
+			}
+		},
+		"sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:sand"
-					},
+					}
+				]
+			}
+		},
+		"oak_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_leaves"
-					},
+					}
+				]
+			}
+		},
+		"oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:oak_log"
 					}

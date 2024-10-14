@@ -1,22 +1,32 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cocoa_beans"
+			"id": "minecraft:cookie"
 		},
 		"title": "b1.4",
-		"description": "Obtain cocoa beans",
+		"description": "Obtain cocoa beans and a cookie",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/b1.3_01",
+	"parent": "timo:tab_timo/legacy/b1.3",
 	"criteria": {
-		"requirement": {
+		"cocoa_beans": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:cocoa_beans"
+					}
+				]
+			}
+		},
+		"cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cookie"
 					}
 				]
 			}

@@ -9,21 +9,42 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/in20100129emeraldblock",
+	"parent": "timo:tab_timo/legacy/in20100129",
 	"criteria": {
-		"requirement": {
+		"mushroom_stew": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:mushroom_stew"
-					},
+					}
+				]
+			}
+		},
+		"feather": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:feather"
-					},
+					}
+				]
+			}
+		},
+		"gunpowder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:gunpowder"
-					},
+					}
+				]
+			}
+		},
+		"string": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
 						"items": "minecraft:string"
 					}
