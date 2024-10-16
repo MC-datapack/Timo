@@ -1,3 +1,3 @@
 The data on this map is only the data [Modrinth](https://modrinth.com/datapack/timo_11) is showing me.
 
-![map](https://github.com/user-attachments/assets/574440c9-c251-43dd-afa5-889e3e32edd0)
+![map](https://github.com/user-attachments/assets/03aa2c0d-70a8-44cc-bc6a-43d81d287c57)
