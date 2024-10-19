@@ -1,0 +1,15 @@
+{
+    "name": "patrick:con_wing_r",
+    "fallback": "patrick:con_wing_r",
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:airplane/wing_r",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

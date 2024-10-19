@@ -1,0 +1,15 @@
+{
+    "name": "patrick:con_middle_back",
+    "fallback": "patrick:con_middle_back",
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "patrick:airplane/back",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

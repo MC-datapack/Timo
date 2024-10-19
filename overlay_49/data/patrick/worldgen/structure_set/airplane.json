@@ -1,0 +1,17 @@
+{
+	"structures": [
+		{
+			"structure": "patrick:airplane",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 568693662,
+		"frequency_reduction_method": "default",
+		"frequency": 0.5,
+		"spread_type": "linear",
+		"spacing": 64,
+		"separation": 48
+	} 
+}

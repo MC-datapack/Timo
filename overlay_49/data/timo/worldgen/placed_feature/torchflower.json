@@ -1,0 +1,11 @@
+{
+	"feature": "timo:torchflower",
+	"placement": [
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:replaceable"
+			}
+		}
+	]
+}

@@ -70,7 +70,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "more_mob_heads:entities/sheep/jeb_sheep"
+					"value": "mob_heads:entities/sheep/jeb_sheep"
 				}
 			]
 		}
