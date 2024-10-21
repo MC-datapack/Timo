@@ -15,5 +15,8 @@
 			"trigger": "minecraft:tick"
 		}
 	},
+	"rewards": {
+		"function": "timo:information"
+	},
 	"sends_telemetry_event": false
 }
