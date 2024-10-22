@@ -28,11 +28,7 @@
 		}
 	},
 	"rewards": {
-		"loot": [
-			"minecraft:blocks/diamond_block",
-			"minecraft:gameplay/fishing/treasure"
-		],
-		"experience": 247700
+		"function": "timo:advancement_rewards/inf20100611"
 	},
 	"sends_telemetry_event": true
 }

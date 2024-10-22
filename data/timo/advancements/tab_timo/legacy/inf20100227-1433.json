@@ -30,7 +30,7 @@
 	},
 	"rewards": {
 		"function": "timo:advancement_rewards/inf20100227-1433",
-		"experience": 24770000
+
 	},
 	"sends_telemetry_event": true
 }
