@@ -1,2 +1,2 @@
 *.json linguist-language=JSON linguist-detectable
-*.json linguist-language=OpenStep-Property-List Datapack
+*.json linguist-language=Datapack
