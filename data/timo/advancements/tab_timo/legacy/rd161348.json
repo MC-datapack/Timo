@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:oak_sapling"
+			"item": "minecraft:oak_sapling"
 		},
-		"title": "Blocks (rd161348)",
-		"description": "Obtain Cobblestone, Stone, Dirt, oak Planks and an oak sapling",
+		"title": {
+			"translate": "rd161348"
+		},
+		"description": {
+			"translate": "Obtain Cobblestone, Stone, Dirt, oak Planks and an oak sapling"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:cobblestone"
+						"items": ["minecraft:cobblestone"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:stone"
+						"items": ["minecraft:stone"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:dirt"
+						"items": ["minecraft:dirt"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_planks"
+						"items": ["minecraft:oak_planks"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_sapling"
+						"items": ["minecraft:oak_sapling"]
 					}
 				]
 			}

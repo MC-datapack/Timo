@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:cake"
 		},
-		"title": "b1.2",
-		"description": "Obtain a cake, lapis lazuli, lapis_lazuli_ore, note block",
+		"title": {
+			"translate": "b1.2"
+		},
+		"description": {
+			"translate": "Obtain a cake, lapis lazuli, lapis_lazuli_ore, note block"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

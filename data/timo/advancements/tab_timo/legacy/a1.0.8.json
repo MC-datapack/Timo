@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cow_spawn_egg"
+			"item": "minecraft:cow_spawn_egg"
 		},
-		"title": "a 1.0.8",
-		"description": "Kill a cow",
+		"title": {
+			"translate": "a 1.0.8"
+		},
+		"description": {
+			"translate": "Kill a cow"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:oak_log"
 		},
-		"title": "Plains",
-		"description": "Loot a plains village house",
+		"title": {
+			"translate": "Plains"
+		},
+		"description": {
+			"translate": "Loot a plains village house"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

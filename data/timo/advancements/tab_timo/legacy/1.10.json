@@ -1,15 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:tipped_arrow",
-			"components": {
-				"minecraft:potion_contents": {
-					"potion": "minecraft:slowness"
-				}
-			}
+			"item": "minecraft:tipped_arrow"
 		},
-		"title": "1.10",
-		"description": "Kill a Husk and a Stray",
+		"title": {
+			"translate": "1.10"
+		},
+		"description": {
+			"translate": "Kill a Husk and a Stray"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

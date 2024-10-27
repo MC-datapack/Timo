@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:red_glazed_terracotta"
 		},
-		"title": "1.12",
-		"description": "Obtain Glazed Terracota, Concrete Powder and Concrete (The color does not matter)",
+		"title": {
+			"translate": "1.12"
+		},
+		"description": {
+			"translate": "Obtain Glazed Terracota, Concrete Powder and Concrete (The color does not matter)"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

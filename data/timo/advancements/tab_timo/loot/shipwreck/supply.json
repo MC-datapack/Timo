@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:carrot"
+			"item": "minecraft:carrot"
 		},
-		"title": "Hopefully good supply",
-		"description": "Loot the supply chest of a shpwreck",
+		"title": {
+			"translate": "Hopefully good supply"
+		},
+		"description": {
+			"translate": "Loot the supply chest of a shpwreck"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

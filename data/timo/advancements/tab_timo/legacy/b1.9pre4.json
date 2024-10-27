@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:end_stone"
+			"item": "minecraft:end_stone"
 		},
-		"title": "b1.9pre4",
-		"description": "Go into the End",
+		"title": {
+			"translate": "b1.9pre4"
+		},
+		"description": {
+			"translate": "Go into the End"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

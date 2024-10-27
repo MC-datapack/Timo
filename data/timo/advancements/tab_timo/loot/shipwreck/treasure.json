@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:coast_armor_trim_smithing_template"
+			"item": "minecraft:coast_armor_trim_smithing_template"
 		},
-		"title": "I need iron",
-		"description": "Loot the treasure chest of a shpwreck",
+		"title": {
+			"translate": "I need iron"
+		},
+		"description": {
+			"translate": "Loot the treasure chest of a shpwreck"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

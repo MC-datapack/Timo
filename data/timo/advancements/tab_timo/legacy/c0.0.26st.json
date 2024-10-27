@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:tnt"
+			"item": "minecraft:tnt"
 		},
-		"title": "TNT (C0.0.26ST)",
-		"description": "Obtain TNT",
+		"title": {
+			"translate": "C0.0.26ST"
+		},
+		"description": {
+			"translate": "Obtain TNT"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:tnt"
+						"items": ["minecraft:tnt"]
 					}
 				]
 			}

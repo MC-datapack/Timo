@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:redstone_ore"
+			"item": "minecraft:redstone_ore"
 		},
-		"title": "a 1.0.1",
-		"description": "Obtain a redstone dust, a redstone ore, a redstone torch, a stone button, a stone pressure plate, a oak pressure plate, a lever and a iron door ",
+		"title": {
+			"translate": "a 1.0.1"
+		},
+		"description": {
+			"translate": "Obtain a redstone dust, a redstone ore, a redstone torch, a stone button, a stone pressure plate, a oak pressure plate, a lever and a iron door "
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:iron_door"
+						"items": ["minecraft:iron_door"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:lever"
+						"items": ["minecraft:lever"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_pressure_plate"
+						"items": ["minecraft:oak_pressure_plate"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone"
+						"items": ["minecraft:redstone"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone_ore"
+						"items": ["minecraft:redstone_ore"]
 					}
 				]
 			}
@@ -67,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone_torch"
+						"items": ["minecraft:redstone_torch"]
 					}
 				]
 			}
@@ -77,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:stone_button"
+						"items": ["minecraft:stone_button"]
 					}
 				]
 			}

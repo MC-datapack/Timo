@@ -1,13 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:wooden_sword",
-			"components": {
-				"minecraft:enchantment_glint_override": true
-			}
+			"item": "minecraft:wooden_sword"
 		},
-		"title": "Overkill",
-		"description": "Deal 9 hearts of damage in a single hit",
+		"title": {
+			"translate": "Overkill"
+		},
+		"description": {
+			"translate": "Deal 9 hearts of damage in a single hit"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

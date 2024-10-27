@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:bedrock"
 		},
-		"title": "INF 20100611",
-		"description": "Reach y2032",
+		"title": {
+			"translate": "INF 20100611"
+		},
+		"description": {
+			"translate": "Reach y2032"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

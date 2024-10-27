@@ -6,8 +6,12 @@
 				"minecraft:enchantment_glint_override": true
 			}
 		},
-		"title": "Over-Over-Over-Over-Over-Overkill",
-		"description": "Deal 288 hearts of damage in a single hit",
+		"title": {
+			"translate": "Over-Over-Over-Over-Over-Overkill"
+		},
+		"description": {
+			"translate": "Deal 288 hearts of damage in a single hit"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

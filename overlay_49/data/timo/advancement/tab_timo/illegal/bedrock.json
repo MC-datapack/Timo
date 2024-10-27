@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:bedrock"
 		},
-		"title": "The unbreakeable block",
-		"description": "Obtain Bedrock (Check your recipes)",
+		"title": {
+			"translate": "The unbreakeable block"
+		},
+		"description": {
+			"translate": "Obtain Bedrock (Check your recipes)"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

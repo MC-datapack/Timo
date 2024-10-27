@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:zombie_spawn_egg"
 		},
-		"title": "a 1.0.3",
-		"description": "Punch a zombie",
+		"title": {
+			"translate": "a 1.0.3"
+		},
+		"description": {
+			"translate": "Punch a zombie"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

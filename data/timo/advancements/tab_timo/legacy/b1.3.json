@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:red_bed"
+			"item": "minecraft:red_bed"
 		},
-		"title": "b1.3",
-		"description": "Obtain a bed, and a repeater",
+		"title": {
+			"translate": "b1.3"
+		},
+		"description": {
+			"translate": "Obtain a bed, and a repeater"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -43,7 +47,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:repeater"
+						"items": ["minecraft:repeater"]
 					}
 				]
 			}

@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:ender_chest"
+			"item": "minecraft:ender_chest"
 		},
-		"title": "Loot Master",
-		"description": "Complete all Loot Advancements",
+		"title": {
+			"translate": "Loot Master"
+		},
+		"description": {
+			"translate": "Complete all Loot Advancements"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -285,6 +289,9 @@
 				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "timo:advancement_rewards/loot_master"
 	},
 	"sends_telemetry_event": true
 }

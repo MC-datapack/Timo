@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:bow"
 		},
-		"title": "IN 20100122",
-		"description": "Obtain bow and arrow",
+		"title": {
+			"translate": "IN 20100122"
+		},
+		"description": {
+			"translate": "Obtain bow and arrow"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

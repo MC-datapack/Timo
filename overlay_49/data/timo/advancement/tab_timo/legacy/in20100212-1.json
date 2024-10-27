@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:diamond_chestplate"
 		},
-		"title": "In 20100212-1",
-		"description": "Obtain a diamond chestplate",
+		"title": {
+			"translate": "In 20100212-1"
+		},
+		"description": {
+			"translate": "Obtain a diamond chestplate"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

@@ -12,7 +12,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:moss",
+					"name": "minecraft:moss",
 					"weight": 5
 				}
 			],

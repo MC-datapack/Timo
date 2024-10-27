@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:spawner"
+			"item": "minecraft:spawner"
 		},
-		"title": "INF 20100625-2",
-		"description": "Obtain a spawner",
+		"title": {
+			"translate": "INF 20100625-2"
+		},
+		"description": {
+			"translate": "Obtain a spawner"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:spawner"
+						"items": ["minecraft:spawner"]
 					}
 				]
 			}

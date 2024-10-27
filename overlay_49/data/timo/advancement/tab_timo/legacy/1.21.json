@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:mace"
 		},
-		"title": "1.21",
-		"description": "Discover a Trial Chamber and Obtain a Mace",
+		"title": {
+			"translate": "1.21"
+		},
+		"description": {
+			"translate": "Discover a Trial Chamber and Obtain a Mace"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

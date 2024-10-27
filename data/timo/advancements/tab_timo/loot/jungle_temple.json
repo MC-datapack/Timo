@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:mossy_cobblestone"
+			"item": "minecraft:mossy_cobblestone"
 		},
-		"title": "Wildness",
-		"description": "Loot a Chest in a Jungle Temple",
+		"title": {
+			"translate": "Wildness"
+		},
+		"description": {
+			"translate": "Loot a Chest in a Jungle Temple"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

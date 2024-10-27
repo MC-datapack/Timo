@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:torch"
 		},
-		"title": "IN 20091223-2",
-		"description": "Obtain a torch",
+		"title": {
+			"translate": "IN 20091223-2"
+		},
+		"description": {
+			"translate": "Obtain a torch"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

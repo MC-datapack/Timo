@@ -6,8 +6,12 @@
 				"minecraft:enchantment_glint_override": true
 			}
 		},
-		"title": "THIS SHOULDN'T EXIST, SHOULD IT?",
-		"description": "Fall 5000 Blocks and don't die",
+		"title": {
+			"translate": "THIS SHOULDN'T EXIST, SHOULD IT?"
+		},
+		"description": {
+			"translate": "Fall 5000 Blocks and don't die"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

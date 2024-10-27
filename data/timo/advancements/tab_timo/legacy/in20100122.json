@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:bow"
+			"item": "minecraft:bow"
 		},
-		"title": "IN 20100122",
-		"description": "Obtain bow and arrow",
+		"title": {
+			"translate": "IN 20100122"
+		},
+		"description": {
+			"translate": "Obtain bow and arrow"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:bow"
+						"items": ["minecraft:bow"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:arrow"
+						"items": ["minecraft:arrow"]
 					}
 				]
 			}

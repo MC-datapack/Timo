@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:shulker_box"
 		},
-		"title": "Oh no Levitation",
-		"description": "Loot an End City",
+		"title": {
+			"translate": "Oh no Levitation"
+		},
+		"description": {
+			"translate": "Loot an End City"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

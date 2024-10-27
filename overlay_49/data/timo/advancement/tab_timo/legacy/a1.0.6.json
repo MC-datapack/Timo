@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:cactus"
 		},
-		"title": "a 1.0.6",
-		"description": "Obtain a cactus and a oak boat",
+		"title": {
+			"translate": "a 1.0.6"
+		},
+		"description": {
+			"translate": "Obtain a cactus and a oak boat"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

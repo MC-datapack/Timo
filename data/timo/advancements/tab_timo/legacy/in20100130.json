@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:mushroom_stew"
+			"item": "minecraft:mushroom_stew"
 		},
-		"title": "IN 20100130",
-		"description": "Obtain a mushroom stew, gunpowder, strings and a feather",
+		"title": {
+			"translate": "IN 20100130"
+		},
+		"description": {
+			"translate": "Obtain a mushroom stew, gunpowder, strings and a feather"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:mushroom_stew"
+						"items": ["minecraft:mushroom_stew"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:feather"
+						"items": ["minecraft:feather"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:gunpowder"
+						"items": ["minecraft:gunpowder"]
 					}
 				]
 			}
@@ -46,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:string"
+						"items": ["minecraft:string"]
 					}
 				]
 			}

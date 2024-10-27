@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:gold_ore"
 		},
-		"title": "More Blocks (C0.0.14a)",
-		"description": "Obtain iron ore, gold ore, coal ore, gravel, oak leaves, sand and a oak log ",
+		"title": {
+			"translate": "C0.0.14a"
+		},
+		"description": {
+			"translate": "Obtain iron ore, gold ore, coal ore, gravel, oak leaves, sand and a oak log "
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

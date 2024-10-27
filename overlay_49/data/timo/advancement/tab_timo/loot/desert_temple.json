@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:sandstone"
 		},
-		"title": "Why is there a secret",
-		"description": "Loot a Desert Pyramid",
+		"title": {
+			"translate": "Why is there a secret"
+		},
+		"description": {
+			"translate": "Loot a Desert Pyramid"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

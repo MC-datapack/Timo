@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:honey_bottle"
 		},
-		"title": "1.15",
-		"description": "Obtain all Honey related Items",
+		"title": {
+			"translate": "1.15"
+		},
+		"description": {
+			"translate": "Obtain all Honey related Items"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

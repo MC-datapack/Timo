@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:filled_map"
 		},
-		"title": "I need the buried treasure map",
-		"description": "Loot the chest of a shpwreck that includes the buried treasure map",
+		"title": {
+			"translate": "I need the buried treasure map"
+		},
+		"description": {
+			"translate": "Loot the chest of a shpwreck that includes the buried treasure map"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

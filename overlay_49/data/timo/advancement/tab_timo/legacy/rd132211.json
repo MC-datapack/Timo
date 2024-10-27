@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:cobblestone"
 		},
-		"title": "Placement (rd132211)",
-		"description": "Place a block",
+		"title": {
+			"translate": "rd132211"
+		},
+		"description": {
+			"translate": "Place a block"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

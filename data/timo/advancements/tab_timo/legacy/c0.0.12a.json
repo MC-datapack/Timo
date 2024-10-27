@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:water_bucket"
+			"item": "minecraft:water_bucket"
 		},
-		"title": "Swimming (C0.0.12a)",
-		"description": "Touch water",
+		"title": {
+			"translate": "C0.0.12a"
+		},
+		"description": {
+			"translate": "Touch water"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -18,7 +22,7 @@
 				"player": {
 					"location": {
 						"block": {
-							"blocks": "minecraft:water"
+							"blocks": ["minecraft:water"]
 						}
 					}
 				}

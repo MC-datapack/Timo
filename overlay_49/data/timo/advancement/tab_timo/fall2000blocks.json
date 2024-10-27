@@ -6,8 +6,12 @@
 				"minecraft:enchantment_glint_override": true
 			}
 		},
-		"title": "WHY DOES THIS EXIST?",
-		"description": "Fall 2000 Blocks and don't die",
+		"title": {
+			"translate": "WHY DOES THIS EXIST?"
+		},
+		"description": {
+			"translate": "Fall 2000 Blocks and don't die"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

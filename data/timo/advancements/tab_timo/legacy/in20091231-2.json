@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:apple"
+			"item": "minecraft:apple"
 		},
-		"title": "In 20091231-2",
-		"description": "Obtain an apple",
+		"title": {
+			"translate": "In 20091231-2"
+		},
+		"description": {
+			"translate": "Obtain an apple"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:apple"
+						"items": ["minecraft:apple"]
 					}
 				]
 			}

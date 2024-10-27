@@ -4,8 +4,12 @@
 			"id": "minecraft:diamond",
 			"count": 999
 		},
-		"title": "INF 20100313",
-		"description": "Obtain all diamond tools",
+		"title": {
+			"translate": "INF 20100313"
+		},
+		"description": {
+			"translate": "Obtain all diamond tools"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

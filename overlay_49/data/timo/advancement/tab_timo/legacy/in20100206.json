@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:iron_hoe"
 		},
-		"title": "In 20100206",
-		"description": "Obtain wheat seeds, wheat, bread and an iron hoe",
+		"title": {
+			"translate": "In 20100206"
+		},
+		"description": {
+			"translate": "Obtain wheat seeds, wheat, bread and an iron hoe"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

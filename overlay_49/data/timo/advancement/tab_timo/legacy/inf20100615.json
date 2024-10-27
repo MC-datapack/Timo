@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:bucket"
 		},
-		"title": "INF 20100615",
-		"description": "Obtain a bucket, a water bucket and a lava bucket",
+		"title": {
+			"translate": "INF 20100615"
+		},
+		"description": {
+			"translate": "Obtain a bucket, a water bucket and a lava bucket"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

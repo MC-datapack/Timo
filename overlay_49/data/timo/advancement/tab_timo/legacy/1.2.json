@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:jungle_log"
 		},
-		"title": "1.2",
-		"description": "Discover every Jungle Biome",
+		"title": {
+			"translate": "1.2"
+		},
+		"description": {
+			"translate": "Discover every Jungle Biome"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

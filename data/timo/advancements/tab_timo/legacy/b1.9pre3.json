@@ -1,15 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:potion",
-			"components": {
-				"minecraft:potion_contents": {
-					"custom_color": 13893887
-				}
-			}
+			"item": "minecraft:potion"
 		},
-		"title": "b1.9pre3",
-		"description": "Obtain a Potion",
+		"title": {
+			"translate": "b1.9pre3"
+		},
+		"description": {
+			"translate": "Obtain a Potion"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -22,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:potion"
+						"items": ["minecraft:potion"]
 					}
 				]
 			}

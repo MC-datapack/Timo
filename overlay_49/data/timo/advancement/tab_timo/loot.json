@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:chest"
 		},
-		"title": "Improved Loot",
-		"description": "Loot a Dungeon!",
+		"title": {
+			"translate": "Improved Loot"
+		},
+		"description": {
+			"translate": "Loot a Dungeon!"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

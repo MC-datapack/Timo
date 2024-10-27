@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:ice"
 		},
-		"title": "a 1.0.4",
-		"description": "Obtain ice",
+		"title": {
+			"translate": "a 1.0.4"
+		},
+		"description": {
+			"translate": "Obtain ice"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

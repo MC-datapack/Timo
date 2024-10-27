@@ -8,8 +8,12 @@
 				}
 			}
 		},
-		"title": "b1.9pre3",
-		"description": "Obtain a Potion",
+		"title": {
+			"translate": "b1.9pre3"
+		},
+		"description": {
+			"translate": "Obtain a Potion"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:mushroom_stew"
 		},
-		"title": "IN 20100130",
-		"description": "Obtain a mushroom stew, gunpowder, strings and a feather",
+		"title": {
+			"translate": "IN 20100130"
+		},
+		"description": {
+			"translate": "Obtain a mushroom stew, gunpowder, strings and a feather"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

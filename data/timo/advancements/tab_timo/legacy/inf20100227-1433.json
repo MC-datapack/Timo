@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:grass_block"
+			"item": "minecraft:grass_block"
 		},
-		"title": "INF 20100227-1433",
-		"description": "Reach the far lands on the x coordinates",
+		"title": {
+			"translate": "INF 20100227-1433"
+		},
+		"description": {
+			"translate": "Reach the far lands on the x coordinates"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:fire_charge"
 		},
-		"title": "Danger",
-		"description": "Loot a Dispenser in a Jungle Temple",
+		"title": {
+			"translate": "Danger"
+		},
+		"description": {
+			"translate": "Loot a Dispenser in a Jungle Temple"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

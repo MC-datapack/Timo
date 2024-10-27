@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:sniffer_egg"
 		},
-		"title": "1.20",
-		"description": "Obtain a Sniffer Egg, Torchflower Seeds, a Torchflower, a Pitcher Pod and a Pitcher Plant",
+		"title": {
+			"translate": "1.20"
+		},
+		"description": {
+			"translate": "Obtain a Sniffer Egg, Torchflower Seeds, a Torchflower, a Pitcher Pod and a Pitcher Plant"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

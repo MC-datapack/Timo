@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:glass"
 		},
-		"title": "IN 20100201-1",
-		"description": "Obtain glass and white wool",
+		"title": {
+			"translate": "IN 20100201-1"
+		},
+		"description": {
+			"translate": "Obtain glass and white wool"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

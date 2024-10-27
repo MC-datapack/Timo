@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:fishing_rod"
 		},
-		"title": "a 1.1.1",
-		"description": "Obtain a fishing rod",
+		"title": {
+			"translate": "a 1.1.1"
+		},
+		"description": {
+			"translate": "Obtain a fishing rod"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

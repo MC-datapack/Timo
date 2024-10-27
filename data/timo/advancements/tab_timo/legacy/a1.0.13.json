@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:slime_spawn_egg"
+			"item": "minecraft:slime_spawn_egg"
 		},
-		"title": "a 1.0.13",
-		"description": "Punch a slime",
+		"title": {
+			"translate": "a 1.0.13"
+		},
+		"description": {
+			"translate": "Punch a slime"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

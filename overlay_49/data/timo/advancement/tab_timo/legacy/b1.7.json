@@ -6,8 +6,12 @@
 				"minecraft:enchantments": {}
 			}
 		},
-		"title": "b1.7",
-		"description": "Obtain a piston, a sticky piston and shears",
+		"title": {
+			"translate": "b1.7"
+		},
+		"description": {
+			"translate": "Obtain a piston, a sticky piston and shears"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

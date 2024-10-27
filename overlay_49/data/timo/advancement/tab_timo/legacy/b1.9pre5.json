@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:dragon_head"
 		},
-		"title": "b1.9pre5",
-		"description": "Punch the Ender Dragon",
+		"title": {
+			"translate": "b1.9pre5"
+		},
+		"description": {
+			"translate": "Punch the Ender Dragon"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cobblestone"
+			"item": "minecraft:cobblestone"
 		},
-		"title": "Legacy Master",
-		"description": "Complete all Legacy Advancements",
+		"title": {
+			"translate": "Legacy Master"
+		},
+		"description": {
+			"translate": "Complete all Legacy Advancements"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -1001,6 +1005,9 @@
 				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "timo:advancement_rewards/legacy_master"
 	},
 	"sends_telemetry_event": true
 }

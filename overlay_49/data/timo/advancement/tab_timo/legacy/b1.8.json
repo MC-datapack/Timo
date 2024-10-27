@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:oak_stairs"
 		},
-		"title": "b1.8",
-		"description": "Kill a silverfish and an enderman; go into a plains village; obtain a mossy stone brick, a iron bar, a glass pane, a red or brown mushroom block and an oak fence gate.",
+		"title": {
+			"translate": "b1.8"
+		},
+		"description": {
+			"translate": "Kill a silverfish and an enderman; go into a plains village; obtain a mossy stone brick, a iron bar, a glass pane, a red or brown mushroom block and an oak fence gate."
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

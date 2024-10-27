@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:emerald"
 		},
-		"title": "1.3",
-		"description": "Successfully trade with a Villager and discover a Desert Pyramid and a Jungle Pyramid",
+		"title": {
+			"translate": "1.3"
+		},
+		"description": {
+			"translate": "Successfully trade with a Villager and discover a Desert Pyramid and a Jungle Pyramid"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

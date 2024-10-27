@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:gold_block"
 		},
-		"title": "16 Gold Blocks",
-		"description": "Loot a Bridge Bastion",
+		"title": {
+			"translate": "16 Gold Blocks"
+		},
+		"description": {
+			"translate": "Loot a Bridge Bastion"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:gilded_blackstone"
 		},
-		"title": "Why zero netherite scrabs?",
-		"description": "Loot Other Bastion Chests",
+		"title": {
+			"translate": "Why zero netherite scrabs?"
+		},
+		"description": {
+			"translate": "Loot Other Bastion Chests"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

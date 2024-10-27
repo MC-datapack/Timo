@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:book"
 		},
-		"title": "a 1.0.11",
-		"description": "Obtain Paper, a book, a bookshelf, a clay ball, a brick, bricks, clay and sugar cane",
+		"title": {
+			"translate": "a 1.0.11"
+		},
+		"description": {
+			"translate": "Obtain Paper, a book, a bookshelf, a clay ball, a brick, bricks, clay and sugar cane"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

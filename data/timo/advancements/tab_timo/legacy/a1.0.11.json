@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:book"
+			"item": "minecraft:book"
 		},
-		"title": "a 1.0.11",
-		"description": "Obtain Paper, a book, a bookshelf, a clay ball, a brick, bricks, clay and sugar cane",
+		"title": {
+			"translate": "a 1.0.11"
+		},
+		"description": {
+			"translate": "Obtain Paper, a book, a bookshelf, a clay ball, a brick, bricks, clay and sugar cane"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:paper"
+						"items": ["minecraft:paper"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:book"
+						"items": ["minecraft:book"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:bookshelf"
+						"items": ["minecraft:bookshelf"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:sugar_cane"
+						"items": ["minecraft:sugar_cane"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:clay"
+						"items": ["minecraft:clay"]
 					}
 				]
 			}
@@ -67,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:clay_ball"
+						"items": ["minecraft:clay_ball"]
 					}
 				]
 			}
@@ -77,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:brick"
+						"items": ["minecraft:brick"]
 					}
 				]
 			}
@@ -87,7 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:bricks"
+						"items": ["minecraft:bricks"]
 					}
 				]
 			}

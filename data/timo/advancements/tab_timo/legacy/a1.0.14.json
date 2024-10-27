@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:jukebox"
+			"item": "minecraft:jukebox"
 		},
-		"title": "a 1.0.14",
-		"description": "Obtain a jukebox, music disc 13 and cat, a furnace minecart and a chest minecart",
+		"title": {
+			"translate": "a 1.0.14"
+		},
+		"description": {
+			"translate": "Obtain a jukebox, music disc 13 and cat, a furnace minecart and a chest minecart"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:jukebox"
+						"items": ["minecraft:jukebox"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:music_disc_13"
+						"items": ["minecraft:music_disc_13"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:music_disc_cat"
+						"items": ["minecraft:music_disc_cat"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:furnace_minecart"
+						"items": ["minecraft:furnace_minecart"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:chest_minecart"
+						"items": ["minecraft:chest_minecart"]
 					}
 				]
 			}

@@ -1,14 +1,16 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:vault"
+			"item": "minecraft:vault"
 		},
-		"title": "I need a trial key",
+		"title": {
+			"translate": "I need a trial key"
+		},
 		"description": {
-			"text": "Obtain a vault ",
+			"translate": "Obtain a vault ",
 			"extra": [
 				{
-					"text": "You can do this with silk touch"
+					"translate": "You can do this with silk touch"
 				}
 			]
 		},
@@ -24,7 +26,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:vault"
+						"items": ["minecraft:vault"]
 					}
 				]
 			}

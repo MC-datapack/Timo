@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:ominous_bottle"
 		},
-		"title": "1.14",
-		"description": "Complete a Raid",
+		"title": {
+			"translate": "1.14"
+		},
+		"description": {
+			"translate": "Complete a Raid"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

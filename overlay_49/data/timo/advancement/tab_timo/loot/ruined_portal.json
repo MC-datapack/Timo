@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:crying_obsidian"
 		},
-		"title": "I need more Obsidian",
-		"description": "Loot a Ruined Portal",
+		"title": {
+			"translate": "I need more Obsidian"
+		},
+		"description": {
+			"translate": "Loot a Ruined Portal"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

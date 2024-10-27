@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:redstone"
 		},
-		"title": "1.5",
-		"description": "Obtain all Redstone Items",
+		"title": {
+			"translate": "1.5"
+		},
+		"description": {
+			"translate": "Obtain all Redstone Items"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

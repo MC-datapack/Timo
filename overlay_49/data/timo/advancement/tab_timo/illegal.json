@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:bedrock"
 		},
-		"title": "Illegal!",
-		"description": "Obtain an illegal item",
+		"title": {
+			"translate": "Illegal!"
+		},
+		"description": {
+			"translate": "Obtain an illegal item"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

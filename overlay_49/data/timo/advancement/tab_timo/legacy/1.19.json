@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:sculk"
 		},
-		"title": "1.19",
-		"description": "Discover an Ancient City",
+		"title": {
+			"translate": "1.19"
+		},
+		"description": {
+			"translate": "Discover an Ancient City"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

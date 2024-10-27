@@ -3,12 +3,14 @@
 		"icon": {
 			"id": "minecraft:budding_amethyst"
 		},
-		"title": "Growing Amethysts",
+		"title": {
+			"translate": "Growing Amethysts"
+		},
 		"description": {
-			"text": "Obtain a Budding Amethyst ",
+			"translate": "Obtain a Budding Amethyst ",
 			"extra": [
 				{
-					"text": "You can craft this."
+					"translate": "You can craft this."
 				}
 			]
 		},

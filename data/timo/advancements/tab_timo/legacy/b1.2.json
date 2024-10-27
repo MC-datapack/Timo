@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cake"
+			"item": "minecraft:cake"
 		},
-		"title": "b1.2",
-		"description": "Obtain a cake, lapis lazuli, lapis_lazuli_ore, note block",
+		"title": {
+			"translate": "b1.2"
+		},
+		"description": {
+			"translate": "Obtain a cake, lapis lazuli, lapis_lazuli_ore, note block"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:cake"
+						"items": ["minecraft:cake"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:lapis_lazuli"
+						"items": ["minecraft:lapis_lazuli"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:lapis_ores"
+						"items": ["minecraft:lapis_ore"]
 					}
 				]
 			}
@@ -46,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:note_block"
+						"items":[ "minecraft:note_block"]
 					}
 				]
 			}

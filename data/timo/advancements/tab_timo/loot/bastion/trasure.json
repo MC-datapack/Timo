@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:netherite_ingot"
+			"item": "minecraft:netherite_ingot"
 		},
-		"title": "Netherite Ingot",
-		"description": "Loot a Treasure Bastion",
+		"title": {
+			"translate": "Netherite Ingot"
+		},
+		"description": {
+			"translate": "Loot a Treasure Bastion"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

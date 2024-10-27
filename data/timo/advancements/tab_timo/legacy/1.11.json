@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:totem_of_undying"
+			"item": "minecraft:totem_of_undying"
 		},
-		"title": "1.11",
-		"description": "Obtain a Totem of Undying and Kill an Evoker and a Vindicator",
+		"title": {
+			"translate": "1.11"
+		},
+		"description": {
+			"translate": "Obtain a Totem of Undying and Kill an Evoker and a Vindicator"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:totem_of_undying"
+						"items": ["minecraft:totem_of_undying"]
 					}
 				]
 			}

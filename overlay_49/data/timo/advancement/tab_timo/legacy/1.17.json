@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:deepslate_emerald_ore"
 		},
-		"title": "1.17",
-		"description": "Obtain all Deepslate Ores",
+		"title": {
+			"translate": "1.17"
+		},
+		"description": {
+			"translate": "Obtain all Deepslate Ores"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

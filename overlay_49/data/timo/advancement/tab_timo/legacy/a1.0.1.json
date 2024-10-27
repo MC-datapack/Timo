@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:redstone_ore"
 		},
-		"title": "a 1.0.1",
-		"description": "Obtain a redstone dust, a redstone ore, a redstone torch, a stone button, a stone pressure plate, a oak pressure plate, a lever and a iron door ",
+		"title": {
+			"translate": "a 1.0.1"
+		},
+		"description": {
+			"translate": "Obtain a redstone dust, a redstone ore, a redstone torch, a stone button, a stone pressure plate, a oak pressure plate, a lever and a iron door "
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:redstone"
+			"item": "minecraft:redstone"
 		},
-		"title": "1.5",
-		"description": "Obtain all Redstone Items",
+		"title": {
+			"translate": "1.5"
+		},
+		"description": {
+			"translate": "Obtain all Redstone Items"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone"
+						"items": ["minecraft:redstone"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone_torch"
+						"items": ["minecraft:redstone_torch"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone_block"
+						"items": ["minecraft:redstone_block"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:repeater"
+						"items": ["minecraft:repeater"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:comparator"
+						"items": ["minecraft:comparator"]
 					}
 				]
 			}
@@ -67,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:lever"
+						"items": ["minecraft:lever"]
 					}
 				]
 			}
@@ -77,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:wooden_buttons"
+						"tag": "minecraft:wooden_buttons"
 					}
 				]
 			}
@@ -87,7 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:stone_buttons"
+						"tag": "minecraft:stone_buttons"
 					}
 				]
 			}
@@ -97,7 +101,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:wooden_pressure_plates"
+						"tag": "minecraft:wooden_pressure_plates"
 					}
 				]
 			}
@@ -120,7 +124,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:light_weighted_pressure_plate"
+						"items": ["minecraft:light_weighted_pressure_plate"]
 					}
 				]
 			}
@@ -130,7 +134,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:heavy_weighted_pressure_plate"
+						"items": ["minecraft:heavy_weighted_pressure_plate"]
 					}
 				]
 			}
@@ -140,7 +144,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:daylight_detector"
+						"items": ["minecraft:daylight_detector"]
 					}
 				]
 			}
@@ -150,7 +154,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:piston"
+						"items": ["minecraft:piston"]
 					}
 				]
 			}
@@ -160,7 +164,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:sticky_piston"
+						"items": ["minecraft:sticky_piston"]
 					}
 				]
 			}
@@ -170,7 +174,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:dropper"
+						"items": ["minecraft:dropper"]
 					}
 				]
 			}
@@ -180,7 +184,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:dispenser"
+						"items": ["minecraft:dispenser"]
 					}
 				]
 			}
@@ -190,7 +194,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:crafter"
+						"items": ["minecraft:crafter"]
 					}
 				]
 			}
@@ -200,7 +204,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:hopper"
+						"items": ["minecraft:hopper"]
 					}
 				]
 			}
@@ -210,7 +214,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:trapped_chest"
+						"items": ["minecraft:trapped_chest"]
 					}
 				]
 			}
@@ -220,7 +224,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:observer"
+						"items": ["minecraft:observer"]
 					}
 				]
 			}
@@ -230,7 +234,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:rail"
+						"items": ["minecraft:rail"]
 					}
 				]
 			}
@@ -240,7 +244,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:powered_rail"
+						"items": ["minecraft:powered_rail"]
 					}
 				]
 			}
@@ -250,7 +254,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:detector_rail"
+						"items": ["minecraft:detector_rail"]
 					}
 				]
 			}
@@ -260,7 +264,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:activator_rail"
+						"items": ["minecraft:activator_rail"]
 					}
 				]
 			}
@@ -270,7 +274,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:redstone_lamp"
+						"items": ["minecraft:redstone_lamp"]
 					}
 				]
 			}

@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:spruce_sapling"
+			"item": "minecraft:spruce_sapling"
 		},
-		"title": "b1.5",
-		"description": "Obtain a spruce sapling and a birch sapling",
+		"title": {
+			"translate": "b1.5"
+		},
+		"description": {
+			"translate": "Obtain a spruce sapling and a birch sapling"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:spruce_sapling"
+						"items": ["minecraft:spruce_sapling"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:birch_sapling"
+						"items": ["minecraft:birch_sapling"]
 					}
 				]
 			}

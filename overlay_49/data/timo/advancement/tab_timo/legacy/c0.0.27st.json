@@ -9,8 +9,12 @@
 				}
 			}
 		},
-		"title": "Arthropods (C0.0.27ST)",
-		"description": "Kill a spider",
+		"title": {
+			"translate": "C0.0.27ST"
+		},
+		"description": {
+			"translate": "Kill a spider"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

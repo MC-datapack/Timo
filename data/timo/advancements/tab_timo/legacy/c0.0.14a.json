@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:gold_ore"
+			"item": "minecraft:gold_ore"
 		},
-		"title": "More Blocks (C0.0.14a)",
-		"description": "Obtain iron ore, gold ore, coal ore, gravel, oak leaves, sand and a oak log ",
+		"title": {
+			"translate": "C0.0.14a"
+		},
+		"description": {
+			"translate": "Obtain iron ore, gold ore, coal ore, gravel, oak leaves, sand and a oak log "
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:iron_ore"
+						"items": ["minecraft:iron_ore"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:gold_ore"
+						"items": ["minecraft:gold_ore"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:coal"
+						"items": ["minecraft:coal"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:gravel"
+						"items": ["minecraft:gravel"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:sand"
+						"items": ["minecraft:sand"]
 					}
 				]
 			}
@@ -67,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_leaves"
+						"items": ["minecraft:oak_leaves"]
 					}
 				]
 			}
@@ -77,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_log"
+						"items": ["minecraft:oak_log"]
 					}
 				]
 			}

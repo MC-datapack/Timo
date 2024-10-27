@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:bucket"
+			"item": "minecraft:bucket"
 		},
-		"title": "INF 20100615",
-		"description": "Obtain a bucket, a water bucket and a lava bucket",
+		"title": {
+			"translate": "INF 20100615"
+		},
+		"description": {
+			"translate": "Obtain a bucket, a water bucket and a lava bucket"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:bucket"
+						"items": ["minecraft:bucket"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:water_bucket"
+						"items": ["minecraft:water_bucket"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:lava_bucket"
+						"items": ["minecraft:lava_bucket"]
 					}
 				]
 			}

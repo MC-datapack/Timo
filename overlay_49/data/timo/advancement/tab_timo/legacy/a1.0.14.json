@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:jukebox"
 		},
-		"title": "a 1.0.14",
-		"description": "Obtain a jukebox, music disc 13 and cat, a furnace minecart and a chest minecart",
+		"title": {
+			"translate": "a 1.0.14"
+		},
+		"description": {
+			"translate": "Obtain a jukebox, music disc 13 and cat, a furnace minecart and a chest minecart"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

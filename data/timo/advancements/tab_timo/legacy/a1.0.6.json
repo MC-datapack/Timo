@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cactus"
+			"item": "minecraft:cactus"
 		},
-		"title": "a 1.0.6",
-		"description": "Obtain a cactus and a oak boat",
+		"title": {
+			"translate": "a 1.0.6"
+		},
+		"description": {
+			"translate": "Obtain a cactus and a oak boat"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:cactus"
+						"items": ["minecraft:cactus"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_boat"
+						"items": ["minecraft:oak_boat"]
 					}
 				]
 			}

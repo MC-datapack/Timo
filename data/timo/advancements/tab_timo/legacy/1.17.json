@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:deepslate_emerald_ore"
+			"item": "minecraft:deepslate_emerald_ore"
 		},
-		"title": "1.17",
-		"description": "Obtain all Deepslate Ores",
+		"title": {
+			"translate": "1.17"
+		},
+		"description": {
+			"translate": "Obtain all Deepslate Ores"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_coal_ore"
+						"items": ["minecraft:deepslate_coal_ore"]
 					}
 				]
 			}
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_copper_ore"
+						"items": ["minecraft:deepslate_copper_ore"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_iron_ore"
+						"items": ["minecraft:deepslate_iron_ore"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_gold_ore"
+						"items": ["minecraft:deepslate_gold_ore"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_lapis_ore"
+						"items": ["minecraft:deepslate_lapis_ore"]
 					}
 				]
 			}
@@ -67,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_emerald_ore"
+						"items": ["minecraft:deepslate_emerald_ore"]
 					}
 				]
 			}
@@ -77,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_redstone_ore"
+						"items": ["minecraft:deepslate_redstone_ore"]
 					}
 				]
 			}
@@ -87,7 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:deepslate_diamond_ore"
+						"items": ["minecraft:deepslate_diamond_ore"]
 					}
 				]
 			}

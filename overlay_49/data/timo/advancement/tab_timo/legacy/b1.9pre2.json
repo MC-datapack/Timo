@@ -8,8 +8,12 @@
 				}
 			}
 		},
-		"title": "b1.9pre2",
-		"description": "Obtain a glass blottle, magma cream, blaze powder, a spider eye and a fermented spider eye",
+		"title": {
+			"translate": "b1.9pre2"
+		},
+		"description": {
+			"translate": "Obtain a glass blottle, magma cream, blaze powder, a spider eye and a fermented spider eye"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

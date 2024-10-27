@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:crimson_nylium"
 		},
-		"title": "1.16",
-		"description": "Discover a Warped Forest and Crimson Forest and destroy a tree in both biomes",
+		"title": {
+			"translate": "1.16"
+		},
+		"description": {
+			"translate": "Discover a Warped Forest and Crimson Forest and destroy a tree in both biomes"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

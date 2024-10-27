@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:dragon_egg"
+			"item": "minecraft:dragon_egg"
 		},
-		"title": "b1.9pre6",
-		"description": "Kill the Ender Dragon",
+		"title": {
+			"translate": "b1.9pre6"
+		},
+		"description": {
+			"translate": "Kill the Ender Dragon"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:rabbit_foot"
+			"item": "minecraft:rabbit_foot"
 		},
-		"title": "1.8",
-		"description": "Kill a Rabbit",
+		"title": {
+			"translate": "1.8"
+		},
+		"description": {
+			"translate": "Kill a Rabbit"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

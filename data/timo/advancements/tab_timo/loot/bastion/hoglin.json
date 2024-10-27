@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cooked_porkchop"
+			"item": "minecraft:cooked_porkchop"
 		},
-		"title": "Oh no hoglins",
-		"description": "Loot a Hoglin Stable Bastion",
+		"title": {
+			"translate": "Oh no hoglins"
+		},
+		"description": {
+			"translate": "Loot a Hoglin Stable Bastion"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

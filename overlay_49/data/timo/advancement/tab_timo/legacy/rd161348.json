@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:oak_sapling"
 		},
-		"title": "Blocks (rd161348)",
-		"description": "Obtain Cobblestone, Stone, Dirt, oak Planks and an oak sapling",
+		"title": {
+			"translate": "rd161348"
+		},
+		"description": {
+			"translate": "Obtain Cobblestone, Stone, Dirt, oak Planks and an oak sapling"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

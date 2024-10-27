@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:grass_block"
+			"item": "minecraft:grass_block"
 		},
-		"title": "Explosive (C0.0.24ST)",
-		"description": "Kill a Creeper",
+		"title": {
+			"translate": "C0.0.24ST"
+		},
+		"description": {
+			"translate": "Kill a Creeper"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -16,9 +20,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": [
-						"minecraft:creeper"
-					]
+					"type": "minecraft:creeper"
 				}
 			}
 		}

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:egg"
 		},
-		"title": "Finally Beta (b1.0)",
-		"description": "Obtain an egg",
+		"title": {
+			"translate": "Finally Beta (b1.0)"
+		},
+		"description": {
+			"translate": "Obtain an egg"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:netherite_block",
+    "dim": "timo:rich",
+    "ignitionType": "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "r": 34,
+    "g": 204,
+    "b": 0
+}

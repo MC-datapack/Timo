@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:compass"
 		},
-		"title": "a 1.1.0",
-		"description": "Obtain a compass",
+		"title": {
+			"translate": "a 1.1.0"
+		},
+		"description": {
+			"translate": "Obtain a compass"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

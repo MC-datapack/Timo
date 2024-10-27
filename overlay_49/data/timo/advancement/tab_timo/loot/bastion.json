@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:blackstone"
 		},
-		"title": "Oh no a Piglin Brute",
-		"description": "Go into a bastion",
+		"title": {
+			"translate": "Oh no a Piglin Brute"
+		},
+		"description": {
+			"translate": "Go into a bastion"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

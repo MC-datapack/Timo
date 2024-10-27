@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:powder_snow_bucket"
 		},
-		"title": "1.18",
-		"description": "Discover a Mountain Biome",
+		"title": {
+			"translate": "1.18"
+		},
+		"description": {
+			"translate": "Discover a Mountain Biome"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

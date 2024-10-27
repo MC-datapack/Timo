@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:oak_stairs"
 		},
-		"title": "INF 20100629",
-		"description": "Obtain oak staris and cobblestone stairs",
+		"title": {
+			"translate": "INF 20100629"
+		},
+		"description": {
+			"translate": "Obtain oak staris and cobblestone stairs"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

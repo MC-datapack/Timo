@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:sniffer_egg"
+			"item": "minecraft:sniffer_egg"
 		},
-		"title": "1.20",
-		"description": "Obtain a Sniffer Egg, Torchflower Seeds, a Torchflower, a Pitcher Pod and a Pitcher Plant",
+		"title": {
+			"translate": "1.20"
+		},
+		"description": {
+			"translate": "Obtain a Sniffer Egg, Torchflower Seeds, a Torchflower, a Pitcher Pod and a Pitcher Plant"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:sniffer_egg"
+						"items": ["minecraft:sniffer_egg"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:torchflower_seeds"
+						"items": ["minecraft:torchflower_seeds"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:torchflower"
+						"items": ["minecraft:torchflower"]
 					}
 				]
 			}
@@ -46,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:pitcher_pod"
+						"items": ["minecraft:pitcher_pod"]
 					}
 				]
 			}
@@ -56,7 +60,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:pitcher_plant"
+						"items": ["minecraft:pitcher_plant"]
 					}
 				]
 			}

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:dragon_egg"
 		},
-		"title": "1.0",
-		"description": "Obtain the Dragon Egg",
+		"title": {
+			"translate": "1.0"
+		},
+		"description": {
+			"translate": "Obtain the Dragon Egg"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

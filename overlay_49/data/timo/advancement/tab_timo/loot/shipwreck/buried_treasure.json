@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:iron_shovel"
 		},
-		"title": "I found the chest",
-		"description": "Loot a buried treasure chest",
+		"title": {
+			"translate": "I found the chest"
+		},
+		"description": {
+			"translate": "Loot a buried treasure chest"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

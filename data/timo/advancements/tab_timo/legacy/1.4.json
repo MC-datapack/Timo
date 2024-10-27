@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:nether_star"
+			"item": "minecraft:nether_star"
 		},
-		"title": "1.4",
-		"description": "Kill a Wither and craft a beacon",
+		"title": {
+			"translate": "1.4"
+		},
+		"description": {
+			"translate": "Kill a Wither and craft a beacon"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:beacon"
+						"items": ["minecraft:beacon"]
 					}
 				]
 			}

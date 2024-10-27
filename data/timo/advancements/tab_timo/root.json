@@ -1,9 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:dirt"
+			"item": "minecraft:dirt"
 		},
-		"title": "Timo",
+		"title": {
+			"translate": "Timo"
+		},
 		"description": "",
 		"background": "minecraft:textures/block/grass_block_top.png",
 		"show_toast": false,

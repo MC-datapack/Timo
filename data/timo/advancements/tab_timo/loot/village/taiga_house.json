@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:spruce_log"
+			"item": "minecraft:spruce_log"
 		},
-		"title": "Taiga",
-		"description": "Loot a taiga village house",
+		"title": {
+			"translate": "Taiga"
+		},
+		"description": {
+			"translate": "Loot a taiga village house"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

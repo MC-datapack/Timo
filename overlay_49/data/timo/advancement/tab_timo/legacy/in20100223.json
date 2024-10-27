@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:painting"
 		},
-		"title": "In 20100223",
-		"description": "Obtain a painting",
+		"title": {
+			"translate": "In 20100223"
+		},
+		"description": {
+			"translate": "Obtain a painting"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:cookie"
 		},
-		"title": "b1.4",
-		"description": "Obtain cocoa beans and a cookie",
+		"title": {
+			"translate": "b1.4"
+		},
+		"description": {
+			"translate": "Obtain cocoa beans and a cookie"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

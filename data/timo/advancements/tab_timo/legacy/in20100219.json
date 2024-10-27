@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:furnace"
+			"item": "minecraft:furnace"
 		},
-		"title": "In 20100219",
-		"description": "Obtain a furnace, porkchop, cooked porkchop",
+		"title": {
+			"translate": "In 20100219"
+		},
+		"description": {
+			"translate": "Obtain a furnace, porkchop, cooked porkchop"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:porkchop"
+						"items": ["minecraft:porkchop"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:cooked_porkchop"
+						"items": ["minecraft:cooked_porkchop"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:furnace"
+						"items": ["minecraft:furnace"]
 					}
 				]
 			}

@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:pig_spawn_egg"
+			"item": "minecraft:pig_spawn_egg"
 		},
-		"title": "Finally a spawn egg",
-		"description": "Obtain a Spawn Egg",
+		"title": {
+			"translate": "Finally a spawn egg"
+		},
+		"description": {
+			"translate": "Obtain a Spawn Egg"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#timo:spawn_eggs"
+						"tag": "timo:spawn_eggs"
 					}
 				]
 			}

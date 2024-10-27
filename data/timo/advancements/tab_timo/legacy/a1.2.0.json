@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:netherrack"
+			"item": "minecraft:netherrack"
 		},
-		"title": "a 1.2.0",
-		"description": "Go into the nether and obtain netherrack, soulsand, glowstone, a clock glowstone dust, raw cod and cooked cod",
+		"title": {
+			"translate": "a 1.2.0"
+		},
+		"description": {
+			"translate": "Go into the nether and obtain netherrack, soulsand, glowstone, a clock glowstone dust, raw cod and cooked cod"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -27,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:netherrack"
+						"items": ["minecraft:netherrack"]
 					}
 				]
 			}
@@ -37,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:soul_sand"
+						"items": ["minecraft:soul_sand"]
 					}
 				]
 			}
@@ -47,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:glowstone"
+						"items": ["minecraft:glowstone"]
 					}
 				]
 			}
@@ -57,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:glowstone_dust"
+						"items": ["minecraft:glowstone_dust"]
 					}
 				]
 			}
@@ -67,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:clock"
+						"items": ["minecraft:clock"]
 					}
 				]
 			}
@@ -77,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:cod"
+						"items":[ "minecraft:cod"]
 					}
 				]
 			}
@@ -87,7 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:cooked_cod"
+						"items": ["minecraft:cooked_cod"]
 					}
 				]
 			}

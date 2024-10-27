@@ -3,12 +3,14 @@
 		"icon": {
 			"id": "minecraft:spawner"
 		},
-		"title": "I need a spawn egg",
+		"title": {
+			"translate": "I need a spawn egg"
+		},
 		"description": {
-			"text": "Obtain a Spawner ",
+			"translate": "Obtain a Spawner ",
 			"extra": [
 				{
-					"text": "You can do this with silk touch"
+					"translate": "You can do this with silk touch"
 				}
 			]
 		},

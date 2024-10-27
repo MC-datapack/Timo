@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:oak_fence"
 		},
-		"title": "a 1.0.17",
-		"description": "Obtain an oak fence",
+		"title": {
+			"translate": "a 1.0.17"
+		},
+		"description": {
+			"translate": "Obtain an oak fence"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:netherrack"
 		},
-		"title": "a 1.2.0",
-		"description": "Go into the nether and obtain netherrack, soulsand, glowstone, a clock glowstone dust, raw cod and cooked cod",
+		"title": {
+			"translate": "a 1.2.0"
+		},
+		"description": {
+			"translate": "Go into the nether and obtain netherrack, soulsand, glowstone, a clock glowstone dust, raw cod and cooked cod"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

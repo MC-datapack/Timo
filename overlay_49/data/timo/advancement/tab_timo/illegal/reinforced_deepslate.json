@@ -3,12 +3,14 @@
 		"icon": {
 			"id": "minecraft:reinforced_deepslate"
 		},
-		"title": "Why does this take so long?",
+		"title": {
+			"translate": "Why does this take so long?"
+		},
 		"description": {
-			"text": "Obtain Reinforced Deepslate ",
+			"translate": "Obtain Reinforced Deepslate ",
 			"extra": [
 				{
-					"text": "You can do this with silk touch"
+					"translate": "You can do this with silk touch"
 				}
 			]
 		},

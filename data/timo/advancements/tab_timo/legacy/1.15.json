@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:honey_bottle"
+			"item": "minecraft:honey_bottle"
 		},
-		"title": "1.15",
-		"description": "Obtain all Honey related Items",
+		"title": {
+			"translate": "1.15"
+		},
+		"description": {
+			"translate": "Obtain all Honey related Items"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:honey_bottle"
+						"items": ["minecraft:honey_bottle"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:honey_block"
+						"items": ["minecraft:honey_block"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:honeycomb"
+						"items": ["minecraft:honeycomb"]
 					}
 				]
 			}
@@ -46,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:honeycomb_block"
+						"items": ["minecraft:honeycomb_block"]
 					}
 				]
 			}
@@ -56,7 +60,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:bee_nest"
+						"items": ["minecraft:bee_nest"]
 					}
 				]
 			}
@@ -66,7 +70,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:beehive"
+						"items": ["minecraft:beehive"]
 					}
 				]
 			}

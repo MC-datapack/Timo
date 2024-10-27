@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:filled_map"
 		},
-		"title": "b1.6",
-		"description": "Obtain a map",
+		"title": {
+			"translate": "b1.6"
+		},
+		"description": {
+			"translate": "Obtain a map"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

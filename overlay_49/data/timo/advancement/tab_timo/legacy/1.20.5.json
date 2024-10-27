@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:wolf_armor"
 		},
-		"title": "1.20.5",
-		"description": "Obtain Wolf Armor",
+		"title": {
+			"translate": "1.20.5"
+		},
+		"description": {
+			"translate": "Obtain Wolf Armor"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

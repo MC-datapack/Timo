@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:nether_bricks"
 		},
-		"title": "My first fortress",
-		"description": "Loot a Nether Fortress",
+		"title": {
+			"translate": "My first fortress"
+		},
+		"description": {
+			"translate": "Loot a Nether Fortress"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

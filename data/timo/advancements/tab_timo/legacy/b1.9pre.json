@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:mycelium"
+			"item": "minecraft:mycelium"
 		},
-		"title": "b1.9pre",
-		"description": "Visit a Mushroom Island",
+		"title": {
+			"translate": "b1.9pre"
+		},
+		"description": {
+			"translate": "Visit a Mushroom Island"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

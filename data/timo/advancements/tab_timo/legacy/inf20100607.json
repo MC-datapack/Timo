@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:oak_sign"
+			"item": "minecraft:oak_sign"
 		},
-		"title": "INF 20100607",
-		"description": "Obtain an oak sign, an oak door and a ladder",
+		"title": {
+			"translate": "INF 20100607"
+		},
+		"description": {
+			"translate": "Obtain an oak sign, an oak door and a ladder"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_sign"
+						"items": ["minecraft:oak_sign"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:oak_door"
+						"items": ["minecraft:oak_door"]
 					}
 				]
 			}
@@ -36,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:ladder"
+						"items": ["minecraft:ladder"]
 					}
 				]
 			}

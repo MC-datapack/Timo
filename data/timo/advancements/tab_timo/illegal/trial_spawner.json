@@ -1,14 +1,16 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:trial_spawner"
+			"item": "minecraft:trial_spawner"
 		},
-		"title": "Now I really need a spwn egg",
+		"title": {
+			"translate": "Now I really need a spwn egg"
+		},
 		"description": {
-			"text": "Obtain a Trial Spawner ",
+			"translate": "Obtain a Trial Spawner ",
 			"extra": [
 				{
-					"text": "You can do this with silk touch"
+					"translate": "You can do this with silk touch"
 				}
 			]
 		},
@@ -24,7 +26,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:trial_spawner"
+						"items": ["minecraft:trial_spawner"]
 					}
 				]
 			}

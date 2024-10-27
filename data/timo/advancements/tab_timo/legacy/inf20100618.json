@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:minecart"
+			"item": "minecraft:minecart"
 		},
-		"title": "INF 20100618",
-		"description": "Obtain a minecart and a rail",
+		"title": {
+			"translate": "INF 20100618"
+		},
+		"description": {
+			"translate": "Obtain a minecart and a rail"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -16,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:minecart"
+						"items": ["minecraft:minecart"]
 					}
 				]
 			}
@@ -26,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:rail"
+						"items": ["minecraft:rail"]
 					}
 				]
 			}

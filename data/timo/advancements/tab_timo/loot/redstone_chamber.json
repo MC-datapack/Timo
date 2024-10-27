@@ -1,10 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:mud_bricks"
+			"item": "minecraft:mud_bricks"
 		},
-		"title": "How does this work?",
-		"description": "Loot an Redstone Chamber",
+		"title": {
+			"translate": "How does this work?"
+		},
+		"description": {
+			"translate": "Loot an Redstone Chamber"
+		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
