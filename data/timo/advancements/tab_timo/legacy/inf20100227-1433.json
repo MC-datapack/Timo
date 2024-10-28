@@ -33,7 +33,7 @@
 		}
 	},
 	"rewards": {
-		"function": "timo:advancement_rewards/inf20100227-1433",
+		"function": "timo:advancement_rewards/inf20100227-1433"
 
 	},
 	"sends_telemetry_event": true

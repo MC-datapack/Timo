@@ -21,7 +21,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/bastion": true
 						}
@@ -34,7 +34,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/bastion/bridge": true
 						}
@@ -47,7 +47,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/bastion/hoglin": true
 						}
@@ -60,7 +60,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/bastion/other": true
 						}
@@ -73,7 +73,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/bastion/trasure": true
 						}
@@ -86,7 +86,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/desert_temple": true
 						}
@@ -99,7 +99,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/end_city": true
 						}
@@ -112,7 +112,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/fortress": true
 						}
@@ -125,7 +125,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/jungle_temple": true
 						}
@@ -138,7 +138,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/jungle_temple_dispenser": true
 						}
@@ -151,7 +151,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/redstone_chamber": true
 						}
@@ -164,7 +164,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/redstone_chamber_secret": true
 						}
@@ -177,7 +177,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/ruined_portal": true
 						}
@@ -190,7 +190,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/shipwreck/buried_treasure": true
 						}
@@ -203,7 +203,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/shipwreck/map": true
 						}
@@ -216,7 +216,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/shipwreck/supply": true
 						}
@@ -229,7 +229,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/shipwreck/treasure": true
 						}
@@ -242,7 +242,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/village/desert_house": true
 						}
@@ -255,7 +255,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/village/plains_house": true
 						}
@@ -268,7 +268,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/village/savanna_house": true
 						}
@@ -281,7 +281,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"timo:tab_timo/loot/village/taiga_house": true
 						}

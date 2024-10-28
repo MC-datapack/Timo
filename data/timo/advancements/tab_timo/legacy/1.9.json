@@ -21,7 +21,7 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player",
+						"type": "player",
 						"advancements": {
 							"minecraft:end/respawn_dragon": true
 						}

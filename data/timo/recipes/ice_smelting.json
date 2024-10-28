@@ -3,9 +3,7 @@
 	"ingredient": {
 		"item": "minecraft:ice"
 	},
-	"result": {
-		"item": "minecraft:water_bucket"
-	},
+	"result": "minecraft:water_bucket",
 	"experience": 1,
 	"cookingtime": 100
 }

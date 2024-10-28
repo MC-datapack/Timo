@@ -3,8 +3,6 @@
 	"ingredient": {
 		"item": "minecraft:brick"
 	},
-	"result": {
-		"item": "minecraft:blade_pottery_sherd",
-		"count": 4
-	}
+	"result": "minecraft:blade_pottery_sherd",
+	"count": 4
 }

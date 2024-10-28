@@ -7,7 +7,7 @@
 			"translate": "1.18"
 		},
 		"description": {
-			"translate": "Discover a Mountain Biome"
+			"translate": "Discover a Stony Peaks Biome"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -20,7 +20,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "#minecraft:is_mountain"
+						"biome": "minecraft:stony_peaks"
 					}
 				}
 			}

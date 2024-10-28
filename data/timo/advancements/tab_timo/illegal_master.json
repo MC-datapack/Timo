@@ -21,7 +21,10 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player"
+						"type": "player",
+						"advancements": {
+							"timo:tab_timo/illegal/budding_amethyst": true
+						}
 					}
 				}
 			}
@@ -31,7 +34,10 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player"
+						"type": "player",
+						"advancements": {
+							"timo:tab_timo/illegal/bedrock": true
+						}
 					}
 				}
 			}
@@ -41,7 +47,10 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player"
+						"type": "player",
+						"advancements": {
+							"timo:tab_timo/illegal/reinforced_deepslate": true
+						}
 					}
 				}
 			}
@@ -51,7 +60,10 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player"
+						"type": "player",
+						"advancements": {
+							"timo:tab_timo/illegal/spawner": true
+						}
 					}
 				}
 			}
@@ -61,7 +73,10 @@
 			"conditions": {
 				"player": {
 					"type_specific": {
-						"type": "minecraft:player"
+						"type": "player",
+						"advancements": {
+							"timo:tab_timo/illegal/spawn_egg": true
+						}
 					}
 				}
 			}

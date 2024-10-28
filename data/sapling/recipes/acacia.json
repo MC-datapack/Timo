@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"ingredient": {
-		"tag": "minecraft:saplings"
-	},
-	"result": {
-		"item": "minecraft:acacia_sapling"
-	}
-}
