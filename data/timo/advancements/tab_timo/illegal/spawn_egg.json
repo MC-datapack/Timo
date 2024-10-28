@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/illegal/trial_spawner",
+	"parent": "timo:tab_timo/illegal/spawner",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",

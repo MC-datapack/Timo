@@ -21,7 +21,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "minecraft:savanna"
+						"biome": "minecraft:savanna"
 					}
 				}
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "minecraft:dark_forest"
+						"biome": "minecraft:dark_forest"
 					}
 				}
 			}

@@ -21,7 +21,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "minecraft:jungle"
+						"biome": "minecraft:jungle"
 					}
 				}
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "minecraft:sparse_jungle"
+						"biome": "minecraft:sparse_jungle"
 					}
 				}
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "minecraft:bamboo_jungle"
+						"biome": "minecraft:bamboo_jungle"
 					}
 				}
 			}

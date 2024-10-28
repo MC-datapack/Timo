@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"ingredient": {
-		"item": "minecraft:bamboo_planks"
-	},
-	"result": {
-		"item": "minecraft:bamboo_fence_gate"
-	}
-}

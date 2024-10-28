@@ -189,16 +189,6 @@
 				]
 			}
 		},
-		"crafter": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": ["minecraft:crafter"]
-					}
-				]
-			}
-		},
 		"hopper": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {

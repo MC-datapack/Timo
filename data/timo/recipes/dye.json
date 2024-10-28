@@ -3,9 +3,7 @@
 	"ingredient": {
 		"tag": "c:dyes"
 	},
-	"result": {
-		"item": "minecraft:gunpowder"
-	},
+	"result": "minecraft:gunpowder",
 	"experience": 17,
 	"cookingtime": 20
 }

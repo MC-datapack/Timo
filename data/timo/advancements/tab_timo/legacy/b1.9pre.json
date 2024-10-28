@@ -21,7 +21,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "minecraft:mushroom_fields"
+						"biome": "minecraft:mushroom_fields"
 					}
 				}
 			}
