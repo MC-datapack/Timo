@@ -1,0 +1,72 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond",
+			"count": 999
+		},
+		"title": {
+			"translate": "INF 20100313"
+		},
+		"description": {
+			"translate": "Obtain all diamond tools"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/inf20100227-1433",
+	"criteria": {
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_hoe"
+					}
+				]
+			}
+		},
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_shovel"
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_pickaxe"
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_axe"
+					}
+				]
+			}
+		},
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_sword"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

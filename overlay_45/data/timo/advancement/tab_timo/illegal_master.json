@@ -20,9 +20,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/budding_amethyst": true
 					}
@@ -33,9 +37,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/bedrock": true
 					}
@@ -46,9 +54,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/reinforced_deepslate": true
 					}
@@ -59,9 +71,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/vault": true
 					}
@@ -72,9 +88,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/spawner": true
 					}
@@ -85,9 +105,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/trial_spawner": true
 					}
@@ -98,9 +122,13 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
+<<<<<<< Updated upstream
 					"type_specific": {
 						"type": "minecraft:player"
 					},
+=======
+					"type_specific": "minecraft:player",
+>>>>>>> Stashed changes
 					"advancements": {
 						"timo:tab_timo/illegal/spawn_egg": true
 					}

@@ -3,12 +3,12 @@
 	"downfall": 0.4,
 	"has_precipitation": false,
 	"effects": {
-		"sky_color": 7907327,
-		"fog_color": 12638463,
-		"water_color": 4159204,
+		"sky_color": 16761082,
+		"fog_color": 16761082,
+		"water_color": 16761082,
 		"water_fog_color": 329011,
-		"grass_color": 6815561,
-		"foliage_color": 6815561,
+		"grass_color": 16688636,
+		"foliage_color": 16688636,
 		"ambient_sound": "minecraft:ambient.cave"
 	},
 	"spawners": {
@@ -113,7 +113,8 @@
 		[
 			"minecraft:patch_grass_plain",
 			"timo:pitcher_plant_patch",
-			"timo:torchflower_patch"
+			"timo:torchflower_patch",
+			"timo:rich/cherry"
 		],
 		[
 			"minecraft:freeze_top_layer"

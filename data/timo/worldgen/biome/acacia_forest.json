@@ -1,5 +1,5 @@
 {
-	"temperature": 0.8,
+	"temperature": 1.2,
 	"downfall": 0.4,
 	"has_precipitation": false,
 	"effects": {
@@ -7,8 +7,8 @@
 		"fog_color": 12638463,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 6815561,
-		"foliage_color": 6815561,
+		"grass_color": 10354571,
+		"foliage_color": 10354571,
 		"ambient_sound": "minecraft:ambient.cave"
 	},
 	"spawners": {
@@ -113,7 +113,8 @@
 		[
 			"minecraft:patch_grass_plain",
 			"timo:pitcher_plant_patch",
-			"timo:torchflower_patch"
+			"timo:torchflower_patch",
+			"timo:rich/acacia"
 		],
 		[
 			"minecraft:freeze_top_layer"

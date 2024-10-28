@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bedrock"
+		},
+		"title": {
+			"translate": "INF 20100611"
+		},
+		"description": {
+			"translate": "Reach y2032"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/inf20100607",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"min": 2032
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "timo:advancement_rewards/inf20100611"
+	},
+	"sends_telemetry_event": true
+}

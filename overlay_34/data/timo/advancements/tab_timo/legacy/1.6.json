@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_horse_armor"
+		},
+		"title": {
+			"translate": "1.6"
+		},
+		"description": {
+			"translate": "Tame a Horse"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/1.5",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse"
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

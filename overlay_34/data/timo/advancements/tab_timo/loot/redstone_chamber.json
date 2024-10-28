@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mud_bricks"
+		},
+		"title": {
+			"translate": "How does this work?"
+		},
+		"description": {
+			"translate": "Loot an Redstone Chamber"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/loot",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "patrick:chests/redstone_chamber"
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
