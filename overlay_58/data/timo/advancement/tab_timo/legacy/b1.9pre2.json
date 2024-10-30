@@ -1,0 +1,76 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"custom_color": 25343
+				}
+			}
+		},
+		"title": {
+			"translate": "b1.9pre2"
+		},
+		"description": {
+			"translate": "Obtain a glass blottle, magma cream, blaze powder, a spider eye and a fermented spider eye"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.9pre",
+	"criteria": {
+		"glass_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glass_bottle"
+					}
+				]
+			}
+		},
+		"magma_cream": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:magma_cream"
+					}
+				]
+			}
+		},
+		"blaze_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:blaze_powder"
+					}
+				]
+			}
+		},
+		"spider_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:spider_eye"
+					}
+				]
+			}
+		},
+		"fermented_spider_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:fermented_spider_eye"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

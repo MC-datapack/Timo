@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:minecart"
+		},
+		"title": {
+			"translate": "INF 20100618"
+		},
+		"description": {
+			"translate": "Obtain a minecart and a rail"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/inf20100615",
+	"criteria": {
+		"minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:minecart"
+					}
+				]
+			}
+		},
+		"rail": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:rail"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

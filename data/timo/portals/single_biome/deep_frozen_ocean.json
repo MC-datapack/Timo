@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:blue_ice",
+    "dim": "timo:single_biome/deep_frozen_ocean",
+    "ignitionType": "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "r": 0,
+    "g": 0,
+    "b": 102
+}

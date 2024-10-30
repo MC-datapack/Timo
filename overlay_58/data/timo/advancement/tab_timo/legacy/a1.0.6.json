@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cactus"
+		},
+		"title": {
+			"translate": "a 1.0.6"
+		},
+		"description": {
+			"translate": "Obtain a cactus and a oak boat"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/a1.0.5",
+	"criteria": {
+		"cactus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cactus"
+					}
+				]
+			}
+		},
+		"oak_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:oak_boat"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

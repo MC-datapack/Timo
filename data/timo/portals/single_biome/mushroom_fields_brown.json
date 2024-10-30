@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:brown_mushroom_block",
+    "dim": "timo:single_biome/mushroom_fields",
+    "ignitionType": "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "r": 153,
+    "g": 76,
+    "b": 0
+}

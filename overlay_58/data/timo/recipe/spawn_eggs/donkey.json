@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"aba",
+		"aaa"
+	],
+	"key": {
+		"a": "minecraft:leather",
+		"b": "minecraft:chest"
+	},
+	"result": {
+		"id": "minecraft:donkey_spawn_egg"
+	}
+}

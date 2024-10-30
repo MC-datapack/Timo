@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 9
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lingering_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 9
+							}
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_harming"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/jungle_temple_dispenser"
+}

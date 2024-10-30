@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:piston",
+			"components": {
+				"minecraft:enchantments": {}
+			}
+		},
+		"title": {
+			"translate": "b1.7"
+		},
+		"description": {
+			"translate": "Obtain a piston, a sticky piston and shears"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:tab_timo/legacy/b1.6",
+	"criteria": {
+		"piston": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:piston"
+					}
+				]
+			}
+		},
+		"sticky_piston": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sticky_piston"
+					}
+				]
+			}
+		},
+		"shears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:shears"
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

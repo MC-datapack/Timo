@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:villager_spawn_egg",
+		"minecraft:wool_carpets"
+	],
+	"result": {
+		"id": "minecraft:wandering_trader_spawn_egg",
+		"count": 2
+	}
+}

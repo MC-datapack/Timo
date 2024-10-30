@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:hoglin_spawn_egg"
+	],
+	"result": {
+		"id": "minecraft:zoglin_spawn_egg"
+	}
+}

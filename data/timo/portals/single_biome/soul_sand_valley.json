@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:soul_sand",
+    "dim": "timo:single_biome/soul_sand_valley",
+    "ignitionType": "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "r": 54,
+    "g": 34,
+    "b": 0
+}

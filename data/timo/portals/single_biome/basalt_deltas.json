@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:basalt",
+    "dim": "timo:single_biome/basalt_deltas",
+    "ignitionType": "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "r": 96,
+    "g": 96,
+    "b": 96
+}

@@ -3,7 +3,7 @@
 		"pack_format": 15,
 		"supported_formats": {
 			"min_inclusive": 15,
-			"max_inclusive": 60
+			"max_inclusive": 65
 		},
 		"description": "This Data Pack adds many new recipes, advancements and structures. This Data Pack improves many Loot Tables."
 	},
@@ -33,9 +33,16 @@
 			{
 				"formats": [
 					49,
-					60
+					57
 				],
 				"directory": "overlay_49"
+			},
+			{
+				"formats": [
+					58,
+					65
+				],
+				"directory": "overlay_58"
 			}
 		]
 	}

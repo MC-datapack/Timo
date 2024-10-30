@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:blue_concrete_powder"
+	],
+	"result": {
+		"id": "minecraft:blue_concrete"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "block": "minecraft:oak_leaves",
+    "dim": "timo:single_biome/flower_forest",
+    "ignitionType": "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "r": 0,
+    "g": 104,
+    "b": 3
+}

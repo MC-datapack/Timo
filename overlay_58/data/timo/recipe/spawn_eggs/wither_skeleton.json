@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"cac",
+		"aba",
+		"cac"
+	],
+	"key": {
+		"a": "minecraft:coal",
+		"b": "minecraft:stone_sword",
+		"c": "minecraft:bone"
+	},
+	"result": {
+		"id": "minecraft:wither_skeleton_spawn_egg"
+	}
+}

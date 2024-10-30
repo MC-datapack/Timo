@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			"minecraft:diamond_axe",
+			"minecraft:diamond_pickaxe"
+		]
+	],
+	"result": {
+		"id": "minecraft:diamond",
+		"count": 3
+	}
+}

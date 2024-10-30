@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"aaa",
+		"bbb",
+		"aaa"
+	],
+	"key": {
+		"a": "minecraft:obsidian",
+		"b": "minecraft:netherite_block"
+	},
+	"result": {
+		"id": "minecraft:bedrock"
+	}
+}
