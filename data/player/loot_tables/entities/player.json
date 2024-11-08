@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_lore",
-							"entity": "attacking_player",
+							"entity": "killer_player",
 							"lore": [
 								[
 									{

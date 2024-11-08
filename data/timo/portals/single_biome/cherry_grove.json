@@ -1,9 +1,0 @@
-{
-    "block": "minecraft:cherry_leaves",
-    "dim": "timo:single_biome/cherry_grove",
-    "ignitionType": "BLOCK",
-    "ignitionSource": "minecraft:fire",
-    "r": 255,
-    "g": 102,
-    "b": 178
-}

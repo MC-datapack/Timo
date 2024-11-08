@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [
-		"minecraft:diamond_shovel"
-	],
-	"result": {
-		"id": "minecraft:diamond"
-	}
-}

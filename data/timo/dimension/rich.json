@@ -19,18 +19,6 @@
 					}
 				},
 				{
-					"biome": "timo:cherry_forest",
-					"parameters": {
-						"temperature": 0.8,
-						"humidity": 0.8,
-						"continentalness": 0.505,
-						"erosion": 0,
-						"weirdness": 0,
-						"depth": 1.01,
-						"offset": 0.7
-					}
-				},
-				{
 					"biome": "timo:oak_forest",
 					"parameters": {
 						"temperature": 0.8,

@@ -18,21 +18,13 @@
 		"trunk_provider": {
 			"type": "minecraft:simple_state_provider",
 			"state": {
-				"Name": "minecraft:netherite_block",
-				"Properties": {
-					"axis": "y"
-				}
+				"Name": "minecraft:netherite_block"
 			}
 		},
 		"foliage_provider": {
 			"type": "minecraft:simple_state_provider",
 			"state": {
-				"Name": "minecraft:diamond_block",
-				"Properties": {
-					"distance": "7",
-					"persistent": "false",
-					"waterlogged": "false"
-				}
+				"Name": "minecraft:diamond_block"
 			}
 		},
 		"trunk_placer": {

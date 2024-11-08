@@ -1,4 +1,5 @@
 {
+	"name": "patrick:redstone_chamber2",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

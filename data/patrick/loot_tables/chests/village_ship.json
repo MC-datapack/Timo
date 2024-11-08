@@ -36,21 +36,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_golem_spawn_egg"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.125
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:spruce_log",
 					"functions": [
 						{

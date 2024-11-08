@@ -1,7 +1,7 @@
 {
 	"temperature": 0.5,
 	"downfall": 0.4,
-	"has_precipitation": false,
+	"precipitation": "none",
 	"effects": {
 		"sky_color": 7907327,
 		"fog_color": 12638463,
@@ -16,12 +16,6 @@
 			{
 				"type": "minecraft:pig",
 				"weight": 5,
-				"minCount": 1,
-				"maxCount": 25
-			},
-			{
-				"type": "minecraft:sniffer",
-				"weight": 4,
 				"minCount": 1,
 				"maxCount": 25
 			},
@@ -111,8 +105,6 @@
 		[],
 		[],
 		[
-			"timo:pitcher_plant_patch",
-			"timo:torchflower_patch",
 			"timo:rich/spruce",
 			"timo:rich/mega_spruce"
 		],

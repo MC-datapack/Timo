@@ -1,4 +1,5 @@
 {
+	"name": "patrick:portal",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

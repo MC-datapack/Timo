@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:coast_armor_trim_smithing_template"
+			"item": "minecraft:diamond"
 		},
 		"title": {
 			"translate": "I need iron"

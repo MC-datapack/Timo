@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [
-		"minecraft:iron_shovel"
-	],
-	"result": {
-		"id": "minecraft:iron_ingot"
-	}
-}

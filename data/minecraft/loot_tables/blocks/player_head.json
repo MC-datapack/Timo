@@ -10,7 +10,7 @@
 					"name": "minecraft:player_head",
 					"functions": [
 						{
-							"function": "minecraft:copy_components",
+							"function": "minecraft:copy_name",
 							"source": "block_entity"
 						}
 					]

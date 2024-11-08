@@ -47,30 +47,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:ominous_bottle",
-					"functions": [
-						{
-							"function": "minecraft:set_ominous_bottle_amplifier",
-							"amplifier": {
-								"min": 0,
-								"max": 4
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.25
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:poppy",
 					"functions": [
 						{

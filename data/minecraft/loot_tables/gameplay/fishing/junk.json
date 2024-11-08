@@ -255,28 +255,6 @@
 							]
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:cherry_log",
-					"weight": 10,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 64
-							}
-						}
-					],
-					"conditions": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biomes": "minecraft:cherry_grove"
-									}
-								}
-							]
 				}
 			]
 		}

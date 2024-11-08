@@ -1,4 +1,5 @@
 {
+	"name": "patrick:airplane",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

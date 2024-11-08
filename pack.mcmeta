@@ -1,49 +1,6 @@
 {
 	"pack": {
-		"pack_format": 15,
-		"supported_formats": {
-			"min_inclusive": 15,
-			"max_inclusive": 65
-		},
+		"pack_format": 10,
 		"description": "This Data Pack adds many new recipes, advancements and structures. This Data Pack improves many Loot Tables."
-	},
-	"overlays": {
-		"entries": [
-			{
-				"formats": [
-					34,
-					42
-				],
-				"directory": "overlay_34"
-			},
-			{
-				"formats": [
-					43,
-					44
-				],
-				"directory": "overlay_43"
-			},
-			{
-				"formats": [
-					45,
-					48
-				],
-				"directory": "overlay_45"
-			},
-			{
-				"formats": [
-					49,
-					57
-				],
-				"directory": "overlay_49"
-			},
-			{
-				"formats": [
-					58,
-					65
-				],
-				"directory": "overlay_58"
-			}
-		]
 	}
 }

@@ -965,19 +965,6 @@
 					}
 				}
 			}
-		},
-		"1.20": {
-			"trigger": "minecraft:tick",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"timo:tab_timo/legacy/1.20": true
-						}
-					}
-				}
-			}
 		}
 	},
 	"rewards": {

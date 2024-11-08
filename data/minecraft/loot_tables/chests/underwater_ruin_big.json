@@ -256,7 +256,7 @@
 					"functions": [
 						{
 							"function": "minecraft:exploration_map",
-							"decoration": "minecraft:red_x",
+							"decoration": "red_x",
 							"zoom": 1,
 							"skip_existing_chunks": false,
           				    "destination": "minecraft:on_treasure_maps"

@@ -32,7 +32,7 @@
         {
           "condition": "inverted",
           "term": {
-            "condition": "any_of",
+            "condition": "alternative",
             "terms": [
               {
                 "condition": "entity_properties",

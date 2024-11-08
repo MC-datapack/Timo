@@ -1,4 +1,5 @@
 {
+	"name": "patrick:dungeons/wither_skeleton",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

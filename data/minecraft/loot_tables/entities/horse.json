@@ -37,7 +37,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
@@ -89,7 +89,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
@@ -141,7 +141,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
@@ -193,7 +193,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
@@ -245,7 +245,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
@@ -297,7 +297,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
@@ -349,7 +349,7 @@
               ],
               "conditions": [
                 {
-                  "condition": "any_of",
+                  "condition": "alternative",
                   "terms": [
                     {
                       "condition": "entity_properties",
