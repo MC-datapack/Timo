@@ -6,17 +6,17 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
+					"type": "loot_table",
 					"name": "minecraft:gameplay/fishing/junk",
 					"weight": 30
 				},
 				{
-					"type": "minecraft:loot_table",
+					"type": "loot_table",
 					"name": "minecraft:gameplay/fishing/treasure",
 					"weight": 20
 				},
 				{
-					"type": "minecraft:loot_table",
+					"type": "loot_table",
 					"name": "minecraft:gameplay/fishing/fish",
 					"weight": 50
 				}

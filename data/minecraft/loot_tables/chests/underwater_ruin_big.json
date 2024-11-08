@@ -5,7 +5,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:book",
 					"functions": [
 						{
@@ -20,7 +20,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:golden_apple",
 					"functions": [
 						{
@@ -44,7 +44,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:elder_guardian_spawn_egg",
 					"conditions": [
 						{
@@ -59,7 +59,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:guardian_spawn_egg",
 					"conditions": [
 						{
@@ -74,7 +74,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:drowned_spawn_egg",
 					"conditions": [
 						{
@@ -89,7 +89,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:squid_spawn_egg",
 					"conditions": [
 						{
@@ -104,7 +104,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:dolphin_spawn_egg",
 					"conditions": [
 						{
@@ -119,7 +119,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:tropical_fish_spawn_egg",
 					"conditions": [
 						{
@@ -134,7 +134,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cod_spawn_egg",
 					"conditions": [
 						{
@@ -149,7 +149,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:salmon_spawn_egg",
 					"conditions": [
 						{
@@ -164,7 +164,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:trident",
 					"conditions": [
 						{
@@ -179,7 +179,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:emerald",
 					"functions": [
 						{
@@ -203,7 +203,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:coal",
 					"functions": [
 						{
@@ -221,7 +221,7 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:fishing_rod",
 					"functions": [
 						{
@@ -236,7 +236,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:map",
 					"functions": [
 						{

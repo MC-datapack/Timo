@@ -6,7 +6,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:stone_axe"
 				}
 			]
@@ -16,7 +16,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:stone_pickaxe"
 				}
 			]
@@ -26,7 +26,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:apple",
 					"weight": 5,
 					"functions": [
@@ -41,7 +41,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:bread",
 					"weight": 3,
 					"functions": [
@@ -56,7 +56,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cooked_salmon",
 					"weight": 3,
 					"functions": [
@@ -71,7 +71,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -93,7 +93,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:oak_log",
 					"functions": [
 						{
@@ -107,7 +107,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:spruce_log",
 					"functions": [
 						{
@@ -121,7 +121,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:birch_log",
 					"functions": [
 						{
@@ -135,7 +135,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:jungle_log",
 					"functions": [
 						{
@@ -149,7 +149,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:acacia_log",
 					"functions": [
 						{
@@ -163,7 +163,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:dark_oak_log",
 					"functions": [
 						{

@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:crafting_shaped",
+	"type": "crafting_shaped",
 	"pattern": [
 		"g"
 	],
@@ -25,15 +25,6 @@
 			},
 			{
 				"item": "minecraft:end_stone"
-			},
-			{
-				"item": "minecraft:end_stone_brick_slab"
-			},
-			{
-				"item": "minecraft:end_stone_brick_stairs"
-			},
-			{
-				"item": "minecraft:end_stone_brick_wall"
 			},
 			{
 				"item": "minecraft:end_stone_bricks"

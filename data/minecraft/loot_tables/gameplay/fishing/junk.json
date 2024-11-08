@@ -6,7 +6,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:lily_pad",
 					"weight": 10,
 					"functions": [
@@ -20,7 +20,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:leather_boots",
 					"weight": 10,
 					"functions": [
@@ -43,7 +43,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:leather",
 					"weight": 10,
 					"functions": [
@@ -57,7 +57,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:bone",
 					"weight": 10,
 					"functions": [
@@ -71,7 +71,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:string",
 					"weight": 10,
 					"functions": [
@@ -85,7 +85,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:fishing_rod",
 					"weight": 5,
 					"functions": [
@@ -101,7 +101,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:bowl",
 					"weight": 5,
 					"functions": [
@@ -115,7 +115,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:stick",
 					"weight": 5,
 					"functions": [
@@ -129,7 +129,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:ink_sac",
 					"weight": 5,
 					"functions": [
@@ -144,7 +144,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:tripwire_hook",
 					"weight": 5,
 					"functions": [
@@ -158,29 +158,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:bamboo",
-					"weight": 10,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 4,
-								"max": 64
-							}
-						}
-					],
-					"conditions": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biomes": "#minecraft:is_jungle"
-									}
-								}
-							]
-				},
-				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:oak_log",
 					"weight": 10,
 					"functions": [
@@ -191,18 +169,10 @@
 								"max": 64
 							}
 						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:location_check",
-							"predicate": {
-								"biomes": "#minecraft:is_forest"
-							}
-						}
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:birch_log",
 					"weight": 10,
 					"functions": [
@@ -213,18 +183,10 @@
 								"max": 64
 							}
 						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:location_check",
-							"predicate": {
-								"biomes": "#minecraft:is_forest"
-							}
-						}
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:spruce_log",
 					"weight": 10,
 					"functions": [
@@ -233,15 +195,7 @@
 							"count": {
 								"min": 4,
 								"max": 64
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biomes": "#minecraft:is_taiga"
-									}
-								}
-							]
+							}
 						}
 					]
 				}

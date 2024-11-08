@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:crafting_shaped",
+	"type": "crafting_shaped",
 	"pattern": [
 		"aaa",
 		"aba",
@@ -10,7 +10,7 @@
 			"item": "minecraft:feather"
 		},
 		"b": {
-			"item": "minecraft:red_dye"
+			"item": "minecraft:rose_red"
 		}
 	},
 	"result": {

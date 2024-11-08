@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:sponge",
           "functions": [
             {
@@ -29,7 +29,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:bucket",
           "conditions": [
             {
@@ -44,7 +44,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:paper",
           "functions": [
             {
@@ -68,7 +68,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:gunpowder",
           "functions": [
             {
@@ -92,7 +92,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:carrot",
           "functions": [
             {
@@ -105,7 +105,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:potato",
           "functions": [
             {
@@ -123,7 +123,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:chainmail_helmet",
           "functions": [
             {
@@ -144,7 +144,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:chainmail_chestplate",
           "functions": [
             {
@@ -165,7 +165,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:chainmail_leggings",
           "functions": [
             {
@@ -186,7 +186,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:chainmail_boots",
           "functions": [
             {
@@ -207,63 +207,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bamboo",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 16
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.25
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_stew",
-          "functions": [
-            {
-              "function": "minecraft:set_stew_effect",
-              "effects": [
-                {
-                  "type": "minecraft:saturation",
-                  "duration": 20
-                },
-                {
-                  "type": "minecraft:water_breathing",
-                  "duration": 20
-                },
-                {
-                  "type": "minecraft:absorption",
-                  "duration": 20
-                },
-                {
-                  "type": "minecraft:regeneration",
-                  "duration": 20
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:cooked_cod",
           "functions": [
             {
@@ -276,7 +220,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:cooked_salmon",
           "functions": [
             {
@@ -294,7 +238,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:spruce_log",
           "functions": [
             {
@@ -307,7 +251,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:oak_log",
           "functions": [
             {
@@ -320,7 +264,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:dark_oak_log",
           "functions": [
             {
@@ -344,7 +288,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:spruce_planks",
           "functions": [
             {
@@ -357,7 +301,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:oak_planks",
           "functions": [
             {
@@ -370,7 +314,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:dark_oak_planks",
           "functions": [
             {

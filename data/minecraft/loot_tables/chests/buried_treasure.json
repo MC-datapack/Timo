@@ -8,7 +8,7 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:nautilus_shell",
 					"functions": [
 						{
@@ -27,7 +27,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:heart_of_the_sea"
 				}
 			]
@@ -40,7 +40,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:iron_ingot",
 					"weight": 20,
 					"functions": [
@@ -55,7 +55,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:gold_ingot",
 					"weight": 10,
 					"functions": [
@@ -79,7 +79,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:emerald",
 					"functions": [
 						{
@@ -93,7 +93,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:diamond",
 					"functions": [
 						{
@@ -117,23 +117,23 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:chainmail_chestplate"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:iron_sword"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:chainmail_boots"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:chainmail_leggings"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:chainmail_helmet"
 				}
 			]
@@ -146,7 +146,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -160,7 +160,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cooked_salmon",
 					"functions": [
 						{

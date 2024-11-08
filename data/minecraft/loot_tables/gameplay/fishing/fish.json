@@ -6,7 +6,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cod",
 					"weight": 10,
 					"functions": [
@@ -20,7 +20,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:salmon",
 					"weight": 40,
 					"functions": [
@@ -34,7 +34,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:tropical_fish",
 					"weight": 10,
 					"functions": [
@@ -48,7 +48,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:pufferfish",
 					"weight": 10,
 					"functions": [
@@ -62,7 +62,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cooked_salmon",
 					"weight": 25,
 					"functions": [
@@ -76,7 +76,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:cooked_cod",
 					"weight": 5,
 					"functions": [

@@ -19,7 +19,7 @@
 		"requirement": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"dimension": "minecraft:the_nether"
+				"dimension": "the_nether"
 			}
 		},
 		"netherrack": {

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_sign"
+			"item": "minecraft:sign"
 		},
 		"title": {
 			"translate": "INF 20100607"
@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:oak_sign"
+						"item": "minecraft:sign"
 					}
 				]
 			}

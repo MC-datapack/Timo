@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:experience_bottle",
           "functions": [
             {
@@ -29,7 +29,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:firework_rocket",
           "functions": [
             {
@@ -47,7 +47,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:paper",
           "functions": [
             {
@@ -65,7 +65,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:bookshelf",
           "functions": [
             {
@@ -89,7 +89,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:oak_log",
           "functions": [
             {
@@ -113,7 +113,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:oak_planks",
           "functions": [
             {
@@ -131,7 +131,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:compass",
           "conditions": [
             {
@@ -146,7 +146,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:book",
           "functions": [
             {
@@ -165,7 +165,7 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:book",
           "weight": 10,
           "functions": [

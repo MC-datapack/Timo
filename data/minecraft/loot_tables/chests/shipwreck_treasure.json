@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:dolphin_spawn_egg",
           "functions": [
             {
@@ -29,7 +29,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:trident",
           "conditions": [
             {
@@ -44,7 +44,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:book",
           "functions": [
             {
@@ -65,7 +65,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:anvil",
           "conditions": [
             {
@@ -80,7 +80,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:enchanting_table",
           "conditions": [
             {
@@ -95,7 +95,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:lapis_lazuli",
           "functions": [
             {
@@ -113,7 +113,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:experience_bottle",
           "functions": [
             {
@@ -137,7 +137,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:diamond",
           "functions": [
             {
@@ -161,7 +161,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:emerald",
           "functions": [
             {
@@ -185,7 +185,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:gold_ingot",
           "functions": [
             {
@@ -209,7 +209,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:iron_ingot",
           "functions": [
             {

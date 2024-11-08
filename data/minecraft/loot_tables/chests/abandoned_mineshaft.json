@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:cave_spider_spawn_egg",
           "functions": [
             {
@@ -29,7 +29,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:cooked_rabbit",
           "functions": [
             {
@@ -47,7 +47,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:cobblestone",
           "functions": [
             {
@@ -65,7 +65,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:enchanted_golden_apple",
           "conditions": [
             {
@@ -80,7 +80,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:golden_apple",
           "functions": [
             {
@@ -104,7 +104,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:iron_ingot",
           "functions": [
             {
@@ -128,7 +128,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:torch",
           "functions": [
             {
@@ -146,7 +146,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:dark_oak_log",
           "functions": [
             {
@@ -159,7 +159,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:oak_log",
           "functions": [
             {
@@ -183,7 +183,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:oak_planks",
           "functions": [
             {
@@ -196,7 +196,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:dark_oak_planks",
           "functions": [
             {
@@ -214,7 +214,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:iron_pickaxe",
           "functions": [
             {
@@ -235,19 +235,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:minecart"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:chest_minecart"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:hopper_minecart"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:tnt_minecart"
         }
       ]
@@ -256,7 +256,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:rail",
           "functions": [
             {
@@ -269,7 +269,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:powered_rail",
           "functions": [
             {
@@ -282,7 +282,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:activator_rail",
           "functions": [
             {
@@ -295,7 +295,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "name": "minecraft:detector_rail",
           "functions": [
             {

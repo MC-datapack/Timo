@@ -1,14 +1,14 @@
 {
-	"type": "minecraft:smelting",
+	"type": "smelting",
 	"ingredient": [
 		{
-			"item": "minecraft:black_dye"
+			"item": "minecraft:ink_sac"
 		},
 		{
-			"item": "minecraft:blue_dye"
+			"item": "minecraft:lapis_ore"
 		},
 		{
-			"item": "minecraft:brown_dye"
+			"item": "minecraft:cocoa_beans"
 		},
 		{
 			"item": "minecraft:cyan_dye"
@@ -17,10 +17,7 @@
 			"item": "minecraft:gray_dye"
 		},
 		{
-			"item": "minecraft:gray_dye"
-		},
-		{
-			"item": "minecraft:green_dye"
+			"item": "minecraft:cactus_green"
 		},
 		{
 			"item": "minecraft:light_blue_dye"
@@ -44,13 +41,13 @@
 			"item": "minecraft:purple_dye"
 		},
 		{
-			"item": "minecraft:red_dye"
+			"item": "minecraft:rose_red"
 		},
 		{
-			"item": "minecraft:white_dye"
+			"item": "minecraft:bone_meal"
 		},
 		{
-			"item": "minecraft:yellow_dye"
+			"item": "minecraft:dandelion_yellow"
 		}
 	],
 	"result": "minecraft:gunpowder",

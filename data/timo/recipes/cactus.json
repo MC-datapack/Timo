@@ -1,11 +1,11 @@
 {
-	"type": "minecraft:crafting_shapeless",
+	"type": "crafting_shapeless",
 	"ingredients": [
 		{
 			"item": "minecraft:cactus"
 		}
 	],
 	"result": {
-		"item": "minecraft:green_dye"
+		"item": "minecraft:cactus_green"
 	}
 }

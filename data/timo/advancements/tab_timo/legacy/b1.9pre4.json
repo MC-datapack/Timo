@@ -19,8 +19,8 @@
 		"requirement": {
 			"trigger": "minecraft:changed_dimension",
 			"conditions": {
-				"from": "minecraft:overworld",
-				"to": "minecraft:the_end"
+				"from": "overworld",
+				"to": "the_end"
 			}
 		}
 	},

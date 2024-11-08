@@ -6,7 +6,7 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:name_tag",
 					"weight": 15,
 					"functions": [
@@ -20,12 +20,12 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:saddle",
 					"weight": 15
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:bow",
 					"weight": 10,
 					"functions": [
@@ -48,7 +48,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:fishing_rod",
 					"weight": 10,
 					"functions": [
@@ -71,7 +71,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:book",
 					"weight": 10,
 					"functions": [
@@ -85,7 +85,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:nautilus_shell",
 					"weight": 5,
 					"functions": [
@@ -99,7 +99,7 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:diamond_boots",
 					"weight": 5,
 					"functions": [
@@ -149,27 +149,27 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:heart_of_the_sea",
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:totem_of_undying",
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:trident",
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:drowned_spawn_egg",
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:squid_spawn_egg",
 					"weight": 4
 				}
