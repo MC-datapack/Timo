@@ -1,9 +1,0 @@
-{
-    "block": "minecraft:horn_coral_block",
-    "dim": "timo:single_biome/warm_ocean",
-    "ignitionType": "BLOCK",
-    "ignitionSource": "minecraft:fire",
-    "r": 255,
-    "g": 255,
-    "b": 0
-}

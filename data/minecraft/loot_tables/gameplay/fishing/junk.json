@@ -72,17 +72,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"weight": 5,
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:long_water_breathing"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:string",
 					"weight": 10,
 					"functions": [

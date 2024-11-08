@@ -26,16 +26,6 @@
 				}
 			}
 		},
-		"sparse_jungle": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "minecraft:sparse_jungle"
-					}
-				}
-			}
-		},
 		"bamboo_jungle": {
 			"trigger": "minecraft:location",
 			"conditions": {

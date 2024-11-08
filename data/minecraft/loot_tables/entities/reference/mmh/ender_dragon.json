@@ -21,10 +21,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": {
-									"min": 8,
-									"max": 12
-								}
+								"max": 12
 							}
 						},
 						{

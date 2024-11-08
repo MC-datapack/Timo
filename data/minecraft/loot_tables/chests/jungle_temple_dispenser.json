@@ -16,23 +16,6 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:lingering_potion",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 9
-							}
-						},
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:strong_harming"
-						}
-					]
 				}
 			]
 		}

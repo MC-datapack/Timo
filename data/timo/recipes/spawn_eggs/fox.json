@@ -7,8 +7,7 @@
 	],
 	"key": {
 		"a": [
-			{"item": "minecraft:sweet_berries"},
-			{"item": "minecraft:glow_berries"}
+			{"item": "minecraft:sweet_berries"}
 	],
 		"b": {
 			"item": "minecraft:emerald"

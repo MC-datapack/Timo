@@ -174,32 +174,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:long_water_breathing"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:water_breathing"
-						}
-					]
-				}
-			]
 		}
 	],
 	"random_sequence": "minecraft:chests/buried_treasure"

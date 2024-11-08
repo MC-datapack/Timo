@@ -1,9 +1,0 @@
-{
-    "block": "minecraft:bubble_coral_block",
-    "dim": "timo:single_biome/warm_ocean",
-    "ignitionType": "BLOCK",
-    "ignitionSource": "minecraft:fire",
-    "r": 153,
-    "g": 0,
-    "b": 153
-}

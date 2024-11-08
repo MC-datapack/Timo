@@ -51,21 +51,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:glow_squid_spawn_egg",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.3
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:squid_spawn_egg",
 					"conditions": [
 						{

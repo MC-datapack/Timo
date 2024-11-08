@@ -14,16 +14,10 @@
 				"item": "minecraft:cobblestone"
 			},
 			{
-				"item": "minecraft:cobbled_deepslate"
-			},
-			{
 				"item": "minecraft:basalt"
 			},
 			{
 				"item": "minecraft:netherrack"
-			},
-			{
-				"item": "minecraft:tuff"
 			}
 		]
 	],

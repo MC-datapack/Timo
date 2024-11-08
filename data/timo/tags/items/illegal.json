@@ -1,7 +1,6 @@
 {
 	"replace": true,
 	"values": [
-		"minecraft:budding_amethyst",
 		"minecraft:spawner",
 		"#timo:spawn_eggs"
 	]

@@ -3,9 +3,6 @@
 	"ingredient": [
 		{
 			"tag": "stone_bricks"
-		},
-		{
-			"item": "minecraft:deepslate"
 		}
 	],
 	"result": "minecraft:cobblestone",
