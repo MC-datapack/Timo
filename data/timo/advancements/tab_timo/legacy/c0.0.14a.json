@@ -14,14 +14,14 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/c0.0.12a",
+	"parent": "timo:tab_timo/legacy/rd161348",
 	"criteria": {
 		"iron": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:iron_ore"]
+						"item": "minecraft:iron_ore"
 					}
 				]
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:gold_ore"]
+						"item": "minecraft:gold_ore"
 					}
 				]
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:coal"]
+						"item": "minecraft:coal"
 					}
 				]
 			}
@@ -51,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:gravel"]
+						"item": "minecraft:gravel"
 					}
 				]
 			}
@@ -61,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:sand"]
+						"item": "minecraft:sand"
 					}
 				]
 			}
@@ -71,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_leaves"]
+						"item": "minecraft:oak_leaves"
 					}
 				]
 			}
@@ -81,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_log"]
+						"item": "minecraft:oak_log"
 					}
 				]
 			}

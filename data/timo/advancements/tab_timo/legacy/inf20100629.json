@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_stairs"]
+						"item": "minecraft:oak_stairs"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:cobblestone_stairs"]
+						"item": "minecraft:cobblestone_stairs"
 					}
 				]
 			}

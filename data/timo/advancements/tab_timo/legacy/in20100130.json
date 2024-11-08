@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:mushroom_stew"]
+						"item": "minecraft:mushroom_stew"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:feather"]
+						"item": "minecraft:feather"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:gunpowder"]
+						"item": "minecraft:gunpowder"
 					}
 				]
 			}
@@ -50,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:string"]
+						"item": "minecraft:string"
 					}
 				]
 			}

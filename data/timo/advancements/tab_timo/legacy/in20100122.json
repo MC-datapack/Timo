@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:bow"]
+						"item": "minecraft:bow"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:arrow"]
+						"item": "minecraft:arrow"
 					}
 				]
 			}

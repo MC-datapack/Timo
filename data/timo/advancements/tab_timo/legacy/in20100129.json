@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:crafting_table"]
+						"item": "minecraft:crafting_table"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond"]
+						"item": "minecraft:diamond"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond_block"]
+						"item": "minecraft:diamond_block"
 					}
 				]
 			}

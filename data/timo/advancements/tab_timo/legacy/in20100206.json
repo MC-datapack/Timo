@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:iron_hoe"]
+						"item": "minecraft:iron_hoe"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:bread"]
+						"item": "minecraft:bread"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:wheat"]
+						"item": "minecraft:wheat"
 					}
 				]
 			}
@@ -50,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:wheat_seeds"]
+						"item": "minecraft:wheat_seeds"
 					}
 				]
 			}

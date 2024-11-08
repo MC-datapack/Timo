@@ -7,7 +7,7 @@
 			"translate": "1.5"
 		},
 		"description": {
-			"translate": "Obtain all Redstone Items"
+			"translate": "Obtain all Redstone item"
 		},
 		"frame": "goal",
 		"show_toast": true,
@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone"]
+						"item": "minecraft:redstone"
 					}
 				]
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone_torch"]
+						"item": "minecraft:redstone_torch"
 					}
 				]
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone_block"]
+						"item": "minecraft:redstone_block"
 					}
 				]
 			}
@@ -51,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:repeater"]
+						"item": "minecraft:repeater"
 					}
 				]
 			}
@@ -61,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:comparator"]
+						"item": "minecraft:comparator"
 					}
 				]
 			}
@@ -71,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:lever"]
+						"item": "minecraft:lever"
 					}
 				]
 			}
@@ -91,10 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": [
-							"minecraft:stone_button",
-							"minecraft:polished_blackstone_button"
-						]
+						"item": "minecraft:stone_button"
 					}
 				]
 			}
@@ -114,10 +111,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": [
-							"minecraft:stone_pressure_plate",
-							"minecraft:polished_blackstone_pressure_plate"
-						]
+						"item": "minecraft:stone_pressure_plate"
 					}
 				]
 			}
@@ -127,7 +121,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:light_weighted_pressure_plate"]
+						"item": "minecraft:light_weighted_pressure_plate"
 					}
 				]
 			}
@@ -137,7 +131,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:heavy_weighted_pressure_plate"]
+						"item": "minecraft:heavy_weighted_pressure_plate"
 					}
 				]
 			}
@@ -147,7 +141,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:daylight_detector"]
+						"item": "minecraft:daylight_detector"
 					}
 				]
 			}
@@ -157,7 +151,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:piston"]
+						"item": "minecraft:piston"
 					}
 				]
 			}
@@ -167,7 +161,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:sticky_piston"]
+						"item": "minecraft:sticky_piston"
 					}
 				]
 			}
@@ -177,7 +171,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:dropper"]
+						"item": "minecraft:dropper"
 					}
 				]
 			}
@@ -187,7 +181,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:dispenser"]
+						"item": "minecraft:dispenser"
 					}
 				]
 			}
@@ -197,7 +191,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:hopper"]
+						"item": "minecraft:hopper"
 					}
 				]
 			}
@@ -207,7 +201,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:trapped_chest"]
+						"item": "minecraft:trapped_chest"
 					}
 				]
 			}
@@ -217,7 +211,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:observer"]
+						"item": "minecraft:observer"
 					}
 				]
 			}
@@ -227,7 +221,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:rail"]
+						"item": "minecraft:rail"
 					}
 				]
 			}
@@ -237,7 +231,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:powered_rail"]
+						"item": "minecraft:powered_rail"
 					}
 				]
 			}
@@ -247,7 +241,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:detector_rail"]
+						"item": "minecraft:detector_rail"
 					}
 				]
 			}
@@ -257,7 +251,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:activator_rail"]
+						"item": "minecraft:activator_rail"
 					}
 				]
 			}
@@ -267,7 +261,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone_lamp"]
+						"item": "minecraft:redstone_lamp"
 					}
 				]
 			}

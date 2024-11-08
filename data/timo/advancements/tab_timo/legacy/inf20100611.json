@@ -19,13 +19,10 @@
 		"requirement": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"position": {
-							"y": {
-								"min": 2032
-							}
-						}
+				"position": {
+					"y": {
+						"min": 2032,
+						"max": 1000000
 					}
 				}
 			}
@@ -33,6 +30,5 @@
 	},
 	"rewards": {
 		"function": "timo:advancement_rewards/inf20100611"
-	},
-	"sends_telemetry_event": true
+	}
 }

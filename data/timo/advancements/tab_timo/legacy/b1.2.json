@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:cake"]
+						"item": "minecraft:cake"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:lapis_lazuli"]
+						"item": "minecraft:lapis_lazuli"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:lapis_ore"]
+						"item": "minecraft:lapis_ore"
 					}
 				]
 			}
@@ -50,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items":[ "minecraft:note_block"]
+						"item": "minecraft:note_block"
 					}
 				]
 			}

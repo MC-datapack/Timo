@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:glass_bottle"]
+						"item": "minecraft:glass_bottle"
 					}
 				]
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:magma_cream"]
+						"item": "minecraft:magma_cream"
 					}
 				]
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:blaze_powder"]
+						"item": "minecraft:blaze_powder"
 					}
 				]
 			}
@@ -51,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:spider_eye"]
+						"item": "minecraft:spider_eye"
 					}
 				]
 			}
@@ -61,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:fermented_spider_eye"]
+						"item": "minecraft:fermented_spider_eye"
 					}
 				]
 			}

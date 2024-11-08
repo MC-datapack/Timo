@@ -19,13 +19,8 @@
 		"requirement": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"biome": "minecraft:mushroom_fields"
-					}
-				}
+				"biome": "minecraft:mushroom_fields"
 			}
 		}
-	},
-	"sends_telemetry_event": true
+	}
 }

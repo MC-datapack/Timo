@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:porkchop"]
+						"item": "minecraft:porkchop"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:cooked_porkchop"]
+						"item": "minecraft:cooked_porkchop"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:furnace"]
+						"item": "minecraft:furnace"
 					}
 				]
 			}

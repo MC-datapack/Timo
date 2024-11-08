@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/1.2",
+	"parent": "timo:tab_timo/legacy/1.0",
 	"criteria": {
 		"trade": {
 			"trigger": "minecraft:villager_trade"
@@ -22,20 +22,16 @@
 		"jungle_pyramid": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"structures": "minecraft:jungle_pyramid"
-					}
+				"location": {
+					"structures": "minecraft:jungle_pyramid"
 				}
 			}
 		},
 		"desert_pyramid": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"structures": "minecraft:desert_pyramid"
-					}
+				"location": {
+					"structures": "minecraft:desert_pyramid"
 				}
 			}
 		}

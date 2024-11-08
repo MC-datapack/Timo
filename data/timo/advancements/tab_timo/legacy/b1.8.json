@@ -35,10 +35,8 @@
 		"village": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"structures": "minecraft:village_plains"
-					}
+				"location": {
+					"structures": "minecraft:village_plains"
 				}
 			}
 		},
@@ -47,7 +45,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:mossy_stone_bricks"]
+						"item": "minecraft:mossy_stone_bricks"
 					}
 				]
 			}
@@ -57,7 +55,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:iron_bars"]
+						"item": "minecraft:iron_bars"
 					}
 				]
 			}
@@ -67,7 +65,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:glass_pane"]
+						"item": "minecraft:glass_pane"
 					}
 				]
 			}
@@ -77,10 +75,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": [
-							"minecraft:brown_mushroom_block",
-							"minecraft:red_mushroom_block"
-						]
+						"item": "minecraft:brown_mushroom_block"
 					}
 				]
 			}
@@ -90,7 +85,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_fence_gate"]
+						"item": "minecraft:oak_fence_gate"
 					}
 				]
 			}

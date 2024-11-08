@@ -13,7 +13,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "timo:tab_timo/legacy/1.9",
+	"parent": "timo:tab_timo/legacy/1.8",
 	"criteria": {
 		"husk": {
 			"trigger": "minecraft:player_killed_entity",

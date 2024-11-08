@@ -19,11 +19,7 @@
 		"requirement": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"location": {
-						"dimension": "minecraft:the_nether"
-					}
-				}
+				"dimension": "minecraft:the_nether"
 			}
 		},
 		"netherrack": {
@@ -31,7 +27,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:netherrack"]
+						"item": "minecraft:netherrack"
 					}
 				]
 			}
@@ -41,7 +37,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:soul_sand"]
+						"item": "minecraft:soul_sand"
 					}
 				]
 			}
@@ -51,7 +47,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:glowstone"]
+						"item": "minecraft:glowstone"
 					}
 				]
 			}
@@ -61,7 +57,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:glowstone_dust"]
+						"item": "minecraft:glowstone_dust"
 					}
 				]
 			}
@@ -71,7 +67,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:clock"]
+						"item": "minecraft:clock"
 					}
 				]
 			}
@@ -81,7 +77,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items":[ "minecraft:cod"]
+						"item": "minecraft:cod"
 					}
 				]
 			}
@@ -91,11 +87,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:cooked_cod"]
+						"item": "minecraft:cooked_cod"
 					}
 				]
 			}
 		}
-	},
-	"sends_telemetry_event": true
+	}
 }

@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:spruce_sapling"]
+						"item": "minecraft:spruce_sapling"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:birch_sapling"]
+						"item": "minecraft:birch_sapling"
 					}
 				]
 			}

@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:piston"]
+						"item": "minecraft:piston"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:sticky_piston"]
+						"item": "minecraft:sticky_piston"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:shears"]
+						"item": "minecraft:shears"
 					}
 				]
 			}

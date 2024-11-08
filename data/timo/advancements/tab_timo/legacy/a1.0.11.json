@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:paper"]
+						"item": "minecraft:paper"
 					}
 				]
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:book"]
+						"item": "minecraft:book"
 					}
 				]
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:bookshelf"]
+						"item": "minecraft:bookshelf"
 					}
 				]
 			}
@@ -51,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:sugar_cane"]
+						"item": "minecraft:sugar_cane"
 					}
 				]
 			}
@@ -61,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:clay"]
+						"item": "minecraft:clay"
 					}
 				]
 			}
@@ -71,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:clay_ball"]
+						"item": "minecraft:clay_ball"
 					}
 				]
 			}
@@ -81,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:brick"]
+						"item": "minecraft:brick"
 					}
 				]
 			}
@@ -91,7 +91,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:bricks"]
+						"item": "minecraft:bricks"
 					}
 				]
 			}

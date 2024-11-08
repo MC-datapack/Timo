@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond_hoe"]
+						"item": "minecraft:diamond_hoe"
 					}
 				]
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond_shovel"]
+						"item": "minecraft:diamond_shovel"
 					}
 				]
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond_pickaxe"]
+						"item": "minecraft:diamond_pickaxe"
 					}
 				]
 			}
@@ -51,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond_axe"]
+						"item": "minecraft:diamond_axe"
 					}
 				]
 			}
@@ -61,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:diamond_sword"]
+						"item": "minecraft:diamond_sword"
 					}
 				]
 			}

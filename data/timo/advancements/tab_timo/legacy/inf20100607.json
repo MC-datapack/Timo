@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_sign"]
+						"item": "minecraft:oak_sign"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_door"]
+						"item": "minecraft:oak_door"
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:ladder"]
+						"item": "minecraft:ladder"
 					}
 				]
 			}

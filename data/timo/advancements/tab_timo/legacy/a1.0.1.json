@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:iron_door"]
+						"item": "minecraft:iron_door"
 					}
 				]
 			}
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:lever"]
+						"item": "minecraft:lever"
 					}
 				]
 			}
@@ -41,7 +41,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:oak_pressure_plate"]
+						"item": "minecraft:oak_pressure_plate"
 					}
 				]
 			}
@@ -51,7 +51,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone"]
+						"item": "minecraft:redstone"
 					}
 				]
 			}
@@ -61,7 +61,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone_ore"]
+						"item": "minecraft:redstone_ore"
 					}
 				]
 			}
@@ -71,7 +71,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:redstone_torch"]
+						"item": "minecraft:redstone_torch"
 					}
 				]
 			}
@@ -81,7 +81,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:stone_button"]
+						"item": "minecraft:stone_button"
 					}
 				]
 			}
