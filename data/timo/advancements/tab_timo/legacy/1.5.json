@@ -91,7 +91,10 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:stone_buttons"
+						"items": [
+							"minecraft:stone_button",
+							"minecraft:polished_blackstone_button"
+						]
 					}
 				]
 			}

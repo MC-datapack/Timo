@@ -134,21 +134,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:goat_horn",
-					"functions": [
-						{
-							"function": "minecraft:set_instrument",
-							"options": "#minecraft:goat_horns"
-						}
-					]
-				}
-			]
 		}
 	],
 	"random_sequence": "minecraft:chests/pillager_outpost"

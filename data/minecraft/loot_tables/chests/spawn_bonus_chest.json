@@ -175,20 +175,6 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:mangrove_log",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 12
-							}
-						}
-					]
 				}
 			]
 		}

@@ -2,10 +2,10 @@
 	"type": "minecraft:stonecutting",
 	"ingredient": [
 		{
-			"tag": "c:stones"
+			"tag": "stone_bricks"
 		},
 		{
-			"tag": "c:cobblestones"
+			"item": "minecraft:deepslate"
 		}
 	],
 	"result": "minecraft:cobblestone",

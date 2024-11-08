@@ -7,7 +7,7 @@
 	],
 	"key": {
 		"a": {
-			"tag": "minecraft:wolf_food"
+			"item": "minecraft:cooked_beef"
 		},
 		"b": {
 			"item": "minecraft:bone"

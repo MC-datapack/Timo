@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		"aca",
-		"aba",
-		"aca"
+		"bcb",
+		"bcb",
+		"bcb"
 	],
 	"key": {
-		"a": {
-			"item": "minecraft:goat_horn"
-		},
 		"b": {"item": "minecraft:milk_bucket"},
 		"c": {"item": "minecraft:wheat"}
 	},

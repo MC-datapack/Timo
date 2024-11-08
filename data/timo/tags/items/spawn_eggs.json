@@ -1,7 +1,6 @@
 {
 	"replace": true,
 	"values": [
-		"minecraft:allay_spawn_egg",
 		"minecraft:axolotl_spawn_egg",
 		"minecraft:bat_spawn_egg",
 		"minecraft:bee_spawn_egg",
@@ -20,7 +19,6 @@
 		"minecraft:endermite_spawn_egg",
 		"minecraft:evoker_spawn_egg",
 		"minecraft:fox_spawn_egg",
-		"minecraft:frog_spawn_egg",
 		"minecraft:ghast_spawn_egg",
 		"minecraft:glow_squid_spawn_egg",
 		"minecraft:goat_spawn_egg",
@@ -55,7 +53,6 @@
 		"minecraft:squid_spawn_egg",
 		"minecraft:stray_spawn_egg",
 		"minecraft:strider_spawn_egg",
-		"minecraft:tadpole_spawn_egg",
 		"minecraft:trader_llama_spawn_egg",
 		"minecraft:tropical_fish_spawn_egg",
 		"minecraft:turtle_spawn_egg",
@@ -63,7 +60,6 @@
 		"minecraft:villager_spawn_egg",
 		"minecraft:vindicator_spawn_egg",
 		"minecraft:wandering_trader_spawn_egg",
-		"minecraft:warden_spawn_egg",
 		"minecraft:witch_spawn_egg",
 		"minecraft:wither_skeleton_spawn_egg",
 		"minecraft:wolf_spawn_egg",

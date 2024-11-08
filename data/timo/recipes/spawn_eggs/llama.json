@@ -12,7 +12,9 @@
 		"b": {
 			"item": "minecraft:leather"
 		},
-		"c": {"tag": "minecraft:wool_carpets"}
+		"c": {
+			"tag": "minecraft:carpets"
+		}
 	},
 	"result": {
 		"item": "minecraft:llama_spawn_egg"

@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"ingredient": {
-		"tag": "minecraft:trim_templates"
-	},
-	"result": "minecraft:bolt_armor_trim_smithing_template",
-	"count": 1
-}
