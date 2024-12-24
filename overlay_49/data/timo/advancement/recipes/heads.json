@@ -1,0 +1,112 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_skull"
+		},
+		"title": {
+			"translate": "Heads"
+		},
+		"description": {
+			"translate": "Use a smithing table to convert any Head/Skull to every Head/Skull"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/root",
+	"criteria": {
+		"creeper": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:creeper_head": true
+						}
+					}
+				}
+			}
+		},
+        "dragon": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:dragon_head": true
+						}
+					}
+				}
+			}
+		},
+        "piglin": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:piglin_head": true
+						}
+					}
+				}
+			}
+		},
+        "player": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:player_head": true
+						}
+					}
+				}
+			}
+		},
+        "skeleton": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:skeleton_skull": true
+						}
+					}
+				}
+			}
+		},
+        "wither_skeleton": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:wither_skeleton_skull": true
+						}
+					}
+				}
+			}
+		},
+        "zombie": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:zombie_head": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

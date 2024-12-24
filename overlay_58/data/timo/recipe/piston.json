@@ -7,11 +7,7 @@
 	],
 	"key": {
 		"a": "minecraft:sticky_piston",
-		"b": [
-			"minecraft:water_bucket",
-			"minecraft:ice",
-			"#minecraft:saplings"
-		]
+		"b": "#minecraft:saplings"
 	},
 	"result": {
 		"id": "minecraft:piston",

@@ -1,0 +1,125 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_ingot"
+		},
+		"title": {
+			"translate": "Iron"
+		},
+		"description": {
+			"translate": "Convert all Iron Tools and Armor pieces (also Horse Armor) back into Iron Ingots"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/unpack/leather",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_sword": true
+						}
+					}
+				}
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_pick--axe": true
+						}
+					}
+				}
+			}
+		},
+		"shovel": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_shovel": true
+						}
+					}
+				}
+			}
+		},
+		"helmet": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_helmet": true
+						}
+					}
+				}
+			}
+		},
+		"chestplate": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_chestplate": true
+						}
+					}
+				}
+			}
+		},
+		"leggings": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_leggins": true
+						}
+					}
+				}
+			}
+		},
+		"boots": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_boots": true
+						}
+					}
+				}
+			}
+		},
+		"horse_armor": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/iron_horse_armor": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

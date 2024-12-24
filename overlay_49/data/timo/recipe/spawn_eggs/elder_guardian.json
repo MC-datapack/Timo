@@ -7,7 +7,7 @@
 	],
 	"key": {
 		"a": "minecraft:sponge",
-		"b": "minecraft:fishes",
+		"b": "#minecraft:fishes",
 		"c": [
 			"minecraft:prismarine_shard",
 			"minecraft:prismarine_crystals"

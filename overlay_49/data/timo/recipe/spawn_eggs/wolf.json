@@ -6,7 +6,7 @@
 		"aaa"
 	],
 	"key": {
-		"a": "minecraft:wolf_food",
+		"a": "#minecraft:wolf_food",
 		"b": "minecraft:bone"
 	},
 	"result": {

@@ -6,9 +6,7 @@
 		"aaa"
 	],
 	"key": {
-		"a": {
-			"item": "minecraft:breeze_rod"
-		},
+		"a": "minecraft:breeze_rod",
 		"b": [
 			"minecraft:copper_block",
 			"minecraft:waxed_copper_block"

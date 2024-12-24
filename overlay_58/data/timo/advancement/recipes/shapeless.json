@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bread"
+		},
+		"title": {
+			"translate": "Shapeless"
+		},
+		"description": {
+			"translate": "Use all Shapeless recipes (Bread, Chains, Paper and Shulker Boxes)"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/root",
+	"criteria": {
+		"bread": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:bread": true
+						}
+					}
+				}
+			}
+		},
+        "chain": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:chain": true
+						}
+					}
+				}
+			}
+		},
+        "paper": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:paper": true
+						}
+					}
+				}
+			}
+		},
+        "shulker": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:shulker": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

@@ -20,9 +20,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/budding_amethyst": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/budding_amethyst": true
+						}
 					}
 				}
 			}
@@ -31,9 +33,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/bedrock": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/bedrock": true
+						}
 					}
 				}
 			}
@@ -42,9 +46,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/reinforced_deepslate": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/reinforced_deepslate": true
+						}
 					}
 				}
 			}
@@ -53,9 +59,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/vault": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/vault": true
+						}
 					}
 				}
 			}
@@ -64,9 +72,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/spawner": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/spawner": true
+						}
 					}
 				}
 			}
@@ -75,9 +85,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/trial_spawner": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/trial_spawner": true
+						}
 					}
 				}
 			}
@@ -86,9 +98,11 @@
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": {
-					"type_specific": "minecraft:player",
-					"advancements": {
-						"timo:tab_timo/illegal/spawn_egg": true
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"timo:tab_timo/illegal/spawn_egg": true
+						}
 					}
 				}
 			}

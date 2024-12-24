@@ -11,8 +11,8 @@
 	"ambient_light": 1,
 	"logical_height": 0,
 	"infiniburn": "#minecraft:infiniburn_end",
-	"min_y": 0,
-	"height": 2032,
+	"min_y": -2032,
+	"height": 4064,
 	"monster_spawn_light_level": 0,
 	"monster_spawn_block_light_limit": 0
 }

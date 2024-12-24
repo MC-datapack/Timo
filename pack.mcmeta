@@ -12,16 +12,9 @@
 			{
 				"formats": [
 					34,
-					42
-				],
-				"directory": "overlay_34"
-			},
-			{
-				"formats": [
-					43,
 					44
 				],
-				"directory": "overlay_43"
+				"directory": "overlay_34"
 			},
 			{
 				"formats": [

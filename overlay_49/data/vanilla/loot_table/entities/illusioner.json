@@ -27,8 +27,8 @@
 						{
 							"amplifier": {
 								"type": "minecraft:uniform",
-								"max": 4,
-								"min": 0
+								"max": 5,
+								"min": 1
 							},
 							"function": "minecraft:set_ominous_bottle_amplifier"
 						}

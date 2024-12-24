@@ -5,7 +5,7 @@
 			"minecraft:bee_nest",
 			"minecraft:beehive"
 		],
-		"#minecraft:flowers"
+		"#minecraft:small_flowers"
 	],
 	"result": {
 		"id": "minecraft:bee_nest",

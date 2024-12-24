@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:leather"
+		},
+		"title": {
+			"translate": "Leather"
+		},
+		"description": {
+			"translate": "Convert all Leather Armor pieces back into Leather"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/root",
+	"criteria": {
+		"helmet": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/leather_helmet": true
+						}
+					}
+				}
+			}
+		},
+		"chestplate": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/leather_chestplate": true
+						}
+					}
+				}
+			}
+		},
+		"leggings": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/leather_leggins": true
+						}
+					}
+				}
+			}
+		},
+		"boots": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/leather_boots": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

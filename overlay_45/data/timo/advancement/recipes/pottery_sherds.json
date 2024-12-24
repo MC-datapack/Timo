@@ -1,0 +1,320 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:angler_pottery_sherd"
+		},
+		"title": {
+			"translate": "Pottery Sherds"
+		},
+		"description": {
+			"translate": "Use Brick in a Stonecutter to craft all Pottery Sherds"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/root",
+	"criteria": {
+		"ancher": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:ancher": true
+						}
+					}
+				}
+			}
+		},
+        "angler": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:angler": true
+						}
+					}
+				}
+			}
+		},
+        "arms_up": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:arms_up": true
+						}
+					}
+				}
+			}
+		},
+        "blade": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:blade": true
+						}
+					}
+				}
+			}
+		},
+        "brewer": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:brewer": true
+						}
+					}
+				}
+			}
+		},
+        "burn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:burn": true
+						}
+					}
+				}
+			}
+		},
+        "danger": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:danger": true
+						}
+					}
+				}
+			}
+		},
+        "explorer": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:explorer": true
+						}
+					}
+				}
+			}
+		},
+        "flow": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:flow": true
+						}
+					}
+				}
+			}
+		},
+        "friend": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:friend": true
+						}
+					}
+				}
+			}
+		},
+        "guster": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:guster": true
+						}
+					}
+				}
+			}
+		},
+        "heart": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:heart": true
+						}
+					}
+				}
+			}
+		},
+        "heartbreak": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:heartbreak": true
+						}
+					}
+				}
+			}
+		},
+        "howl": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:howl": true
+						}
+					}
+				}
+			}
+		},
+        "miner": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:miner": true
+						}
+					}
+				}
+			}
+		},
+        "mourner": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:mourner": true
+						}
+					}
+				}
+			}
+		},
+        "plenty": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:plenty": true
+						}
+					}
+				}
+			}
+		},
+        "prize": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:prize": true
+						}
+					}
+				}
+			}
+		},
+        "scrape": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:scrape": true
+						}
+					}
+				}
+			}
+		},
+        "sheaf": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:sheaf": true
+						}
+					}
+				}
+			}
+		},
+        "shelter": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:shelter": true
+						}
+					}
+				}
+			}
+		},
+        "skull": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:skull": true
+						}
+					}
+				}
+			}
+		},
+        "snort": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:snort": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

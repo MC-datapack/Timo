@@ -6,7 +6,7 @@
 		"aaa"
 	],
 	"key": {
-		"a": "#minecraft:flowers",
+		"a": "#minecraft:small_flowers",
 		"b": [
 			"minecraft:honey_bottle",
 			"minecraft:honeycomb"

@@ -1,0 +1,125 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": {
+			"translate": "Diamond"
+		},
+		"description": {
+			"translate": "Convert all Diamond Tools and Armor pieces (also Horse Armor) back into Diamonds"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/unpack/gold",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_sword": true
+						}
+					}
+				}
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_pick--axe": true
+						}
+					}
+				}
+			}
+		},
+		"shovel": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_shovel": true
+						}
+					}
+				}
+			}
+		},
+		"helmet": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_helmet": true
+						}
+					}
+				}
+			}
+		},
+		"chestplate": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_chestplate": true
+						}
+					}
+				}
+			}
+		},
+		"leggings": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_leggins": true
+						}
+					}
+				}
+			}
+		},
+		"boots": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/diamond_boots": true
+						}
+					}
+				}
+			}
+		},
+		"horse_armor": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:unpack/horse": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

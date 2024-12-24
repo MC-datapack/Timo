@@ -1,0 +1,125 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_ingot"
+		},
+		"title": {
+			"translate": "Gold"
+		},
+		"description": {
+			"translate": "Convert all Golden Tools and Armor pieces (also Horse Armor) back into Gold Ingots"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/unpack/iron",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_sword": true
+						}
+					}
+				}
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_pick--axe": true
+						}
+					}
+				}
+			}
+		},
+		"shovel": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_shovel": true
+						}
+					}
+				}
+			}
+		},
+		"helmet": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_helmet": true
+						}
+					}
+				}
+			}
+		},
+		"chestplate": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_chestplate": true
+						}
+					}
+				}
+			}
+		},
+		"leggings": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_leggins": true
+						}
+					}
+				}
+			}
+		},
+		"boots": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/gold_boots": true
+						}
+					}
+				}
+			}
+		},
+		"horse_armor": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"recipes": {
+							"timo:unpack/golden_horse_armor": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

@@ -1,0 +1,123 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.4,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 1458582,
+		"water_fog_color": 329011,
+		"grass_color": 1919253,
+		"foliage_color": 1919253,
+		"ambient_sound": "minecraft:ambient.cave"
+	},
+	"spawners": {
+		"creature": [
+			{
+				"type": "minecraft:pig",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 25
+			},
+			{
+				"type": "minecraft:sniffer",
+				"weight": 4,
+				"minCount": 1,
+				"maxCount": 25
+			},
+			{
+				"type": "minecraft:sheep",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 25
+			},
+			{
+				"type": "minecraft:cow",
+				"weight": 4,
+				"minCount": 1,
+				"maxCount": 25
+			}
+		],
+		"monster": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 25
+			}
+		],
+		"ambient": [],
+		"axolotls": [
+			{
+				"type": "minecraft:axolotl",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 25
+			}
+		],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 25
+			}
+		],
+		"water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 25
+			}
+		],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": [],
+	"features": [
+		[],
+		[
+			"minecraft:lake_lava_underground",
+			"minecraft:spring_water"
+		],
+		[
+			"minecraft:amethyst_geode"
+		],
+		[
+			"minecraft:monster_room"
+		],
+		[],
+		[],
+		[
+			"minecraft:ore_coal_upper",
+			"minecraft:ore_coal_lower",
+			"minecraft:ore_iron_upper",
+			"minecraft:ore_iron_middle",
+			"minecraft:ore_iron_small",
+			"minecraft:ore_gold",
+			"minecraft:ore_gold_lower",
+			"minecraft:ore_redstone",
+			"minecraft:ore_redstone_lower",
+			"minecraft:ore_diamond",
+			"minecraft:ore_diamond_large",
+			"minecraft:ore_diamond_buried",
+			"minecraft:ore_lapis",
+			"minecraft:ore_lapis_buried",
+			"minecraft:ore_copper",
+			"minecraft:ore_emerald"
+		],
+		[],
+		[],
+		[
+			"timo:pitcher_plant_patch",
+			"timo:torchflower_patch",
+			"timo:rich/spruce",
+			"timo:rich/mega_spruce"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

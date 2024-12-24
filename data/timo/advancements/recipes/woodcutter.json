@@ -1,0 +1,180 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"title": {
+			"translate": "Woodcutter"
+		},
+		"description": {
+			"translate": "Use all Woodcutter recipes"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/root",
+	"criteria": {
+		"other": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/barrel": true,
+							"timo:woodcutter/bees": true,
+							"timo:woodcutter/bookshelf": true,
+							"timo:woodcutter/bowl": true,
+							"timo:woodcutter/campfire": true,
+							"timo:woodcutter/chest": true,
+							"timo:woodcutter/chisseledbookshelf": true,
+							"timo:woodcutter/craftingtable": true,
+							"timo:woodcutter/jukebox": true,
+							"timo:woodcutter/noteblock": true,
+							"timo:woodcutter/soulcampfire": true,
+							"timo:woodcutter/stick": true
+						}
+					}
+				}
+			}
+		},
+		"acacia": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/acacia_hanging_sign": true,
+							"timo:woodcutter/acacia_sign": true,
+							"timo:woodcutter/acacia": true,
+							"timo:woodcutter/acaciadoor": true,
+							"timo:woodcutter/acaciafence": true,
+							"timo:woodcutter/acaciafencegate": true,
+							"timo:woodcutter/acacialog": true,
+							"timo:woodcutter/acaciaplanks": true,
+							"timo:woodcutter/acaciaslab": true,
+							"timo:woodcutter/acaciastairs": true,
+							"timo:woodcutter/acaciatrapdoor": true
+						}
+					}
+				}
+			}
+		},
+		"bamboo": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/bamboo_hanging_sign": true,
+							"timo:woodcutter/bamboo_sign": true,
+							"timo:woodcutter/bamboodoor": true,
+							"timo:woodcutter/bamboofence": true,
+							"timo:woodcutter/bamboofencegate": true,
+							"timo:woodcutter/bambooblock": true,
+							"timo:woodcutter/bambooplanks": true,
+							"timo:woodcutter/bambooslab": true,
+							"timo:woodcutter/bamboostairs": true,
+							"timo:woodcutter/bambootrapdoor": true
+						}
+					}
+				}
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/birch_hanging_sign": true,
+							"timo:woodcutter/birch_sign": true,
+							"timo:woodcutter/birch": true,
+							"timo:woodcutter/birchdoor": true,
+							"timo:woodcutter/birchfence": true,
+							"timo:woodcutter/birchfencegate": true,
+							"timo:woodcutter/birchlog": true,
+							"timo:woodcutter/birchplanks": true,
+							"timo:woodcutter/birchslabs": true,
+							"timo:woodcutter/birchstairs": true,
+							"timo:woodcutter/birchtrapdoor": true
+						}
+					}
+				}
+			}
+		},
+		"cherry": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/cherry_hanging_sign": true,
+							"timo:woodcutter/cherry_sign": true,
+							"timo:woodcutter/cherry": true,
+							"timo:woodcutter/cherrydoor": true,
+							"timo:woodcutter/cherryfence": true,
+							"timo:woodcutter/cherryfencegate": true,
+							"timo:woodcutter/cherrylog": true,
+							"timo:woodcutter/cherryplanks": true,
+							"timo:woodcutter/cherryslab": true,
+							"timo:woodcutter/cherrystairs": true,
+							"timo:woodcutter/cherrytrapdoor": true
+						}
+					}
+				}
+			}
+		},
+		"crimson": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/crimson_hanging_sign": true,
+							"timo:woodcutter/crimson_sign": true,
+							"timo:woodcutter/crimsondoor": true,
+							"timo:woodcutter/crimsonfence": true,
+							"timo:woodcutter/crimsonfencegate": true,
+							"timo:woodcutter/crimsonstem": true,
+							"timo:woodcutter/crimsonplanks": true,
+							"timo:woodcutter/crimsonslab": true,
+							"timo:woodcutter/crimsonstairs": true,
+							"timo:woodcutter/crimsontrapdoor": true
+						}
+					}
+				}
+			}
+		},
+		"dark_oak": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:woodcutter/dark_oak_hanging_sign": true,
+							"timo:woodcutter/dark_oak_sign": true,
+							"timo:woodcutter/darkoak": true,
+							"timo:woodcutter/darkoakdoor": true,
+							"timo:woodcutter/darkoakfence": true,
+							"timo:woodcutter/darkoakfencegate": true,
+							"timo:woodcutter/darkoakplanks": true,
+							"timo:woodcutter/darkoakslab": true,
+							"timo:woodcutter/darkoakstairs": true,
+							"timo:woodcutter/darkoaktrapdoor": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}
