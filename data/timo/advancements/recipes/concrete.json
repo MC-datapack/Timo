@@ -1,0 +1,229 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:light_blue_concrete"
+		},
+		"title": {
+			"translate": "Concrete"
+		},
+		"description": {
+			"translate": "Convert every color of Concrete Powder by putting it into any crafting slot"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "timo:recipes/root",
+	"criteria": {
+		"black": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:black_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "blue": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:blue_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "brown": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:brown_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "cyan": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:cyan_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "green": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:green_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "gray": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:grey_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "light_blue": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:light_blue_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "light_gray": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:light_grey_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "lime": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:lime_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "magenta": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:magenta_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "orange": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:orange_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "pink": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:pink_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "purple": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:purple_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "red": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:red_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "white": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:white_concrete_powder": true
+						}
+					}
+				}
+			}
+		},
+        "yellow": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"recipes": {
+							"timo:yellow_concrete_powder": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": true
+}

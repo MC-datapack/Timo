@@ -1,5 +1,5 @@
 {
-	"sea_level": -64,
+	"sea_level": -550,
 	"disable_mob_generation": false,
 	"aquifers_enabled": true,
 	"ore_veins_enabled": true,
@@ -14,8 +14,8 @@
 		}
 	},
 	"noise": {
-		"min_y": 0,
-		"height": 512,
+		"min_y": -512,
+		"height": 1024,
 		"size_horizontal": 2,
 		"size_vertical": 1
 	},
@@ -60,8 +60,8 @@
 								"type": "minecraft:mul",
 								"argument1": {
 									"type": "minecraft:y_clamped_gradient",
-									"from_y": 0,
-									"to_y": 10,
+									"from_y": -512,
+									"to_y": -500,
 									"from_value": 0,
 									"to_value": 1
 								},
@@ -277,10 +277,10 @@
 					"type": "minecraft:vertical_gradient",
 					"random_name": "minecraft:obsidian",
 					"true_at_and_below": {
-						"absolute": 20
+						"absolute": -490
 					},
 					"false_at_and_above": {
-						"absolute": 25
+						"absolute": -450
 					}
 				},
 				"then_run": {
@@ -296,10 +296,10 @@
 					"type": "minecraft:vertical_gradient",
 					"random_name": "minecraft:deepslate",
 					"true_at_and_below": {
-						"absolute": 100
+						"absolute": 0
 					},
 					"false_at_and_above": {
-						"absolute": 150
+						"absolute": 10
 					}
 				},
 				"then_run": {
