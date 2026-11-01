@@ -1,0 +1,674 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "minecraft:equipment": {
+                        "body": {
+                          "count": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.ambient",
+                    "minecraft:item_name": "\"Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ExYTM2Y2I5M2QwMTY3NWM0NjIyZGQ1YzhkODcyMTEwOTExZWMxMmMzNzJlODlhZmE4YmEwMzg2Mjg2N2Y2ZmIifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:red_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Red Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRlYzdjOTAyNmIwNTE5YmUyYWZmZDEzMjViNjM1OWVhOGQ5NDY1MGNmM2Q0NmExZTI1MDhkZDFkZjY0MzNjYjUifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:yellow_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Yellow Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M3ZGI1ZTI1ZDYzNGM0MTM1ZjM5YWQzNDExNDUyOGYwODQ2YWZjZTk4YjcxZmE3ODY3NGE2MTExMTY4MDZiN2MifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:white_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"White Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiOWFjMzA4MjZhZjJiNjM1Y2ZhZGIwN2VlZTgwOWZiMzI1YWIwOGZhMTU5ZTg2OGI5NWM0MDdmMGM3MThmNTIifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:purple_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Purple Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EyMmNkMWNjNTNiMTY3YTY5MGEzNDAxMWNkY2NmNjQ4Yzc5MzMwMDI5N2VkODFkNDFlOTFjMTdkNjgzMzE3OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:pink_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Pink Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VjNzlmOTA4MmY2YWJlZWQ5NzUwNzQ0NDNiZThjOGE3OWVhMTA2MGQ2MTA5NGZmNzlhMDQ5ODkzNDA0MzA2MjQifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:orange_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Orange Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4MTRiMzM3NzY3NWJjMWRlYTNjNGMyNjZjZDU1ZWRkYzcyZThhNDE5YTJjYmRiODVhNjZlM2FjNGYzY2IyODcifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:magenta_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Magenta Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc4NzMzZGRhZWQxMGExMTBhZmI2ODU5ZjRhMjIyMDM5ZDJlZjI5MmQyMjRkNzkwNGVkOGIzOGExNWZjOWRkMGQifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:lime_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Lime Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI0YjVhNDcyZGNlOTM1MDVkNGE0NDAxYTc0Y2UyOWVjZWU4OGUzMjY0MjhiYzEwM2NiYWQ0ZDkzOWFiZWQxYiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:gray_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Gray Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1NDQ1Y2IwMWYxMmZiMGUwNDIxN2YzZmRjNTE3NmJhNWI4ZTI0OTQ2YmNlZjA0MWRlNzA0ZDc1ODM1YWU1YzMifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:light_blue_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Light Blue Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhNWM3Y2Q1YWU5YzUwYThhZWJlOWJiY2RiNDZjZjU3M2EzMmJmZDM3ZTUzNzZjMTBjYWVjYjQwYmZkNDYwZGEifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:green_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Green Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlkNzAyNjk4ZmRiODUzMzEwMDM0ZTkwMWQzYmVhY2FmODEyNDY5Y2VmNTBhNDZhOTlmMGZkNGIxYWUxNDY0NjIifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:gray_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Gray Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1NDQ1Y2IwMWYxMmZiMGUwNDIxN2YzZmRjNTE3NmJhNWI4ZTI0OTQ2YmNlZjA0MWRlNzA0ZDc1ODM1YWU1YzMifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:cyan_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Cyan Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwYzBlODY1MzY1ZGNkMDI3NzYwNzcxNjYzNTY4ZWZmZGM3MTFmNzgxMjQ2NGUwZjJiZjRlYmZjMjdhZDZhZGYifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:brown_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Brown Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3ZTEyYTU5NTk5OTJjZTE1M2NlZDIzNmFhNjczMjM5NjUzMTgzNGQwMGYyODNiY2UxOTUyZDA0ZjM1OTFkOTkifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:blue_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Blue Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliN2VmNjA5YWEzMjdmODhmZDZkZDIzYTU4MTVkMzJkMWMyNzllYmYyMTQ4MWFiNTUzNDBkZDAxYjJjNGJjZjAifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:equipment": {
+                      "body": {
+                        "items": [
+                          "minecraft:black_harness"
+                        ],
+                        "count": 1
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                    "minecraft:item_name": "\"Black Harness Happy Ghast Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkYWVlODgzNDE4OGZlYzFjMzJlMWY2MmMxNDg1ZmY5NzJlYTliNzcxNjkzNDI0ZTAxMmI2YWI4YTA3MTM1MWEifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "condition": "minecraft:random_chance_with_enchanted_bonus",
+                  "enchantment": "minecraft:looting",
+                  "unenchanted_chance": 0.1,
+                  "enchanted_chance": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/happy_ghast"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/happy_ghast"
+}

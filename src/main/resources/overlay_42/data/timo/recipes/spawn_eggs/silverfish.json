@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    "b": {
+      "item": "minecraft:spawner"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "id": "minecraft:silverfish_spawn_egg"
+  }
+}

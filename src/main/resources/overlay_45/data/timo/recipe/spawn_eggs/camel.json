@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:cactus"
+    },
+    "b": {
+      "item": "minecraft:saddle"
+    },
+    "c": {
+      "item": "minecraft:sand"
+    }
+  },
+  "pattern": [
+    "cac",
+    "aba",
+    "cac"
+  ],
+  "result": {
+    "id": "minecraft:camel_spawn_egg"
+  }
+}

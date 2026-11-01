@@ -1,0 +1,25 @@
+{
+  "parent": "timo:tab_timo/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "Overkill"
+    },
+    "description": {
+      "translate": "Deal 9 hearts of damage in a single hit"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 18.0
+        }
+      }
+    }
+  }
+}

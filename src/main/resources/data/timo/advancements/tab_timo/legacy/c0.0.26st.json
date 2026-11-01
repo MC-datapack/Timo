@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/c0.0.24st",
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "c 0.0.26st"
+    },
+    "description": {
+      "translate": "Obtain TNT"
+    }
+  },
+  "criteria": {
+    "tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

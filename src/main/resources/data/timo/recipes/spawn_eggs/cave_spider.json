@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:cobweb"
+    },
+    "b": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "minecraft:cave_spider_spawn_egg"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "timo:tab_timo/legacy/c0.0.26st",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "c 0.0.27st"
+    },
+    "description": {
+      "translate": "Kill a Spider"
+    }
+  },
+  "criteria": {
+    "spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:spider"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

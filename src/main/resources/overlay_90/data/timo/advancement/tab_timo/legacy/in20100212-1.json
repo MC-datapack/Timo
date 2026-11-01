@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/in20100206",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "In20100212-1"
+    },
+    "description": {
+      "translate": "Obtain a Diamond Chestplate"
+    }
+  },
+  "criteria": {
+    "diamond_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

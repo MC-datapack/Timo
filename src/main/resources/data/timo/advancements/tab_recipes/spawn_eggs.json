@@ -1,0 +1,479 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:pig_spawn_egg"
+    },
+    "title": {
+      "translate": "Spawn Eggs"
+    },
+    "description": {
+      "translate": "Craft all Spawn Eggs"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "zombie_horse": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/zombie_horse"
+      }
+    },
+    "panda": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/panda"
+      }
+    },
+    "axolotl": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/axolotl"
+      }
+    },
+    "bee": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/bee"
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/zoglin"
+      }
+    },
+    "cow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/cow"
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/magma_cube"
+      }
+    },
+    "pig": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/pig"
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/allay"
+      }
+    },
+    "llama": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/llama"
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/skeleton"
+      }
+    },
+    "mule": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/mule"
+      }
+    },
+    "bat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/bat"
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/frog"
+      }
+    },
+    "husk": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/husk"
+      }
+    },
+    "hoglin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/hoglin"
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/camel"
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/rabbit"
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/silverfish"
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/drowned"
+      }
+    },
+    "dolphin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/dolphin"
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/stray"
+      }
+    },
+    "shulker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/shulker"
+      }
+    },
+    "turtle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/turtle"
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/salmon"
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/vex"
+      }
+    },
+    "wandering_trader": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/wandering_trader"
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/wither_skeleton"
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/piglin_brute"
+      }
+    },
+    "goat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/goat"
+      }
+    },
+    "ocelot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/ocelot"
+      }
+    },
+    "horse": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/horse"
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/vindicator"
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/phantom"
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/ender_dragon"
+      }
+    },
+    "evoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/evoker"
+      }
+    },
+    "mooshroom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/mooshroom"
+      }
+    },
+    "glow_squid": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/glow_squid"
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/warden"
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/squid"
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/parrot"
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/creeper"
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/enderman"
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/tadpole"
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/chicken"
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/ravager"
+      }
+    },
+    "sniffer": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/sniffer"
+      }
+    },
+    "trader_llama": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/trader_llama"
+      }
+    },
+    "donkey": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/donkey"
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/fox"
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/tropcial_fish"
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/slime"
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/pillager"
+      }
+    },
+    "iron_golem": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/iron_golem"
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/zombified_piglin"
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/blaze"
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/piglin"
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/endermite"
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/cat"
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/zombie"
+      }
+    },
+    "guardian": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/guardian"
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/ghast"
+      }
+    },
+    "sheep": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/sheep"
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/pufferfish"
+      }
+    },
+    "villager": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/villager"
+      }
+    },
+    "wolf": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/wolf"
+      }
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/skeleton_horse"
+      }
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/zombie_villager"
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/elder_guardian"
+      }
+    },
+    "polar_bear": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/polar_bear"
+      }
+    },
+    "strider": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/strider"
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/cave_spider"
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/cod"
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/snow_golem"
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/witch"
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/spider"
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:spawn_eggs/wither"
+      }
+    }
+  }
+}

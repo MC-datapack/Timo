@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:sticky_piston"
+    },
+    "b": [
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "minecraft:ice"
+      },
+      {
+        "item": "minecraft:oak_sapling"
+      },
+      {
+        "item": "minecraft:birch_sapling"
+      },
+      {
+        "item": "minecraft:spruce_sapling"
+      },
+      {
+        "item": "minecraft:jungle_sapling"
+      },
+      {
+        "item": "minecraft:acacia_sapling"
+      },
+      {
+        "item": "minecraft:dark_oak_sapling"
+      },
+      {
+        "item": "minecraft:mangrove_propagule"
+      },
+      {
+        "item": "minecraft:cherry_sapling"
+      }
+    ]
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "minecraft:piston",
+    "count": 8
+  }
+}

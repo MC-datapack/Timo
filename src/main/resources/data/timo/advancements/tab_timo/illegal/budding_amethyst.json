@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/illegal",
+  "display": {
+    "icon": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "title": {
+      "translate": "Growing Amethysts"
+    },
+    "description": {
+      "translate": "Obtain a Budding Amethyst"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:budding_amethyst"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "timo:tab_timo/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Improved Loot"
+    },
+    "description": {
+      "translate": "Loot a Dungeon"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "dungeon": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/simple_dungeon"
+      }
+    }
+  }
+}

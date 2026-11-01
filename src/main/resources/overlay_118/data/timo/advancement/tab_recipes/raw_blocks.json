@@ -1,0 +1,52 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron_block"
+    },
+    "title": {
+      "translate": "Raw Material Blocks"
+    },
+    "description": {
+      "translate": "Smelt and blast all raw material blocks"
+    }
+  },
+  "criteria": {
+    "gold": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:smelting_raw_gold"
+      }
+    },
+    "copper_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:blasting_raw_copper"
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:smelting_raw_copper"
+      }
+    },
+    "iron": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:smelting_raw_iron"
+      }
+    },
+    "iron_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:blasting_raw_iron"
+      }
+    },
+    "gold_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:blasting_raw_gold"
+      }
+    }
+  }
+}

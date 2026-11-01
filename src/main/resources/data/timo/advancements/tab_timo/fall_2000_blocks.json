@@ -1,0 +1,26 @@
+{
+  "parent": "timo:tab_timo/fall_1000_blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "WHY DOES THIS EXIST?"
+    },
+    "description": {
+      "translate": "Fall 2000 Blocks and don't die"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "fall": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": 2000.0
+        }
+      }
+    }
+  }
+}

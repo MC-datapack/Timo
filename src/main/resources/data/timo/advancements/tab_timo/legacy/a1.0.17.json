@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/a1.0.14",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_fence"
+    },
+    "title": {
+      "translate": "a 1.0.17"
+    },
+    "description": {
+      "translate": "Obtain an Oak Fence"
+    }
+  },
+  "criteria": {
+    "fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_fence"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

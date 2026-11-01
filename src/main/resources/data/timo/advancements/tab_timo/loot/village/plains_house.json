@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "Plains"
+    },
+    "description": {
+      "translate": "Loot a Plains Village House"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_plains_house"
+      }
+    }
+  }
+}

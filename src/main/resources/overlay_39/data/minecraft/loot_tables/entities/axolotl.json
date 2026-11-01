@@ -1,0 +1,220 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Variant:0}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:random_chance_with_looting",
+                      "chance": 0.2,
+                      "looting_multiplier": 0.01
+                    }
+                  ]
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
+                    "minecraft:item_name": "\"Lucy Axolotl Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMTM4ZjQwMWM2N2ZjMmUxZTM4N2Q5YzkwYTk2OTE3NzJlZTQ4NmU4ZGRiZjJlZDM3NWZjODM0ODc0NmY5MzYifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Variant:1}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:random_chance_with_looting",
+                      "chance": 0.2,
+                      "looting_multiplier": 0.01
+                    }
+                  ]
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
+                    "minecraft:item_name": "\"Wild Axolotl Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkN2VmZTAyMDEyY2YzMWFlMjcwOGU3ZDdkZjA3OTcyNjU3NWM3ZWU4NTA0MzI4MTc1ZmU1NDQ3MDgxODdkY2UifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Variant:2}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:random_chance_with_looting",
+                      "chance": 0.2,
+                      "looting_multiplier": 0.01
+                    }
+                  ]
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
+                    "minecraft:item_name": "\"Gold Axolotl Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmODBjYzE0OTJlNDQ2NjhjY2NkYjQwMTc4YzNhNjY4OWU4ZGZjMGQyMzRlOTg1NTNmYjdkZWJjMjZmY2FlYWMifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Variant:3}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:random_chance_with_looting",
+                      "chance": 0.2,
+                      "looting_multiplier": 0.01
+                    }
+                  ]
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
+                    "minecraft:item_name": "\"Cyan Axolotl Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxYzJkMGMzYjk2YWQ0NWI0NjYzODhlMDI4YjI0N2FhZmUzNmIyNmIxMmM0MTFlY2I3MmU5YjUwZWEyMWU1MmMifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Variant:4}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
+                    "minecraft:item_name": "\"Blue Axolotl Head\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5YzkyZTViZjM5NGU2NDVlZDdmODQxMjJhZWZiMmI3NjcyZTJhYzA1NjcyMmNkMWJhZDIxZjFmMTk5NjlkMzkifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/axolotl"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/axolotl"
+}

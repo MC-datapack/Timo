@@ -1,9 +1,0 @@
-{
-    "block": "minecraft:slime_block",
-    "dim": "timo:single_biome/swamp",
-    "ignitionType": "BLOCK",
-    "ignitionSource": "minecraft:fire",
-    "r": 51,
-    "g": 51,
-    "b": 0
-}

@@ -1,0 +1,119 @@
+{
+  "parent": "timo:tab_timo/legacy/b1.7",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_stairs"
+    },
+    "title": {
+      "translate": "b 1.8"
+    },
+    "description": {
+      "translate": "Kill a Silverfish and an Enderman, go into a plains village and obtain Mossy Stone Bricks, an Iron Bar, a Glass Pane, a Mushroom Block and an Oak Fence Gate"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "oak_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_fence_gate"
+            ]
+          }
+        ]
+      }
+    },
+    "mossy_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_stone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_mushroom_block",
+              "minecraft:brown_mushroom_block"
+            ]
+          }
+        ]
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:silverfish"
+            }
+          }
+        ]
+      }
+    },
+    "village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:village_plains"
+            }
+          }
+        ]
+      }
+    },
+    "glass_pane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_pane"
+            ]
+          }
+        ]
+      }
+    },
+    "iron_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_bars"
+            ]
+          }
+        ]
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:enderman"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "timo:tab_timo/legacy/b1.3",
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "b 1.4"
+    },
+    "description": {
+      "translate": "Obtain Cocoa Beans and a Cookie"
+    }
+  },
+  "criteria": {
+    "cocoa_beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cocoa_beans"
+            ]
+          }
+        ]
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cookie"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

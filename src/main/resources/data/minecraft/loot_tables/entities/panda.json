@@ -1,0 +1,164 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{MainGene:\"aggressive\"}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Aggressive Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1NDZlNDM2ZDE2NmIxN2YwNTIxYmQ4NTM4ZWExM2NkNmVlM2I1ZGYxMDJlYjMyZTNlNDI1Y2IyODVkNDQwNjMifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.aggressive_ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{MainGene:\"lazy\"}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lazy Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU4N2YxZjVkYjJlMjRkZjRkYWFlZDQ2ODVkNmFlZTVkZWI3Y2RkMDI5NjMwZjAwNzljMWY4ZTFmOTc0MWFjZmQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{MainGene:\"playful\"}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Playful Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhjYWRkNGJmM2M0Y2FjZTkxNjY4MGUxZmVmOTBiNWQxNmFkNjY0Mzk1MTcyNTY2OGJhNmI0OTk2YjY5Y2ExNDAifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{MainGene:\"worried\"}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Worried Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiODZmZDFiZjhjYmNlMjNiYzA4ZmI5MDY5MTcxNzYxMWFkZGM4NWFiODIzYjc3MTRhZWM5OGE1NjYwZWZmMTUifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.worried_ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkNWY2ZDYxMjY3Mjg2NzFiNDRjMWM3NzVmOTk2MTc0MjRlMzM2MTFiNWQzMWFkMmFjZmYyODA0ZWI5NmViMDYifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Weak Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5ZGY0N2UwMTVkNWMxYzY4ZDcyYmUxMWJiNjU2MzgwZmM2ZGI1MzNhYWIzODk0MWE5MWIxZDNkNWUzOTY0OTcifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.sneeze\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5ZGY0N2UwMTVkNWMxYzY4ZDcyYmUxMWJiNjU2MzgwZmM2ZGI1MzNhYWIzODk0MWE5MWIxZDNkNWUzOTY0OTcifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.panda.ambient\"}}"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "condition": "minecraft:random_chance_with_looting",
+                  "chance": 0.27,
+                  "looting_multiplier": 0.004
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/panda"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/panda"
+}

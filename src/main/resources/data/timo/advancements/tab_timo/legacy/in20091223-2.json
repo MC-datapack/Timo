@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy",
+  "display": {
+    "icon": {
+      "item": "minecraft:torch"
+    },
+    "title": {
+      "translate": "In20091223-2"
+    },
+    "description": {
+      "translate": "Obtain a Torch"
+    }
+  },
+  "criteria": {
+    "torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torch"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

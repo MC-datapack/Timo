@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"ingredient": {
-		"tag": "minecraft:planks"
-	},
-	"result": "minecraft:mangrove_planks",
-    "count": 1
-}

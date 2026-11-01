@@ -1,0 +1,64 @@
+{
+  "parent": "timo:tab_recipes/unpack/iron",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "Gold"
+    },
+    "description": {
+      "translate": "Convert all Gold tools and armor pieces (including Horse Armor) back into Gold Ingots"
+    }
+  },
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_sword"
+      }
+    },
+    "horse_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_horse_armor"
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_chestplate"
+      }
+    },
+    "helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_helmet"
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_shovel"
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_boots"
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_leggings"
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/golden_axe"
+      }
+    }
+  }
+}

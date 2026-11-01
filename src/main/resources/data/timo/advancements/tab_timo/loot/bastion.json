@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/loot",
+  "display": {
+    "icon": {
+      "item": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Oh no a Piglin Brute"
+    },
+    "description": {
+      "translate": "Go into a Bastion"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:bastion_remnant"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

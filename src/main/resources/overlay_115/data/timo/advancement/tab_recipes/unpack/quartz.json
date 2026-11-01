@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/unpack/nether_wart",
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz"
+    },
+    "title": {
+      "translate": "Nether Quartz"
+    },
+    "description": {
+      "translate": "Use a Quartz Block to craft 9 Nether Quartz"
+    }
+  },
+  "criteria": {
+    "quartz": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:unpack/quartz"
+      }
+    }
+  }
+}

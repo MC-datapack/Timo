@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Variant:0}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Llama\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkNjdmZDRiZmYyOTMyNjljYjkwODk3NGRjYTgzYzMzNDg1ZTQzNWVkNWE4ZTFkYmQ2NTIxYzYxNjg3MTQwIn19fQ==\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.llama.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Variant:1}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Llama\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwMjc3ZTZiM2Q5Zjc4MTllZmM3ZGE0YjQyNzQ1ZjdhYjlhNjNiYThmMzZkNmI4NGE3YTI1MGM2ZDFhMzU4ZWIifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.llama.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Variant:2}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Llama\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyYjFlY2ZmNzdmZmUzYjUwM2MzMGE1NDhlYjIzYTFhMDhmYTI2ZmQ2N2NkZmYzODk4NTVkNzQ5MjEzNjgifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.llama.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Variant:3}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Llama\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmMjRlNTZmZDlmZmQ3MTMzZGE2ZDFmM2UyZjQ1NTk1MmIxZGE0NjI2ODZmNzUzYzU5N2VlODIyOTlhIn19fQ==\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.llama.ambient\"}}"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "condition": "minecraft:random_chance_with_looting",
+                  "chance": 0.024,
+                  "looting_multiplier": 0.02
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/llama"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/llama"
+}

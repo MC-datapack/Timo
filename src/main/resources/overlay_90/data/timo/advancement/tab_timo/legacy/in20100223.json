@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/in20100219",
+  "display": {
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": {
+      "translate": "In20100223"
+    },
+    "description": {
+      "translate": "Obtain a Painting"
+    }
+  },
+  "criteria": {
+    "diamond_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:painting"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

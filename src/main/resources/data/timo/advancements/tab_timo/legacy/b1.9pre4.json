@@ -1,0 +1,23 @@
+{
+  "parent": "timo:tab_timo/legacy/b1.9pre3",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "b 1.9pre4"
+    },
+    "description": {
+      "translate": "Go into the End"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  }
+}

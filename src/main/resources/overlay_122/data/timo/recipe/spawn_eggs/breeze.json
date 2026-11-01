@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:breeze_rod",
+    "b": [
+      "minecraft:copper_block",
+      "minecraft:waxed_copper_block"
+    ],
+    "c": "minecraft:wind_charge"
+  },
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "result": {
+    "id": "minecraft:breeze_spawn_egg"
+  }
+}

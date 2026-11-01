@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/illegal",
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "The unbreakable block"
+    },
+    "description": {
+      "translate": "Obtain Bedrock"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bedrock"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

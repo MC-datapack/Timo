@@ -1,0 +1,30 @@
+{
+  "parent": "timo:tab_timo/legacy/a1.0.1",
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_spawn_egg"
+    },
+    "title": {
+      "translate": "a 1.0.3"
+    },
+    "description": {
+      "translate": "Punch a Zombie"
+    }
+  },
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

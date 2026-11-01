@@ -1,0 +1,796 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Woodcutte"
+    },
+    "description": {
+      "translate": "Use all Woodcutter recipes"
+    }
+  },
+  "criteria": {
+    "warped_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_stairs"
+      }
+    },
+    "cherry_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_fence"
+      }
+    },
+    "acacia_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_stairs"
+      }
+    },
+    "oak_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_sapling"
+      }
+    },
+    "oak_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_slab"
+      }
+    },
+    "spruce_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_door"
+      }
+    },
+    "birch_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_stairs"
+      }
+    },
+    "oak_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_hanging_sign"
+      }
+    },
+    "spruce_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_sign"
+      }
+    },
+    "bamboo_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_planks"
+      }
+    },
+    "birch_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_slab"
+      }
+    },
+    "mangrove_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_fence_gate"
+      }
+    },
+    "spruce_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_fence_gate"
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_sapling"
+      }
+    },
+    "birch_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_fence_gate"
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/stick"
+      }
+    },
+    "bees": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bees"
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_sapling"
+      }
+    },
+    "acacia_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_hanging_sign"
+      }
+    },
+    "bookshelf": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bookshelf"
+      }
+    },
+    "dark_oak_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_planks"
+      }
+    },
+    "bamboo_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_hanging_sign"
+      }
+    },
+    "mangrove_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_planks"
+      }
+    },
+    "mangrove_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_sign"
+      }
+    },
+    "acacia_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_sign"
+      }
+    },
+    "oak_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_trapdoor"
+      }
+    },
+    "acacia_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_fence_gate"
+      }
+    },
+    "acacia_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_log"
+      }
+    },
+    "cherry_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_fence_gate"
+      }
+    },
+    "jungle_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_stairs"
+      }
+    },
+    "dark_oak_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_log"
+      }
+    },
+    "bamboo_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_door"
+      }
+    },
+    "birch_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_fence"
+      }
+    },
+    "jungle_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_fence_gate"
+      }
+    },
+    "bamboo_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_sign"
+      }
+    },
+    "jungle_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_hanging_sign"
+      }
+    },
+    "oak_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_stairs"
+      }
+    },
+    "jungle_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_slab"
+      }
+    },
+    "crimson_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_hanging_sign"
+      }
+    },
+    "spruce_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_trapdoor"
+      }
+    },
+    "warped_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_slab"
+      }
+    },
+    "cherry_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_stairs"
+      }
+    },
+    "mangrove_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_stairs"
+      }
+    },
+    "cherry_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_sign"
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_door"
+      }
+    },
+    "acacia_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_door"
+      }
+    },
+    "spruce_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_log"
+      }
+    },
+    "dark_oak_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_sign"
+      }
+    },
+    "barrel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/barrel"
+      }
+    },
+    "bamboo_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_fence_gate"
+      }
+    },
+    "cherry_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_door"
+      }
+    },
+    "cherry_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_trapdoor"
+      }
+    },
+    "oak_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_fence"
+      }
+    },
+    "acacia_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_planks"
+      }
+    },
+    "cherry_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_log"
+      }
+    },
+    "bamboo_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_stairs"
+      }
+    },
+    "soul_campfire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/soul_campfire"
+      }
+    },
+    "crimson_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_slab"
+      }
+    },
+    "chiseled_bookshelf": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/chiseled_bookshelf"
+      }
+    },
+    "oak_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_fence_gate"
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_sapling"
+      }
+    },
+    "acacia_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_fence"
+      }
+    },
+    "birch_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_door"
+      }
+    },
+    "crimson_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_trapdoor"
+      }
+    },
+    "spruce_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_slab"
+      }
+    },
+    "oak_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_sign"
+      }
+    },
+    "birch_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_sign"
+      }
+    },
+    "oak_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_door"
+      }
+    },
+    "dark_oak_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_stairs"
+      }
+    },
+    "warped_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_fence_gate"
+      }
+    },
+    "spruce_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_planks"
+      }
+    },
+    "warped_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_fence"
+      }
+    },
+    "mangrove_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_hanging_sign"
+      }
+    },
+    "campfire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/campfire"
+      }
+    },
+    "dark_oak_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_fence"
+      }
+    },
+    "chest": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/chest"
+      }
+    },
+    "warped_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_trapdoor"
+      }
+    },
+    "bamboo_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_fence"
+      }
+    },
+    "crimson_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_stairs"
+      }
+    },
+    "dark_oak_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_hanging_sign"
+      }
+    },
+    "warped_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_hanging_sign"
+      }
+    },
+    "mangrove_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_slab"
+      }
+    },
+    "dark_oak_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_door"
+      }
+    },
+    "oak_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_log"
+      }
+    },
+    "dark_oak_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_fence_gate"
+      }
+    },
+    "jungle_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_planks"
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_sapling"
+      }
+    },
+    "crimson_fence_gate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_fence_gate"
+      }
+    },
+    "mangrove_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_fence"
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_sapling"
+      }
+    },
+    "warped_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_planks"
+      }
+    },
+    "bamboo_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_slab"
+      }
+    },
+    "crimson_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_fence"
+      }
+    },
+    "crimson_stem": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_stem"
+      }
+    },
+    "crimson_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_planks"
+      }
+    },
+    "spruce_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_hanging_sign"
+      }
+    },
+    "warped_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_door"
+      }
+    },
+    "jungle_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_fence"
+      }
+    },
+    "jukebox": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jukebox"
+      }
+    },
+    "acacia_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_slab"
+      }
+    },
+    "bamboo_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_block"
+      }
+    },
+    "bowl": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bowl"
+      }
+    },
+    "note_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/note_block"
+      }
+    },
+    "birch_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_trapdoor"
+      }
+    },
+    "jungle_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_sign"
+      }
+    },
+    "mangrove_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_trapdoor"
+      }
+    },
+    "jungle_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_door"
+      }
+    },
+    "jungle_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_log"
+      }
+    },
+    "jungle_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/jungle_trapdoor"
+      }
+    },
+    "dark_oak_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_slab"
+      }
+    },
+    "spruce_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_fence"
+      }
+    },
+    "cherry_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_slab"
+      }
+    },
+    "birch_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_log"
+      }
+    },
+    "warped_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_sign"
+      }
+    },
+    "spruce_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/spruce_stairs"
+      }
+    },
+    "birch_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_planks"
+      }
+    },
+    "cherry_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_hanging_sign"
+      }
+    },
+    "crafting_table": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crafting_table"
+      }
+    },
+    "oak_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/oak_planks"
+      }
+    },
+    "birch_hanging_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/birch_hanging_sign"
+      }
+    },
+    "crimson_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_door"
+      }
+    },
+    "mangrove_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_log"
+      }
+    },
+    "acacia_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/acacia_trapdoor"
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_sapling"
+      }
+    },
+    "warped_stem": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/warped_stem"
+      }
+    },
+    "cherry_planks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/cherry_planks"
+      }
+    },
+    "bamboo_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/bamboo_trapdoor"
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/mangrove_propagule"
+      }
+    },
+    "crimson_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/crimson_sign"
+      }
+    },
+    "dark_oak_trapdoor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:woodcutter/dark_oak_trapdoor"
+      }
+    }
+  }
+}

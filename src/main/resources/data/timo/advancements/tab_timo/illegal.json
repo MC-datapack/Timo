@@ -1,0 +1,27 @@
+{
+  "parent": "timo:tab_timo/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Illegal"
+    },
+    "description": {
+      "translate": "Obtain an illegal item"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "illegal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "timo:illegal"
+          }
+        ]
+      }
+    }
+  }
+}

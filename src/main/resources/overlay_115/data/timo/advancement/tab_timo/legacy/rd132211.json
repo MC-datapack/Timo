@@ -1,0 +1,20 @@
+{
+  "parent": "timo:tab_timo/legacy",
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "rd132211"
+    },
+    "description": {
+      "translate": "Place a block"
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {}
+    }
+  }
+}

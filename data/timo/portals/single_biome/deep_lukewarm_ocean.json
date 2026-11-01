@@ -1,9 +1,0 @@
-{
-    "block": "minecraft:light_blue_concrete",
-    "dim": "timo:single_biome/deep_lukewarm_ocean",
-    "ignitionType": "BLOCK",
-    "ignitionSource": "minecraft:fire",
-    "r": 0,
-    "g": 204,
-    "b": 204
-}

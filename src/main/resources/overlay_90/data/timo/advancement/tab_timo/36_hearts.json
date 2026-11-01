@@ -1,0 +1,25 @@
+{
+  "parent": "timo:tab_timo/18_hearts",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Over-Over-Overkill"
+    },
+    "description": {
+      "translate": "Deal 36 hearts of damage in a single hit"
+    },
+    "hidden": true
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 72.0
+        }
+      }
+    }
+  }
+}

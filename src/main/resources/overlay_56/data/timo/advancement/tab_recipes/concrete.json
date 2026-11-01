@@ -1,0 +1,112 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_concrete"
+    },
+    "title": {
+      "translate": "Concrete"
+    },
+    "description": {
+      "translate": "Convert every color of Concrete Powder by putting it into any crafting slot"
+    }
+  },
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:magenta_concrete_powder"
+      }
+    },
+    "pink": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:pink_concrete_powder"
+      }
+    },
+    "green": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:green_concrete_powder"
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:light_gray_concrete_powder"
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:lime_concrete_powder"
+      }
+    },
+    "black": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:black_concrete_powder"
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:yellow_concrete_powder"
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:light_blue_concrete_powder"
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:brown_concrete_powder"
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:cyan_concrete_powder"
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:orange_concrete_powder"
+      }
+    },
+    "red": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:red_concrete_powder"
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:gray_concrete_powder"
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:blue_concrete_powder"
+      }
+    },
+    "white": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:white_concrete_powder"
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:purple_concrete_powder"
+      }
+    }
+  }
+}

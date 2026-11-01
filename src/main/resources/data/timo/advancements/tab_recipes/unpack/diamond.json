@@ -1,0 +1,64 @@
+{
+  "parent": "timo:tab_recipes/unpack/gold",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "Diamond"
+    },
+    "description": {
+      "translate": "Convert all Diamond tools and armor pieces (including Horse Armor) back into Diamonds"
+    }
+  },
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_sword"
+      }
+    },
+    "horse_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_horse_armor"
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_chestplate"
+      }
+    },
+    "helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_helmet"
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_shovel"
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_boots"
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_leggings"
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/diamond_axe"
+      }
+    }
+  }
+}

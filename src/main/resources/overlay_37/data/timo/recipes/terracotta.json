@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "minecraft:saplings"
+    },
+    "b": {
+      "tag": "minecraft:terracotta"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "result": {
+    "id": "minecraft:terracotta"
+  }
+}

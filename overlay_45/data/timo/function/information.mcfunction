@@ -1,1 +1,0 @@
-tellraw @p [{"clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/timo_11"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Modrinth","color":"white","bold":true,"italic":true}]}},"text":"Thank you for downloading Timo."},{"text":" Timo adds many new recipes, advancements, and structures, and Timo improves many vanilla Loot Tables."}]

@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/inf20100618",
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "Inf20100625-2"
+    },
+    "description": {
+      "translate": "Obtain a Spawner"
+    }
+  },
+  "criteria": {
+    "spawner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spawner"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "timo:tab_timo/legacy/b1.9pre4",
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "b 1.9pre5"
+    },
+    "description": {
+      "translate": "Hurt the Ender Dragon"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "ender_dragon": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/legacy/1.0",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": {
+      "translate": "1.1"
+    },
+    "description": {
+      "translate": "Loot a Weaponsmith"
+    }
+  },
+  "criteria": {
+    "weaponsmith": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_weaponsmith"
+      }
+    }
+  }
+}

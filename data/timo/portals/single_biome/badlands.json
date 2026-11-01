@@ -1,9 +1,0 @@
-{
-    "block": "minecraft:brown_terracotta",
-    "dim": "timo:single_biome/badlands",
-    "ignitionType": "BLOCK",
-    "ignitionSource": "minecraft:fire",
-    "r": 51,
-    "g": 25,
-    "b": 0
-}

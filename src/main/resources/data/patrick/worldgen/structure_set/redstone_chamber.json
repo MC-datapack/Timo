@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "patrick:redstone_chamber",
+      "weight": 1
+    },
+    {
+      "structure": "patrick:redstone_chamber2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 654246274,
+    "frequency_reduction_method": "default",
+    "frequency": 1.0,
+    "spread_type": "linear",
+    "spacing": 55,
+    "separation": 25
+  }
+}

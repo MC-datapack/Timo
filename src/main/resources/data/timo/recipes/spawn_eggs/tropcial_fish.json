@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:tropical_fish"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "minecraft:tropical_fish_spawn_egg"
+  }
+}

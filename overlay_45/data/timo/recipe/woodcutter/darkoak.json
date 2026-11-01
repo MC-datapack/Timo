@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:stonecutting",
-	"ingredient": {
-		"tag": "minecraft:saplings"
-	},
-	"result": {
-		"id": "minecraft:dark_oak_sapling"
-	}
-}

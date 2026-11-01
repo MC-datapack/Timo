@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/unpack/amethyst",
+  "display": {
+    "icon": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "title": {
+      "translate": "Dripstone"
+    },
+    "description": {
+      "translate": "Use a Dripstone Block to craft 4 Pointed Dripstone"
+    }
+  },
+  "criteria": {
+    "dripstone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/dripstone"
+      }
+    }
+  }
+}

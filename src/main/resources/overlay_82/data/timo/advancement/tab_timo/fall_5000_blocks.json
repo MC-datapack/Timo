@@ -1,0 +1,26 @@
+{
+  "parent": "timo:tab_timo/fall_4000_blocks",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "THIS SHOULDN'T EXIST, SHOULD IT?"
+    },
+    "description": {
+      "translate": "Fall 5000 Blocks and don't die"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "fall": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": 5000.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Sniffer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4NGE3ZTdmZTE5N2I3ZTc0MTliNTFkNDZjYzIzMzU1MWI5ZWM4OTlkZTFhZmU3ZjY1M2U0ZjhmYjI2YTY4NmUifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.sniffer.scenting\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/sniffer"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/sniffer"
+}

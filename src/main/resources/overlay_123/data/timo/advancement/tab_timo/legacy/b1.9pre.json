@@ -1,0 +1,27 @@
+{
+  "parent": "timo:tab_timo/legacy/b1.8",
+  "display": {
+    "icon": {
+      "id": "minecraft:mycelium"
+    },
+    "title": {
+      "translate": "b 1.9pre"
+    },
+    "description": {
+      "translate": "Visit a Mushroom Island"
+    }
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:mushroom_fields"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/legacy/1.17",
+  "display": {
+    "icon": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "1.18"
+    },
+    "description": {
+      "translate": "Discover a Stony Peaks Biome"
+    }
+  },
+  "criteria": {
+    "stony_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:stony_peaks"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "timo:tab_timo/legacy/1.13",
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "1.14"
+    },
+    "description": {
+      "translate": "Complete a Raid"
+    }
+  },
+  "criteria": {
+    "raid": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {}
+    }
+  }
+}

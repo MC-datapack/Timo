@@ -1,0 +1,40 @@
+{
+  "parent": "timo:tab_timo/legacy/in20091231-2",
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": {
+      "translate": "In20100122"
+    },
+    "description": {
+      "translate": "Obtain bow and arrow"
+    }
+  },
+  "criteria": {
+    "arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:arrow"
+            ]
+          }
+        ]
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

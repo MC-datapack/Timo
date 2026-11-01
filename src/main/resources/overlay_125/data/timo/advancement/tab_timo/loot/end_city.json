@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot",
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Oh no Levitation"
+    },
+    "description": {
+      "translate": "Loot an End City"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "minecraft:chests/end_city_treasure"
+      }
+    }
+  }
+}

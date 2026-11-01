@@ -1,0 +1,155 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Variant:0}"
+                }
+              },
+              "modifier": [
+                {
+                  "type": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.llama.ambient",
+                    "minecraft:item_name": "Creamy Llama Head",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkNjdmZDRiZmYyOTMyNjljYjkwODk3NGRjYTgzYzMzNDg1ZTQzNWVkNWE4ZTFkYmQ2NTIxYzYxNjg3MTQwIn19fQ=="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Variant:1}"
+                }
+              },
+              "modifier": [
+                {
+                  "type": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.llama.ambient",
+                    "minecraft:item_name": "White Llama Head",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwMjc3ZTZiM2Q5Zjc4MTllZmM3ZGE0YjQyNzQ1ZjdhYjlhNjNiYThmMzZkNmI4NGE3YTI1MGM2ZDFhMzU4ZWIifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Variant:2}"
+                }
+              },
+              "modifier": [
+                {
+                  "type": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.llama.ambient",
+                    "minecraft:item_name": "Brown Llama Head",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyYjFlY2ZmNzdmZmUzYjUwM2MzMGE1NDhlYjIzYTFhMDhmYTI2ZmQ2N2NkZmYzODk4NTVkNzQ5MjEzNjgifX19"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Variant:3}"
+                }
+              },
+              "modifier": [
+                {
+                  "type": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.llama.ambient",
+                    "minecraft:item_name": "Gray Llama Head",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmMjRlNTZmZDlmZmQ3MTMzZGE2ZDFmM2UyZjQ1NTk1MmIxZGE0NjI2ODZmNzUzYzU5N2VlODIyOTlhIn19fQ=="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:killed_by_player"
+              },
+              {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
+                "enchantment": "minecraft:looting",
+                "unenchanted_chance": 0.024,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.044,
+                  "per_level_above_first": 0.02
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/llama"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/llama"
+}

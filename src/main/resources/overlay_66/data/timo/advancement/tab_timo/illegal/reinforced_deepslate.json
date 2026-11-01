@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/illegal",
+  "display": {
+    "icon": {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    "title": {
+      "translate": "Why does this take so long?"
+    },
+    "description": {
+      "translate": "Obtain Reinforced Deplate"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bedrock"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

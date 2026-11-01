@@ -1,0 +1,52 @@
+{
+  "parent": "timo:tab_timo/legacy/inf20100313",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sign"
+    },
+    "title": {
+      "translate": "Inf20100607"
+    },
+    "description": {
+      "translate": "Obtain an Oak Sign, an Oak Door and a Ladder"
+    }
+  },
+  "criteria": {
+    "door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_door"
+            ]
+          }
+        ]
+      }
+    },
+    "ladder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ladder"
+            ]
+          }
+        ]
+      }
+    },
+    "sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_sign"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

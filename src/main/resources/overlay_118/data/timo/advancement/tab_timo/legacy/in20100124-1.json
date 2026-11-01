@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/in20100122",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "In20100124-1"
+    },
+    "description": {
+      "translate": "Obtain a Chest"
+    }
+  },
+  "criteria": {
+    "chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

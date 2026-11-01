@@ -1,0 +1,46 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather"
+    },
+    "title": {
+      "translate": "Leather"
+    },
+    "description": {
+      "translate": "Convert all Leather armor pieces (including Horse Armor) back into Leather"
+    }
+  },
+  "criteria": {
+    "horse_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/leather_horse_armor"
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/leather_chestplate"
+      }
+    },
+    "helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/leather_helmet"
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/leather_boots"
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/leather_leggings"
+      }
+    }
+  }
+}

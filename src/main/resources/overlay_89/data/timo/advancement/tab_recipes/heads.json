@@ -1,0 +1,58 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Heads"
+    },
+    "description": {
+      "translate": "Use a smithing table to convert any Head/Skull to every Head/Skull"
+    }
+  },
+  "criteria": {
+    "skeleton": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:skeleton_skull"
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:piglin_head"
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:whiter_skeleton_skull"
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:zombie_head"
+      }
+    },
+    "dragon": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:dragon_head"
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:creeper_head"
+      }
+    },
+    "player": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:player_head"
+      }
+    }
+  }
+}

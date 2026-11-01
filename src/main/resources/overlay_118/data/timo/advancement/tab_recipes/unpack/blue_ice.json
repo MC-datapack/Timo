@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/unpack/packed_ice",
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Blue Ice"
+    },
+    "description": {
+      "translate": "Use Blue Ice to craft 9 Packed Ice"
+    }
+  },
+  "criteria": {
+    "blue_ice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:unpack/blue_ice"
+      }
+    }
+  }
+}

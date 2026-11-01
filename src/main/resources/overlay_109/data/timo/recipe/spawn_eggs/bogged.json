@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:vine",
+    "b": "minecraft:red_mushroom",
+    "c": "minecraft:tipped_arrow",
+    "d": "minecraft:bone"
+  },
+  "pattern": [
+    "dad",
+    "bcb",
+    "dad"
+  ],
+  "result": {
+    "id": "minecraft:bogged_spawn_egg"
+  }
+}

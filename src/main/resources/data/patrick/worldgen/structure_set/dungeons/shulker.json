@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "patrick:dungeons/shulker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 45364532,
+    "frequency_reduction_method": "default",
+    "frequency": 0.125,
+    "spread_type": "linear",
+    "spacing": 40,
+    "separation": 32
+  }
+}

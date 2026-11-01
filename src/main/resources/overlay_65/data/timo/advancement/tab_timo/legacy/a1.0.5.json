@@ -1,0 +1,40 @@
+{
+  "parent": "timo:tab_timo/legacy/a1.0.4",
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "a 1.0.5"
+    },
+    "description": {
+      "translate": "Obtain a Snow Block and a Snow Ball"
+    }
+  },
+  "criteria": {
+    "ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snowball"
+            ]
+          }
+        ]
+      }
+    },
+    "block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snow_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

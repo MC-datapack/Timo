@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "bab",
+    "aaa"
+  ],
+  "result": {
+    "item": "minecraft:spider_spawn_egg"
+  }
+}

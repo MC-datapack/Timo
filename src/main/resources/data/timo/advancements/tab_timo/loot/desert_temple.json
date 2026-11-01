@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot",
+  "display": {
+    "icon": {
+      "item": "minecraft:sandstone"
+    },
+    "title": {
+      "translate": "Why is there a secret?"
+    },
+    "description": {
+      "translate": "Loot a Desert Pyramid"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/desert_pyramid"
+      }
+    }
+  }
+}

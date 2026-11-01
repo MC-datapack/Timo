@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/1.12",
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "1.13"
+    },
+    "description": {
+      "translate": "Obtain a Heart of the Sea"
+    }
+  },
+  "criteria": {
+    "heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heart_of_the_sea"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

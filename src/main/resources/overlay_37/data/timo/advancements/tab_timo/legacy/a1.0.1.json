@@ -1,0 +1,113 @@
+{
+  "parent": "timo:tab_timo/legacy",
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_ore"
+    },
+    "title": {
+      "translate": "a 1.0.1"
+    },
+    "description": {
+      "translate": "Obtain a Redstone Dust, a Redstone ore, a Redstone Torch, a Stone Button, a Stone Pressure Plate, a Oak Pressure Plate, a Lever and an Iron Door"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "redstone_torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_torch"
+            ]
+          }
+        ]
+      }
+    },
+    "redstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "stone_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_button"
+            ]
+          }
+        ]
+      }
+    },
+    "lever": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lever"
+            ]
+          }
+        ]
+      }
+    },
+    "oak_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_pressure_plate"
+            ]
+          }
+        ]
+      }
+    },
+    "stone_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_pressure_plate"
+            ]
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    },
+    "iron_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_door"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

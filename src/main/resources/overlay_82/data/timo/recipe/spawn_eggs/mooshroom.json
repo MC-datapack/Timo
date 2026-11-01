@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:mushroom_stew",
+    "b": "minecraft:beef"
+  },
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "result": {
+    "id": "minecraft:mooshroom_spawn_egg"
+  }
+}

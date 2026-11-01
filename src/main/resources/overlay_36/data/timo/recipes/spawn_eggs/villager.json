@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "bab",
+    "aaa"
+  ],
+  "result": {
+    "id": "minecraft:villager_spawn_egg"
+  }
+}

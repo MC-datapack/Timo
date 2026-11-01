@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "patrick:village_cherry",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 678296455,
+    "frequency_reduction_method": "default",
+    "frequency": 1.0,
+    "spread_type": "linear",
+    "spacing": 25,
+    "separation": 15
+  }
+}

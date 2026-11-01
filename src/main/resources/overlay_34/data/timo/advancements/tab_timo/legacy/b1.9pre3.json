@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/b1.9pre2",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "b 1.9pre3"
+    },
+    "description": {
+      "translate": "Obtain a Potion"
+    }
+  },
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

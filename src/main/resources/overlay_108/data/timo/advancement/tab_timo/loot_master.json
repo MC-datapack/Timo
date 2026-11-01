@@ -1,0 +1,419 @@
+{
+  "parent": "timo:tab_timo/illegal_master",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "Loot Master"
+    },
+    "description": {
+      "translate": "Complete all Loot Advancements"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "bastion/treasure": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/bastion/treasure": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone_chamber": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/redstone_chamber": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shipwreck/treasure": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/shipwreck/treasure": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shipwreck/map": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/shipwreck/map": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bastion/hoglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/bastion/hoglin": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone_chamber_secret": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/redstone_chamber_secret": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bastion/other": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/bastion/other": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bastion/bridge": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/bastion/bridge": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_temple_dispenser": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/jungle_temple_dispenser": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "village/plains_house": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/vilage/plains_house": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fortress": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/fortress": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "village/desert_house": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/vilage/desert_house": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "village/taiga_house": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/vilage/taiga_house": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_temple": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/jungle_temple": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "desert_temple": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/desert_temple": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shipwreck/buried_treasure": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/shipwreck/buried_treasure": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "village/savanna_house": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/vilage/savanna_house": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bastion": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/bastion": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "end_city": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/end_city": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shipwreck/supply": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/shipwreck/supply": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ruined_portal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "type": "player",
+                "advancements": {
+                  "timo:tab_timo/loot/ruined_portal": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "timo:advancement_rewards/loot_master"
+  }
+}

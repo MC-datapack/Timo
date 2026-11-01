@@ -1,0 +1,96 @@
+{
+  "parent": "timo:tab_timo/legacy",
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "Inf20100227-1433"
+    },
+    "description": {
+      "translate": "Reach the far lands"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "pos_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "z": {
+                  "min": 1.2550821E7
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pos_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 1.2550821E7
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "neg_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "max": -1.2550821E7
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "neg_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "z": {
+                  "max": -1.2550821E7
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pos_x",
+      "neg_x",
+      "pos_z",
+      "neg_z"
+    ]
+  ],
+  "rewards": {
+    "function": "timo:advancement_rewards/inf20100227-1433"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy",
+  "display": {
+    "icon": {
+      "id": "minecraft:egg"
+    },
+    "title": {
+      "translate": "Finally Beta (b 1.0)"
+    },
+    "description": {
+      "translate": "Obtain an Egg"
+    }
+  },
+  "criteria": {
+    "egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

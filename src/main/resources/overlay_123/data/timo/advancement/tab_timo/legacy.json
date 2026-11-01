@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "Legacy"
+    },
+    "description": {
+      "translate": ""
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "legacy": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "timo:tab_timo/fall_2000_blocks",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate": "WHY DOES THIS ALSO EXIST?"
+    },
+    "description": {
+      "translate": "Fall 3000 Blocks and don't die"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "fall": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": 3000.0
+        }
+      }
+    }
+  }
+}

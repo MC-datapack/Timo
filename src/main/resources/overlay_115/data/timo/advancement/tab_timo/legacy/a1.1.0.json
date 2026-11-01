@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/legacy/a1.0.17",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "a 1.1.0"
+    },
+    "description": {
+      "translate": "Obtain a Compass"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

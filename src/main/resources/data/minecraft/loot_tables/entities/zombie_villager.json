@@ -1,0 +1,315 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Armorer Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4Njc5ZTAzNDc2N2Q1MTg2NjBkOTQxNmRjNWVhZjMxOWQ2OTc2ODJhYzQwYzg4NmUzYzJiYzhkZmExZGUxZCJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Butcher Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljY2U4ZDZjZTQxMjRjZWMzZTg0YTg1MmU3MGY1MDI5M2YyNDRkZGM5ZWU4NTc4ZjdkNmQ4OTI5ZTE2YmFkNjkifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Cartographer Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2MDgwMGIwMTAxMmU5NjNlN2MyMGM4YmExNGI3MGEwMjY0ZDE0NmE4NTBkZWZmYmNhN2JmZTUxMmY0Y2IyM2QifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Cleric Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI5NTg1NzhiZTBlMTIxNzI3MzRhNzgyNDJkYWIxNDk2NGFiYzg1YWI5YjU5NjM2MWY3YzVkYWY4ZjE0YTBmZWIifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Farmer Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3N2Q0MTVmOWJhYTRmYTRiNWUwNThmNWI4MWJmN2YwMDNiMGEyYzkwYTQ4MzFlNTNhN2RiYzA5ODQxYzU1MTEifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Fisherman Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5MDVkNTNmZTRmYWViMGIzMTVhNjg3OGM5YWI4MWI0YmU1MmMzMWNkNDc4YzAyN2YwZDdlY2U5ZjZkYTg5MTQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Fletcher Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJlYTI2YWMwZTI1NDk4YWRhZGE0ZWNlYTU4YmI0ZTc2ZGEzMmQ1Y2EyZGUzMDdlZmU1ZTQyMThmYjdjNWVmODkifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Leatherworker Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiNTUyYzkwZjIxMmU4NTVkMTIyNTVkNWNkNjJlZDM4YjljZDdlMzBlNzNmMGVhNzc5ZDE3NjQzMzBlNjkyNjQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Librarian Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYyMjExYTFmNDA5Y2NhNDI0OWM3MGQyMGNhODAzOTlmYTQ4NDRlYTQxNzQ1OGJlOTg4Y2MyMWViNDc5NzM3NWUifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Mason Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiNTUyYzkwZjIxMmU4NTVkMTIyNTVkNWNkNjJlZDM4YjljZDdlMzBlNzNmMGVhNzc5ZDE3NjQzMzBlNjkyNjQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Nitwit Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiNTUyYzkwZjIxMmU4NTVkMTIyNTVkNWNkNjJlZDM4YjljZDdlMzBlNzNmMGVhNzc5ZDE3NjQzMzBlNjkyNjQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiNTUyYzkwZjIxMmU4NTVkMTIyNTVkNWNkNjJlZDM4YjljZDdlMzBlNzNmMGVhNzc5ZDE3NjQzMzBlNjkyNjQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Shepherd Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5MTM5MWJlZjNhNDZlZjI2N2QzYjcxNzEwODZiYTRjOGQxN2YyYTZiMGY4M2ZhMmFjMzBlZmU5MTRiN2MyNDkifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Toolsmith Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiNTUyYzkwZjIxMmU4NTVkMTIyNTVkNWNkNjJlZDM4YjljZDdlMzBlNzNmMGVhNzc5ZDE3NjQzMzBlNjkyNjQifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Weaponsmith Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzNzA4OTRiNWNjMzA1ZDg3YWEwOGMzYjRiMDg1ODdkYjY4ZmYyOWU3YTNlZjM1NGNhZDZhYmNhNTBlNTUyOGIifX19\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.zombie_villager.ambient\"}}"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/zombie_villager"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/zombie_villager"
+}

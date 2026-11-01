@@ -1,0 +1,26 @@
+{
+  "parent": "timo:tab_timo/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "HOW?"
+    },
+    "description": {
+      "translate": "Fall 1000 Blocks and don't die"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "fall": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": 1000.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:cooked_cod",
+    "b": "minecraft:water_bucket",
+    "c": "minecraft:cod"
+  },
+  "pattern": [
+    "cac",
+    "aba",
+    "cac"
+  ],
+  "result": {
+    "id": "minecraft:dolphin_spawn_egg"
+  }
+}

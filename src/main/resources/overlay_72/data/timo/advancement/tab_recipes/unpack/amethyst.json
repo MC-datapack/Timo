@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "Amethyst"
+    },
+    "description": {
+      "translate": "Use an Amethyst Block to craft 4 Amethyst Shards"
+    }
+  },
+  "criteria": {
+    "amethyst": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/amethyst"
+      }
+    }
+  }
+}

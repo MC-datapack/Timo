@@ -1,0 +1,45 @@
+{
+  "parent": "timo:tab_timo/legacy/1.8",
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "1.9"
+    },
+    "description": {
+      "translate": "Respawn the Ender Dragon and obtain an Elytra"
+    }
+  },
+  "criteria": {
+    "ender_dragon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "type": "player",
+              "advancements": {
+                "minecraft:end/respawn_dragon": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

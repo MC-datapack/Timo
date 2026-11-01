@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot/bastion",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "Oh no Hoglins"
+    },
+    "description": {
+      "translate": "Loot a Hoglin Stable Bastion"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "minecraft:chests/bastion_hoglin_stable"
+      }
+    }
+  }
+}

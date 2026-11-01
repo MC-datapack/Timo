@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot/shipwreck/treasure",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "I need the Buried Treasure Map"
+    },
+    "description": {
+      "translate": "Loot the Map Chest in a Shipwreck"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_map"
+      }
+    }
+  }
+}

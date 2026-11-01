@@ -1,0 +1,33 @@
+{
+  "parent": "timo:tab_timo/legacy/rd161348",
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "c 0.0.12a"
+    },
+    "description": {
+      "translate": "Obtain a Torch"
+    }
+  },
+  "criteria": {
+    "water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:water"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

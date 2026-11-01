@@ -1,0 +1,37 @@
+{
+  "parent": "timo:tab_timo/legacy/inf20100607",
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Inf20100611"
+    },
+    "description": {
+      "translate": "Reach y=2032"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": 2032.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "timo:advancement_rewards/inf20100611"
+  }
+}

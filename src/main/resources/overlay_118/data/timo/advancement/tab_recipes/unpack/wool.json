@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/unpack/quartz",
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "String"
+    },
+    "description": {
+      "translate": "Use Wool to craft 4 Strings"
+    }
+  },
+  "criteria": {
+    "wool": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:unpack/wool"
+      }
+    }
+  }
+}

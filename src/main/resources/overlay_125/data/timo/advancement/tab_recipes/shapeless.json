@@ -1,0 +1,40 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "Shapeless"
+    },
+    "description": {
+      "translate": "Use all shapeless recipes (Bread, Chains, Paper and Shulker Boxes)"
+    }
+  },
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:bread"
+      }
+    },
+    "chain": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:chain"
+      }
+    },
+    "paper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:paper"
+      }
+    },
+    "shulker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:shulker"
+      }
+    }
+  }
+}

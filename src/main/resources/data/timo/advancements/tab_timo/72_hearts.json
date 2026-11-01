@@ -1,0 +1,26 @@
+{
+  "parent": "timo:tab_timo/36_hearts",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "Over-Over-Over-Overkill"
+    },
+    "description": {
+      "translate": "Deal 72 hearts of damage in a single hit"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 144.0
+        }
+      }
+    }
+  }
+}

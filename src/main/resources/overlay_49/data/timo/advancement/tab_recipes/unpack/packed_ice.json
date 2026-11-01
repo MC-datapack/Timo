@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/unpack/wool",
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "Ice"
+    },
+    "description": {
+      "translate": "Use Packed Ice to craft 9 Ice"
+    }
+  },
+  "criteria": {
+    "packed_ice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:unpack/packed_ice"
+      }
+    }
+  }
+}

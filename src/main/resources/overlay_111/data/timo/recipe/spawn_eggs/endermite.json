@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:ender_pearl",
+    "b": [
+      "minecraft:lava_bucket",
+      "minecraft:magma_block"
+    ]
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "id": "minecraft:endermite_spawn_egg"
+  }
+}

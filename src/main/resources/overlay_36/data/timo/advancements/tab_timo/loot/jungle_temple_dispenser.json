@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot/jungle_temple",
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Danger"
+    },
+    "description": {
+      "translate": "Loot a Dispenser in a Jungle Temple"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/jungle_temple_dispenser"
+      }
+    }
+  }
+}

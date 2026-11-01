@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot/village/taiga_house",
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_log"
+    },
+    "title": {
+      "translate": "Savanna"
+    },
+    "description": {
+      "translate": "Loot a Savanna Village House"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_savanna_house"
+      }
+    }
+  }
+}

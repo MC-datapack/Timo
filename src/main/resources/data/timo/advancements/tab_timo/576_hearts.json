@@ -1,0 +1,27 @@
+{
+  "parent": "timo:tab_timo/288_hearts",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "Enchantments:[{}]"
+    },
+    "title": {
+      "translate": "Over-Over-Over-Over-Over-Over-Overkill"
+    },
+    "description": {
+      "translate": "Deal 576 hearts of damage in a single hit"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 1152.0
+        }
+      }
+    }
+  }
+}

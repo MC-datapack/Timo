@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot",
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "I need more Obsidian"
+    },
+    "description": {
+      "translate": "Loot a Ruined Portal"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ruined_portal"
+      }
+    }
+  }
+}

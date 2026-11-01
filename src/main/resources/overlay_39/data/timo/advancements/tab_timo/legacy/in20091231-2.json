@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/in20091223-2",
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": {
+      "translate": "In20091231-2"
+    },
+    "description": {
+      "translate": "Obtain an Apple"
+    }
+  },
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

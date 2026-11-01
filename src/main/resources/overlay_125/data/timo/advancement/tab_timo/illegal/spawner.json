@@ -1,0 +1,29 @@
+{
+  "parent": "timo:tab_timo/illegal",
+  "display": {
+    "icon": {
+      "id": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "I need a Spawn Egg"
+    },
+    "description": {
+      "translate": "Obtain a Spawner"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spawner"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

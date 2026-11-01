@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_recipes/unpack/dripstone",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart"
+    },
+    "title": {
+      "translate": "Nether Wart"
+    },
+    "description": {
+      "translate": "Use a Nether Wart Block to craft 9 Nether Warts"
+    }
+  },
+  "criteria": {
+    "nether_wart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "timo:unpack/nether_wart"
+      }
+    }
+  }
+}

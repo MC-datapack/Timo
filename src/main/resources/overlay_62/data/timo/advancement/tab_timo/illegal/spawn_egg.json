@@ -1,0 +1,27 @@
+{
+  "parent": "timo:tab_timo/illegal/spawner",
+  "display": {
+    "icon": {
+      "id": "minecraft:pig_spawn_egg"
+    },
+    "title": {
+      "translate": "Finally a Spawn Egg"
+    },
+    "description": {
+      "translate": "Obtain a Spawn Egg"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#timo:spawn_eggs"
+          }
+        ]
+      }
+    }
+  }
+}

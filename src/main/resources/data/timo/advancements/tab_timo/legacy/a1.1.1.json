@@ -1,0 +1,28 @@
+{
+  "parent": "timo:tab_timo/legacy/a1.1.0",
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "a 1.1.1"
+    },
+    "description": {
+      "translate": "Obtain a Fishing Rod"
+    }
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

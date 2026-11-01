@@ -1,0 +1,26 @@
+{
+  "parent": "timo:tab_timo/72_hearts",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Over-Over-Over-Over-Overkill"
+    },
+    "description": {
+      "translate": "Deal 144 hearts of damage in a single hit"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 288.0
+        }
+      }
+    }
+  }
+}

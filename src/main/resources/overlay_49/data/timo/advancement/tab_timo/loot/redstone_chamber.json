@@ -1,0 +1,22 @@
+{
+  "parent": "timo:tab_timo/loot",
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "translate": "How does this work?"
+    },
+    "description": {
+      "translate": "Loot a Redstone Chamber"
+    }
+  },
+  "criteria": {
+    "loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "patrick:chests/redstone_chamber"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "timo:tab_timo/9_hearts",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": {
+      "translate": "Over-Overkill"
+    },
+    "description": {
+      "translate": "Deal 18 hearts of damage in a single hit"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": 36.0
+        }
+      }
+    }
+  }
+}

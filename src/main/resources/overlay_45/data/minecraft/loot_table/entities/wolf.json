@@ -1,0 +1,791 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:ashen\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Ashen Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyMzg0YzVjZjE4OTQ4YjgzYTg5NTQ4ZGJhNWE5OTQ1ZWRlZWZjNWU5NjU0YzVkNmQzOGFlMTBhNWQ1MDJlNzUifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:ashen\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Ashen Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdjYmMzMDY2ZDMxYzQzOTAzNTAzOGZkNjg3NWQ1ZGJlZWMzOTY4YzFiODAwNmZmYmZiNWY2NzRkNzZjODljZGUifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:black\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Black Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1YTY2YTQyYjI1ZjgyMmE3ZTE2YTIxODc1MjhkMWEyZTI5NGEwMWQ5Zjg1MDY3MWI5NGM5NTc0MmJiNDkxNmUifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:black\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Black Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E1ZWQ0N2RlZDI3MDhiMTNkOTJlYjUwZmI2OGU4YzFlMTFiMzlhMGNkNDViMzkzNzJlZWFkODcyYzQ5ZWVhZWIifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:chestnut\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Chestnut Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiOWIwZDQ4NDQyMjA0ZmY2ZmQzOWZhMDc0MTY3MTE4ZTljMDY2Y2RlMzg4ODk3N2QwZjYwMzZlMWQ4YTY5ZWUifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:chestnut\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Chestnut Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4NGIyOGYyMzJiMTRhNTliNmNiNzc1NzMyMzk3NGVhNTAyYjFiY2I5ODRkZWEzMDA5M2VjMjFlZDJhZGUzMTIifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:pale\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Ashen Pale Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlZTMzYzJkYzA3ZDc2YjRmMDNlNjY0MjdhMDhjYmEyZTgxNzlkMDc1YWU2NGI5Y2UxNTBhYTQyMDljNWFmMzkifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:pale\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Pale Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4ODdhNDI3ODc5MDBlNjcxNmZhNDYyZmJhZDhkZWI1NTI2Yjk0Mzk4Nzk3NDE0ZjAzZjYwMTNlZjg4NWExZGIifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:rusty\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Rusty Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDU1ZjYwNDhhNjgwOThjZDI3NjM0ZTMxNDZjODFjODI2OWFlZWZjZjBhZmY5MWNjOTc2ZWZhMGJhYTExNDYifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:rusty\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Rusty Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxZjFjMzJlNTI1OGYzZDhmOGQxODFmYjMwZGY2MWUwNjkzZTU1ZDUzOGExM2VlYWJkZjYzMDBmMzgwODNhZGMifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:snowy\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Snowy Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRlY2FkYWI1MGFhOGQ0MWZhOWIzNjlhMmY4NGY5NzQ1NmJlNzkwMGIyMjBlY2UzYjk1ZThhMDA5Njg2NjBkNSJ9fX0="
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:snowy\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Snowy Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyYjdjMjg2YzIzMDgyNmIyOWU3ZmQzN2YyNTczYjkwMTVjNDIyYmMzOGZlYjE0ZDlhMzE3YzY4NTVhZGEzZjYifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:spotted\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Spotted Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3M2I5YTY0MzFhZjI2YmNiMzE4MjZlYjZmZDlmNGIzNWI5NDdiYTU4ODJjNmU0YWE5MzU4ODYzM2Y3YjhkOWQifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:spotted\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Spotted Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE3ODZiNzM5MzQ4YWE4NTAyZWExODVkZmIxNGJmNWFiMDFlMjllMDgyZDFmZWI4NjEzYjNmZTkzZTBkZWJkOGUifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:striped\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Striped Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmYzUyZmIzY2RmYzZhZWIwMGU2N2MxYjdhNTlkOGQzMjBkZjQ0NjU2YzdhZjY4MjRiMTNjYTYwNzkyYWE3ZDcifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:striped\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Striped Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkNjBjMjU0ODhiMDY3Mjc2NjlhNjkxNWQxZGFkYWE5YTdkMjgzMWI0NjBiZWUzMGU1ZGE0MDc4NzQ3MDUwMDEifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:woods\",AngerTime:0}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                            "minecraft:item_name": "\"Woods Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkMTJhYjE3NjQ3YjY5Yzk0MjE3Njk1NzJhYzY3NGRlMTk5MTI0YzI4NGI5ZWQxZjY1YTI4NWMzOGNkMmE1MDQifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:player_head",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "nbt": "{variant:\"minecraft:woods\"}"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                            "minecraft:item_name": "\"Angry Woods Wolf Head\"",
+                            "minecraft:profile": {
+                              "properties": [
+                                {
+                                  "name": "textures",
+                                  "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzMDU4M2RiYThlYTYxNDMwNWRiMDEwYmFiZGM1YmI0NGU5YTIwMDMzMTFiMzk5ZDg5NjVlNzcyZGQwMTkxZmIifX19"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance_with_enchanted_bonus",
+                      "enchantment": "minecraft:looting",
+                      "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.01
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:killed_by_player"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:player_head",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{AngerTime:0}"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                        "minecraft:item_name": "\"Pale Wolf Head\"",
+                        "minecraft:profile": {
+                          "properties": [
+                            {
+                              "name": "textures",
+                              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlZTMzYzJkYzA3ZDc2YjRmMDNlNjY0MjdhMDhjYmEyZTgxNzlkMDc1YWU2NGI5Y2UxNTBhYTQyMDljNWFmMzkifX19"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
+                        "minecraft:item_name": "\"Angry Pale Wolf Head\"",
+                        "minecraft:profile": {
+                          "properties": [
+                            {
+                              "name": "textures",
+                              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4ODdhNDI3ODc5MDBlNjcxNmZhNDYyZmJhZDhkZWI1NTI2Yjk0Mzk4Nzk3NDE0ZjAzZjYwMTNlZjg4NWExZGIifX19"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance_with_enchanted_bonus",
+                  "enchantment": "minecraft:looting",
+                  "chance": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.01
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/wolf"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/wolf"
+}

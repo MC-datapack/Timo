@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_horse.ambient",
+                "minecraft:item_name": "Zombie Horse Head",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2MThmZmJlMWNmYTIwNThmZTgwYTA2NWY3MGMxMjhjMjI1YTFlMGJjOWRlYWY4YjM4YjAzOTU0NDNmNDA5MDkifX19"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:killed_by_player"
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/zombie_horse"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/zombie_horse"
+}
