@@ -1,47 +1,24 @@
-shelf woodcutting
-
-woodcutting recipes for poplar
-
-uncrafting recipes for spears
-
-recipes requiring newer versions are available from the snapshot which added the necessary feature
-
-creaking, happy ghast, nautilus, zombie nautilus, sulfur cube, frostbite spawn egg recipe
-
-shulker dungeon always generates on blocks
-
-wither skeleton dungeon always buried
-
-fix village and pillage ship
-
-combined redstone chamber and redstone chamber 2 into one structure set
-
-combined village and pillage ships into one structure set
-
-more random salts in structure sets
-
-clean surface rule of rich noise settings
-
-fixed many bugs in versions before 1.21
-
-redstone chamber chests can contain any type of button
-
-removed block loot table changes
-
-fishing loot table is affected by luck of the sea (fish becomes rarer; junk stays the same; treasure becomes more common)
-
-mineshafts can contain furnace minecarts
-
-many loot tables which could not contain treasure enchantments can contain treasure enchantments
-
-in the bonus chest logs now have a minimum count of 4
-
-stronghold library chests can contain up to 4 enchanted books
-
-shepherd chests can contain pink wool
-
-added the function timo:place_mob_heads which places all custom mob heads for testing
-
-added advancements for unlocking recipes for all recipes
-
-advancements in the recipes tab now trigger when the recipe is used, previously it triggered when the recipe was unlocked
+# Changes
+- shelf woodcutting
+- woodcutting recipes for the poplar wood set
+- uncrafting recipes for spears
+- files requiring newer versions are available from the snapshot which added the necessary feature
+- added creaking, happy ghast, nautilus, zombie nautilus, sulfur cube, frostbite spawn egg recipe
+- shulker dungeons always generate on blocks
+- wither skeleton dungeons are always buried
+- fix village and pillage ship
+- combined redstone chamber and redstone chamber 2 into one structure set
+- combined village and pillage ships into one structure set
+- more random salts in structure sets
+- clean surface rule of rich noise settings
+- fixed many bugs in versions before and after 1.21
+- redstone chamber chests can contain any type of button
+- fishing loot table is affected by luck of the sea (fish becomes rarer; junk stays the same; treasure becomes more common)
+- mineshaft chests can contain furnace minecarts
+- many loot tables which could not contain treasure enchantments can contain treasure enchantments
+- in the bonus chest logs now have a minimum count of 4
+- stronghold library chests can contain up to 4 enchanted books
+- shepherd chests can contain pink wool
+- added the function timo:place_mob_heads which places all custom mob heads for testing
+- added advancements for unlocking recipes for all recipes
+- advancements in the recipes tab now trigger when the recipe is used, previously it triggered when the recipe was unlocked
