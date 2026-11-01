@@ -1,0 +1,154 @@
+{
+  "parent": "timo:tab_recipes/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:angler_pottery_sherd"
+    },
+    "title": {
+      "translate": "Pottery Sherds"
+    },
+    "description": {
+      "translate": "Use a Brick in a Stonecutter to craft all Pottery Sherds"
+    }
+  },
+  "criteria": {
+    "burn": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:burn_pottery_sherd"
+      }
+    },
+    "heartbreak": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:heartbreak_pottery_sherd"
+      }
+    },
+    "shelter": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:shelter_pottery_sherd"
+      }
+    },
+    "plenty": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:plenty_pottery_sherd"
+      }
+    },
+    "mourner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:mourner_pottery_sherd"
+      }
+    },
+    "danger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:danger_pottery_sherd"
+      }
+    },
+    "howl": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:howl_pottery_sherd"
+      }
+    },
+    "prize": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:prize_pottery_sherd"
+      }
+    },
+    "heart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:heart_pottery_sherd"
+      }
+    },
+    "miner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:miner_pottery_sherd"
+      }
+    },
+    "blade": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:blade_pottery_sherd"
+      }
+    },
+    "sheaf": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:sheaf_pottery_sherd"
+      }
+    },
+    "scrape": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:scrape_pottery_sherd"
+      }
+    },
+    "guster": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:guster_pottery_sherd"
+      }
+    },
+    "archer": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:archer_pottery_sherd"
+      }
+    },
+    "explorer": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:explorer_pottery_sherd"
+      }
+    },
+    "friend": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:friend_pottery_sherd"
+      }
+    },
+    "arms_up": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:arms_up_pottery_sherd"
+      }
+    },
+    "angler": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:angler_pottery_sherd"
+      }
+    },
+    "skull": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:skull_pottery_sherd"
+      }
+    },
+    "brewer": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:brewer_pottery_sherd"
+      }
+    },
+    "flow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:flow_pottery_sherd"
+      }
+    },
+    "snort": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "timo:snort_pottery_sherd"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diamond_spear"
+  ],
+  "result": {
+    "id": "minecraft:diamond"
+  }
+}

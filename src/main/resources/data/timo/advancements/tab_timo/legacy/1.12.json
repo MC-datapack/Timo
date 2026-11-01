@@ -18,18 +18,18 @@
         "items": [
           {
             "items": [
+              "minecraft:cyan_concrete",
               "minecraft:lime_concrete",
-              "minecraft:light_gray_concrete",
-              "minecraft:orange_concrete",
-              "minecraft:pink_concrete",
-              "minecraft:magenta_concrete",
+              "minecraft:gray_concrete",
               "minecraft:blue_concrete",
               "minecraft:white_concrete",
-              "minecraft:yellow_concrete",
               "minecraft:purple_concrete",
-              "minecraft:cyan_concrete",
-              "minecraft:gray_concrete",
-              "minecraft:light_blue_concrete"
+              "minecraft:light_blue_concrete",
+              "minecraft:light_gray_concrete",
+              "minecraft:yellow_concrete",
+              "minecraft:orange_concrete",
+              "minecraft:magenta_concrete",
+              "minecraft:pink_concrete"
             ]
           }
         ]
@@ -43,16 +43,16 @@
             "items": [
               "minecraft:lime_concrete_powder",
               "minecraft:orange_concrete_powder",
-              "minecraft:gray_concrete_powder",
-              "minecraft:cyan_concrete_powder",
-              "minecraft:purple_concrete_powder",
-              "minecraft:blue_concrete_powder",
-              "minecraft:light_gray_concrete_powder",
               "minecraft:yellow_concrete_powder",
+              "minecraft:gray_concrete_powder",
+              "minecraft:light_blue_concrete_powder",
+              "minecraft:cyan_concrete_powder",
+              "minecraft:blue_concrete_powder",
+              "minecraft:purple_concrete_powder",
               "minecraft:white_concrete_powder",
               "minecraft:pink_concrete_powder",
-              "minecraft:light_blue_concrete_powder",
-              "minecraft:magenta_concrete_powder"
+              "minecraft:magenta_concrete_powder",
+              "minecraft:light_gray_concrete_powder"
             ]
           }
         ]
@@ -64,18 +64,18 @@
         "items": [
           {
             "items": [
+              "minecraft:blue_glazed_terracotta",
+              "minecraft:white_glazed_terracotta",
               "minecraft:orange_glazed_terracotta",
               "minecraft:magenta_glazed_terracotta",
-              "minecraft:pink_glazed_terracotta",
-              "minecraft:yellow_glazed_terracotta",
-              "minecraft:gray_glazed_terracotta",
-              "minecraft:blue_glazed_terracotta",
-              "minecraft:light_gray_glazed_terracotta",
               "minecraft:light_blue_glazed_terracotta",
-              "minecraft:lime_glazed_terracotta",
+              "minecraft:yellow_glazed_terracotta",
+              "minecraft:light_gray_glazed_terracotta",
+              "minecraft:pink_glazed_terracotta",
               "minecraft:cyan_glazed_terracotta",
               "minecraft:purple_glazed_terracotta",
-              "minecraft:white_glazed_terracotta"
+              "minecraft:lime_glazed_terracotta",
+              "minecraft:gray_glazed_terracotta"
             ]
           }
         ]

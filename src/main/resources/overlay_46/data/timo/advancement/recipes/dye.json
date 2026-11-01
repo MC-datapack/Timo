@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gray_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pink_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cyan_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:magenta_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:lime_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:orange_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:white_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:light_gray_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:yellow_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:light_blue_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:purple_dye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:blue_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "timo:dye"
+    ]
+  }
+}

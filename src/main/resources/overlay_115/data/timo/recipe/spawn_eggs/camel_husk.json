@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:husk_spawn_egg",
+    "minecraft:camel_spawn_egg"
+  ],
+  "result": {
+    "id": "minecraft:camel_husk_spawn_egg",
+    "count": 2
+  }
+}

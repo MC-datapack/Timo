@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sticky_piston": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sticky_piston"
+            ]
+          }
+        ]
+      }
+    },
+    "has_water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:ice"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:oak_sapling"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:birch_sapling"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:spruce_sapling"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:jungle_sapling"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:acacia_sapling"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dark_oak_sapling"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:mangrove_propagule"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cherry_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "timo:piston"
+    ]
+  }
+}

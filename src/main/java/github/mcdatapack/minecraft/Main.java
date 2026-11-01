@@ -25,7 +25,7 @@ public class Main implements Items {
     public static final int FROSTBITE = 123;
 
     public static void main(String[] args) {
-        Generator generator = new Generator(125);
+        Generator generator = new Generator("8.0", 125);
         generator.registerOverlay(BREEZE);
         generator.registerOverlay(ARMADILLO);
         generator.registerOverlay(BOGGED);

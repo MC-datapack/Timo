@@ -5,9 +5,13 @@ import com.google.gson.*;
 import github.mcdatapack.minecraft.Items;
 
 import java.io.*;
+import java.nio.file.AccessDeniedException;
+import java.nio.file.Files;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.IntFunction;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 /** @noinspection unused*/
 public class Generator implements OverlayAccess {
@@ -16,13 +20,15 @@ public class Generator implements OverlayAccess {
             .disableHtmlEscaping()
             .create();
 
+    private final String version;
     private final int minVersion = 15, maxVersion;
     private final File resourceDict;
     private final Set<NbtFileCopier> nbtFileCopiers = new HashSet<>();
     private final Set<Pair<Range, TypedGenerator>> generators = new LinkedHashSet<>();
     private final List<Integer> overlayVersions = new ArrayList<>();
 
-    public Generator(int maxVersion) {
+    public Generator(String version, int maxVersion) {
+        this.version = version;
         this.maxVersion = maxVersion;
         overlayVersions.add(minVersion);
         resourceDict = new File("src/main/resources");
@@ -343,9 +349,10 @@ public class Generator implements OverlayAccess {
                     File minVersionFile = pair.second().getFile(pair.first().from);
                     String data = pair.second().getFileContent(version);
                     String minVersionData = pair.second().getFileContent(pair.first().from);
-                    if ((version == pair.first().from && version == 15) || (!Arrays.stream(minVersionFile.getAbsolutePath().split("data/")).toList().getLast().equals(
-                            Arrays.stream(file.getAbsolutePath().split("data/")).toList().getLast()
-                    ) && !minVersionData.equals(data)))
+                    if ((version == pair.first().from) || !(pair.first().from == 15 &&
+                            Arrays.stream(minVersionFile.getAbsolutePath().split("data")).toList().getLast().equals(
+                            Arrays.stream(file.getAbsolutePath().split("data")).toList().getLast()
+                    ) && minVersionData.equals(data)))
                         write(file, data);
                 }
             }
@@ -3425,7 +3432,7 @@ public class Generator implements OverlayAccess {
         }
 
         protected void copy(int version) {
-            if (version > generator.minVersion())
+            if (version != 15 && version < 45)
                 return;
             File original = new File(nbtFile);
             File file = getFile(version);
@@ -3433,9 +3440,8 @@ public class Generator implements OverlayAccess {
             if (!file.getParentFile().exists() && !file.getParentFile().mkdirs())
                 throw new RuntimeException("Failed to create dictionary");
 
-            try (FileInputStream is = new FileInputStream(original);
-                 FileOutputStream os = new FileOutputStream(file)) {
-                os.write(is.readAllBytes());
+            try (FileOutputStream os = new FileOutputStream(file)) {
+                Files.copy(original.toPath(), os);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

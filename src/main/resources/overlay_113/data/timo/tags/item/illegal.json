@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#timo:spawn_eggs",
+    "minecraft:budding_amethyst",
+    "minecraft:reinforced_deepslate",
+    "minecraft:spawner"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:nautilus_spawn_egg",
+    "minecraft:zombie_spawn_egg"
+  ],
+  "result": {
+    "id": "minecraft:zombie_nautilus_spawn_egg",
+    "count": 2
+  }
+}

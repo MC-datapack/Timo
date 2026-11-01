@@ -18,18 +18,18 @@
         "items": [
           {
             "items": [
-              "minecraft:light_blue_bed",
-              "minecraft:gray_bed",
-              "minecraft:purple_bed",
-              "minecraft:yellow_bed",
               "minecraft:light_gray_bed",
-              "minecraft:white_bed",
-              "minecraft:magenta_bed",
+              "minecraft:orange_bed",
               "minecraft:lime_bed",
               "minecraft:cyan_bed",
-              "minecraft:orange_bed",
+              "minecraft:pink_bed",
+              "minecraft:purple_bed",
+              "minecraft:white_bed",
+              "minecraft:magenta_bed",
+              "minecraft:yellow_bed",
+              "minecraft:gray_bed",
               "minecraft:blue_bed",
-              "minecraft:pink_bed"
+              "minecraft:light_blue_bed"
             ]
           }
         ]

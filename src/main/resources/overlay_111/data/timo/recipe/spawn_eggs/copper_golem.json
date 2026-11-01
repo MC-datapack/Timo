@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:carved_pumpkin",
+    "b": [
+      "minecraft:copper_block",
+      "minecraft:exposed_copper",
+      "minecraft:waxed_exposed_copper",
+      "minecraft:waxed_weathered_copper",
+      "minecraft:oxidized_copper",
+      "minecraft:weathered_copper",
+      "minecraft:waxed_oxidized_copper",
+      "minecraft:waxed_copper_block"
+    ]
+  },
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "result": {
+    "id": "minecraft:copper_golem_spawn_egg"
+  }
+}

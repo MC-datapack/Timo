@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:nautilus_shell",
+    "b": "minecraft:heart_of_the_sea",
+    "c": "minecraft:water_bucket"
+  },
+  "pattern": [
+    "aaa",
+    "cba",
+    "aaa"
+  ],
+  "result": {
+    "id": "minecraft:nautilus_spawn_egg"
+  }
+}

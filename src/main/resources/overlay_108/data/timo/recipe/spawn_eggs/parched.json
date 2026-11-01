@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": "minecraft:skeleton_spawn_egg",
+    "b": "minecraft:tipped_arrow"
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "result": {
+    "id": "minecraft:parched_spawn_egg"
+  }
+}

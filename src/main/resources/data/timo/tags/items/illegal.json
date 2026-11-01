@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "#timo:spawn_eggs",
-    "minecraft:spawner",
     "minecraft:budding_amethyst",
-    "minecraft:reinforced_deepslate"
+    "minecraft:reinforced_deepslate",
+    "minecraft:spawner"
   ]
 }

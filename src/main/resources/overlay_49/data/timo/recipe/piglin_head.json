@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "#minecraft:skulls",
+  "addition": "minecraft:gold_ingot",
+  "template": "minecraft:skull_pottery_sherd",
+  "result": {
+    "id": "minecraft:piglin_head"
+  }
+}

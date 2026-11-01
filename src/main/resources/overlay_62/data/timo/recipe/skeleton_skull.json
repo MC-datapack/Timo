@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "#minecraft:skulls",
+  "addition": "minecraft:bone",
+  "template": "minecraft:skull_pottery_sherd",
+  "result": {
+    "id": "minecraft:skeleton_skull"
+  }
+}

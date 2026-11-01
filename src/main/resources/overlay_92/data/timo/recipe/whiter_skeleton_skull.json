@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "#minecraft:skulls",
+  "addition": "minecraft:coal",
+  "template": "minecraft:skull_pottery_sherd",
+  "result": {
+    "id": "minecraft:wither_skeleton_skull"
+  }
+}

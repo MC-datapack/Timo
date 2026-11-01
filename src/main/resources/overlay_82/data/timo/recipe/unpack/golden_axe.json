@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_axe"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:gold_ingot",
+    "count": 3
+  }
+}

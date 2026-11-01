@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:granite"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diorite"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:andesite"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:deepslate"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:tuff"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cobbled_deepslate"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherrack"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:end_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "timo:cobble"
+    ]
+  }
+}

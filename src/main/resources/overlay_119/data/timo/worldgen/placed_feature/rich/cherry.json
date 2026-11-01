@@ -12,17 +12,6 @@
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:would_survive",
-        "state": "minecraft:cherry_sapling"
-      }
-    },
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR"
-    },
-    {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:weighted_list",
@@ -37,6 +26,17 @@
           }
         ]
       }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": "minecraft:cherry_sapling"
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
     }
   ]
 }
